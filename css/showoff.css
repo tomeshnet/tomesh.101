@@ -1,0 +1,894 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #222;
+}
+
+h1,
+h2,
+h3 {
+  margin: 8px 0;
+  padding: 0 8px;
+  font-weight: normal;
+}
+
+h1:first-child {
+  border-bottom: 3px solid #222;
+}
+
+pre {
+  margin: 1em 40px;
+  padding: .25em;
+}
+
+/* applies to inline code only */
+code {
+  padding: 2px 4px;
+  font-size: 1.1em;
+  background-color: #ededed;
+  border-radius: 4px;
+}
+
+pre code {
+  display: block;
+  padding: unset;
+  border-radius: unset;
+  overflow: hidden;
+}
+
+@media screen {
+  /* explicitly size parent elements so the screen blanker works */
+  html, body{
+    height:100%;
+  }
+
+  body {
+    margin:0;
+    padding:0;
+  }
+
+  #preso,
+  .slide {
+    background: #fff;
+    width: 1024px;
+    height: 768px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .slide {
+    font-size: 1.5em;
+  }
+
+  #preso, .slide.background-fit {
+      background-size: contain;
+  }
+
+  #footer {
+    background-color: #f2f2f2;
+    -webkit-box-shadow:0 0 25px rgba(0,0,0,0.35);
+    -moz-box-shadow:0 0 25px rgba(0,0,0,0.35);
+    box-shadow:0 0 25px rgba(0,0,0,0.35);
+    padding: 4px 8px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+    display: none;
+  }
+  #followMode {
+    display: none;
+  }
+  #pauseScreen {
+      background: rgba(0, 0, 0, 0.85);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: none;
+      margin: auto;
+      color: white;
+      padding: 1em;
+      z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+      text-align: center;
+  }
+
+  /* prevent large images from getting too out of hand */
+  .content img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* plain (non-bullet) text */
+.content > p,
+.content > form > p {
+  margin: 1em;
+}
+
+.content > blockquote,
+.content > form > blockquote {
+  margin: 2em;
+}
+
+.content img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.cover h1 {
+  border: none;
+}
+
+.slide .center,
+#slides.supplemental .slide .center {
+  position: relative;
+  /* for some reason, setting top to 50% is pushing the content too far down, no idea why */
+  top: 42%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center h1,
+.center h2,
+.center h3,
+.center h4,
+.center h5,
+.center h6,
+#slides.supplemental .slide .center h1,
+#slides.supplemental .slide .center h2,
+#slides.supplemental .slide .center h3,
+#slides.supplemental .slide .center h4,
+#slides.supplemental .slide .center h5,
+#slides.supplemental .slide .center h6
+{
+  text-align: center;
+}
+
+.small {
+    font-size: 80%;
+}
+
+.smaller {
+    font-size: 70%;
+}
+
+/**********************************
+ ***       List styling         ***
+ **********************************/
+
+.content > ol,
+.content > ul {
+  margin-left: 2em;
+}
+
+.content ol > li,
+.content > ul li,
+.content > form > ul li {
+  margin: .5em;
+}
+
+/* ironically, normal lists have bullets and 'bullets' lists don't */
+.bullets > ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.bullets > ul > li {
+  text-align: center;
+  padding: 25px;
+}
+
+.smbullets > ul > li {
+  text-align: center;
+  padding: 10px;
+}
+
+.bullets ul ul > li {
+  font-size: 80%;
+}
+
+.content .incremental.hidden {
+  visibility: hidden;
+}
+
+.commandline code.command {
+    color: #000;
+}
+
+.commandline code.result {
+    color: #444;
+}
+
+.command h1 {
+    white-space: pre;
+}
+
+.code {
+    white-space: pre;
+}
+
+.notes, .handouts, .instructor, .solguide { display: none }
+
+.offscreen { position:absolute; top:0; left:-9999px; overflow:hidden; }
+
+#debugInfo,
+#slideFilename {
+  margin-left: 30px;
+}
+
+#notesInfo {
+  margin-left: 30px;
+  display: none;
+}
+
+img#disconnected {
+  float: right;
+  display: none;
+}
+
+#preshow { display: none; }
+/* define the screen blocking view */
+/* we define it as invisible because we use jQuery to animate its presentation */
+#screenblanker {
+  height: 100%;
+  display: none;
+}
+
+#help {
+  display: none;
+  position:absolute;
+  overflow: auto;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  max-height: 90%;
+  z-index: 2147483647;
+  padding: 0 16px 16px 16px;
+  border-radius: 4px;
+  -webkit-box-shadow:0 0 25px rgba(0,0,0,0.35);
+  -moz-box-shadow:0 0 25px rgba(0,0,0,0.35);
+  box-shadow:0 0 25px rgba(0,0,0,0.35);
+  background-color: #fff;
+  font-size: 0.75em;
+}
+
+  #help div {
+    padding: 6px 0;
+  }
+
+    #help h1 {
+      border-bottom: 2px solid #ccc;
+    }
+
+    #help div + div {
+      border-top: 1px solid #eee;
+    }
+
+    #help .description,
+    #help .action,
+    #help .hotkeys {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    #help .description {
+      width: 30%;
+    }
+
+    #help .action {
+      width: 15%;
+      color: gray;
+    }
+
+    #help .hotkeys {
+      width: 25%;
+    }
+
+    #help .hotkeys .key {
+      border: 1px solid #ccc;
+      background-color: #dfdfdf;
+      border-radius: 0.25em;
+      padding: 0.15em 0.5em;
+      margin: 0.25em;
+    }
+
+#presenterPopup {
+  display: none;
+  position: absolute;
+  z-index: 2147483647;
+  top: 24px;
+  left: 25%;
+  max-height: 80%;
+  width: 50%;
+  border-radius: 0 0 .5em .5em;
+  border-bottom: 8px solid #222222;
+  background-color: #222222;
+  overflow: auto;
+}
+
+  #presenterPopup h1,
+  #presenterPopup h3 {
+   color: #ffffff;
+  }
+
+  #presenterPopup a {
+    margin-left: 12px;
+    color: #ffffff;
+  }
+
+  #presenterPopup ul#downloads {
+    margin-left: 0;
+    list-style-type: none;
+  }
+
+/**********************************
+ ***       Table styling        ***
+ **********************************/
+
+.content table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse:collapse;
+  width: 90%;
+  font-size: .9em;
+}
+
+.content thead {
+  border-bottom: 2px solid #ccc;
+}
+
+.content tr:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.content tbody tr:nth-child(2n+1) {
+  background-color: #f9f9f9;
+}
+
+.content td {
+  padding: .25em .5em;
+}
+
+.content td:first-child {
+  border-right: 2px solid #ccc;
+}
+
+/**********************************
+ ***      Sidebar styling       ***
+ **********************************/
+#hamburger {
+  position: fixed;
+  padding: 4px 8px;
+  opacity: .05;
+  border-radius: .1em;
+  transition: all .2s;
+  z-index: 2147483647;
+  float: left;
+}
+
+#hamburger:hover {
+  opacity: 1;
+  background-color: #337ab7;
+  color: #ffffff;
+}
+
+#sidebarExit {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 240px;
+  z-index: 2147483647;
+}
+
+#feedbackSidebar,
+#sidebarExit,
+.submenu {
+  display: none;
+}
+
+.sideMenu {
+  position: absolute;
+  height: 100%;
+  width: 240px;
+  background-color: #ffffff;
+  box-shadow:0 0 25px rgba(0,0,0,0.35);
+  overflow: auto;
+  z-index: 2147483647;
+}
+
+.sideMenu textarea {
+  min-height: 80px;
+  width: 90%;
+  margin: 8px;
+  border-color: #dddddd;
+  border-radius: .3em;
+}
+
+.sideMenu p {
+  text-align: center;
+  margin: 0;
+}
+
+.sideMenu i {
+  margin-right: 8px;
+}
+
+.buttonWrapper {
+  line-height: 48px;
+  padding: 0 16px;
+  font-weight: bold;
+}
+
+.buttonWrapper:hover,
+.submenu a:hover,
+.submenu .highlighted a {
+  background-color:#337ab7;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonWrapper.split {
+  float: left;
+  width: 50%;
+  line-height: 30px;
+  margin: 12px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.buttonWrapper.split i {
+  margin-right: 0;
+}
+
+.submenu .buttonWrapper{
+  display: inline-block;
+  width: 90%;
+  margin: 0 5%;
+  padding: 0;
+  background-color: #337ab7;
+  border: 1px solid #2e6da4;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.submenu .buttonWrapper:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.submenu ul {
+  font-size: .9em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.submenu a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.submenu a i {
+  float: right;
+}
+
+.navSection {
+  border-top: 1px solid #ccc;
+  padding: .8em;
+}
+
+.navItem {
+  padding: .5em 1.5em;
+}
+
+/* End Sidebar styling */
+
+.results {
+  background-color:#002200;
+  color:#00AA00;
+  border:2px solid black;
+  position: fixed;
+  top:0px;
+  width:100%;
+  padding:15px;
+  margin:0px;
+  z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+}
+
+.results pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a Shell "code highlighting" style to resemble the look of a terminal window. */
+.content pre.highlight code.language-shell {
+  display: block;
+  background-color: #111;
+  color: #00ff40;
+  border: 2px solid #ddd;
+  padding: 0.5em;
+  overflow: hidden;
+}
+
+/* executable code blocks */
+code.execute {
+  cursor: context-menu;
+  background-image: url(run_code.png);
+  background-position: right 5px top 5px;
+  background-repeat: no-repeat;
+  display: block;
+  min-height: 42px;
+}
+
+code.executing {
+  opacity: 0.5;
+  background-image: url(run_code-dim.png);
+}
+
+code.executing:hover {
+  cursor: wait;
+}
+
+#tips, #preshow_timer {
+  display:inline;
+  background-color:#000;
+  color:#fff;
+  border:2px solid black;
+  position: fixed;
+  padding:25px;
+  margin:0px;
+  z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+}
+
+#tips {
+  top: 0px;
+  right: 0px;
+  text-align:right;
+}
+
+#preshow_timer {
+  bottom: 0px;
+}
+
+/**********************************
+ ***     table of contents      ***
+ **********************************/
+#toc a {
+  text-decoration: none;
+}
+#toc a::after {
+  content: leader(".") target-counter(attr(href), page);
+}
+
+/**********************************
+ ***       form widgets         ***
+ **********************************/
+form .element {
+  font-size: .8em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.element input + label,
+.element label + input,
+.element select {
+  margin-left: 0.5em;
+}
+
+.element textarea {
+  display: block;
+  width: 85%;
+}
+
+.element ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+.element input[type=checkbox],
+.element input[type=radio] {
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+}
+
+.warning {
+  background-color: #ff7373;
+}
+.tools {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.tools input[type=submit],
+.tools input[type=button] {
+  height: 24px;
+  font-size: .6em;
+  border: none;
+}
+.tools input[type=submit].dirty {
+  color: #fff;
+  background-color: #2e6da4;
+}
+.tools input[type=button].display {
+  display: none;
+}
+
+.rendered {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  margin: 1em;
+  padding: 0.25em 0.25em 0.25em .5em;
+  min-height: 3em;
+}
+
+.rendered label {
+  border-bottom: 1px solid #999;
+}
+.rendered .item {
+  height: 1.25em;
+  white-space: nowrap;
+  background-color: #f2dede;
+  border: 1px solid #f45f5f;
+  border-left: none;
+  border-radius: 0 0.4em 0.4em 0;
+}
+.rendered .item.correct {
+  background-color: #dff0d8;
+  border: 1px solid #00AA00;
+  border-left: none;
+}
+.count {
+  display: none;
+}
+
+#notes .form.wrapper {
+  display: none;
+}
+
+/**********************************
+ ***   supplemental materials   ***
+ **********************************/
+#slides.supplemental .slide {
+  max-height: none !important;
+  height: auto;
+  padding: 0.5em;
+  width: 8.1in;
+}
+
+.supplemental h1,
+.supplemental h2,
+    .supplemental h3,
+    .supplemental h4,
+    .supplemental h5,
+    .supplemental h6 { text-align: left; }
+
+.supplemental img { max-width: 7in; }
+
+.supplemental ul { list-style: disc; margin-left: 1.25em !important; padding-left: inherit !important; }
+
+/* downloads page */
+body#download ul#downloads {
+    margin-left:  20%;
+    list-style-type: disc;
+}
+body#download ul#downloads li {
+    margin: 0.5em;
+}
+
+/**********************
+ ***   stats page   ***
+ **********************/
+
+/* apply some nifty rounding styles to the row */
+#stats div.row {
+  position: relative;
+  margin: 0.25em 1em;
+  padding: 0.1em;
+  background-color: #dfdfdf;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* and to the bar inside the row */
+#stats div.bar {
+  height: 1.25em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* position the label to the top left and time to the top right */
+#stats div.row span.label {
+  position: absolute;
+  top: 0.15em;
+  left: 0.25em;
+}
+#stats div.time {
+  position: absolute;
+  top: 0.15em;
+  right: 0.25em;
+}
+
+/* style all three boxes */
+#stats div#least,
+#stats div#most,
+#stats div#all {
+  width: 45%;
+  border: 1px solid black;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -khtml-border-radius: 1em;
+  border-radius: 1em;
+}
+
+/* least box */
+#stats div#least {
+  float: left;
+  margin-left: 3%;}
+#stats div#least div.bar {
+  background: #f5f56f;
+}
+
+/* most box */
+#stats div#most {
+  float: right;
+  margin-right: 3%;
+}
+#stats div#most div.bar {
+  background: #f45f5f;
+}
+
+/* listing of all stats */
+#stats div#all {
+  clear: both;
+  position: relative;
+  top: 3em;
+  margin: 0 3% 5em 3%;
+  width: 94%;
+}
+#stats div#all div.bar {
+  background: #66b366;
+}
+
+/* detail view */
+#stats div#all div.detail {
+  margin: 0 5em 0 1em;
+}
+#stats div#all div.detail div.bar {
+  background: #8484dd;
+}
+/**********************
+ *** end stats page ***
+ **********************/
+
+ /**********************
+ ***    Callouts    ***
+ **********************/
+
+ .callout {
+   padding: 12px 0;
+   min-height: 2em;
+   border: 1px solid #222;
+   border-radius: 4px;
+   background-color: transparent; /* because there's a warning class with a red background */
+ }
+
+ .callout:before {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 2em;
+   text-decoration: inherit;
+   padding: 0 8px;
+   float: left;
+ }
+
+ .callout.info:before     { content: "\f05a"; } /* fa-info-circle */
+ .callout.warning:before  { content: "\f071"; } /* fa-exclamation-triangle */
+ .callout.question:before { content: "\f059"; } /* fa-question-circle */
+ .callout.exercise:before { content: "\f41b"; } /* fa-pencil-square */
+ .callout.stop:before     { content: "\f05e"; } /* fa-ban */
+
+ /**********************
+ ***  end callouts   ***
+ **********************/
+
+
+/* iPhone */
+/* Portrait */
+@media screen and (max-width: 320px)
+{
+  html,body,#footer {
+    min-width: 320px !important;
+    max-width: 320px !important;
+    width: 320px !important;
+    margin: 0;
+    padding: 0;
+  }
+  body > #preso {
+    width: 976px;
+    zoom: 0.32;
+  }
+  #preso .slide {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/** Print **/
+@media print {
+   #preso,
+  .slide:not(.center) {
+    max-height: inherit !important;
+    height: 100% !important; /* because otherwise handout notes are cutoff by the inline height set on the slide */
+  }
+
+  /* make this invisible as possible, while still rendering so that wkhtmltopdf doesn't ignore it */
+  h1.section_title {
+    color: transparent !important;
+    opacity: 0 !important;
+    font-size: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* because the above section headers are h1 elements rendered only in print */
+  .content:not(.cover) h1:not(.section_title) {
+    border-bottom: 2px solid #222;
+  }
+
+  /* prevent large images from running off the page */
+  .content img {
+    max-width: 7in;
+    max-height: 9.5in;
+  }
+
+  #footer {
+    background: #eee;
+    padding: 2px;
+    width: 590px;
+    height: 20  px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  /* Styling to make the handout notes appear in the printed output. */
+  .handouts {
+    display: block;
+    clear: both;
+    padding-top: 1em;
+  }
+
+  /* prepend the first element of the .handouts div with Notes: */
+  .handouts > :first-child:before {
+    display: block;
+    font-weight: bold;
+    content: "Notes:";
+    border-top: 2px dashed #999;
+    padding: 0.25em 0 0.5em 0;
+  }
+
+  /* page break styling */
+  .pagebreak {
+    page-break-after: always;
+    font-size: small;
+    font-style: italic;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+
+}

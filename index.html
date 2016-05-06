@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>tomesh.101</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+
+  
+
+  <link rel="stylesheet" type="text/css" href=".//css/highlight/agate.css"  />
+  <link rel="stylesheet" type="text/css" href=".//css/showoff.css" />
+  <link rel="stylesheet" type="text/css" href=".//css/font-awesome-4.4.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src=".//js/jquery-2.1.4.min.js"></script>
+
+  <script type="text/javascript" src=".//js/jquery.cycle.all.js"></script>
+  <script type="text/javascript" src=".//js/jquery-print.js"></script>
+  <script type="text/javascript" src=".//js/jquery.batchImageLoad.js"></script>
+  <script type="text/javascript" src=".//js/jquery.parsequery.min.js"></script>
+  <script type="text/javascript" src=".//js/jquery.doubletap-0.1.js"></script>
+  <script type="text/javascript" src=".//js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src=".//js/highlight.pack.js"></script>
+
+  <script type="text/javascript" src=".//js/coffee-script.js"></script>
+
+  <script type="text/javascript" src=".//js/showoff.js"></script>
+
+  
+    
+    <link rel="stylesheet" href=".//file/something.css" type="text/css"/>
+  
+
+  
+
+  <script type="text/javascript">
+    $(function(){
+      setupPreso(false, './');
+    });
+
+    editUrl  = "";
+
+    keymap = {
+  "space": "NEXT",
+  "d": "DEBUG",
+  "up": "PREV",
+  "left": "PREV",
+  "pageup": "PREV",
+  "down": "NEXT",
+  "right": "NEXT",
+  "pagedown": "NEXT",
+  "r": "RELOAD",
+  "c": "CONTENTS",
+  "t": "CONTENTS",
+  "h": "HELP",
+  "/": "HELP",
+  "?": "HELP",
+  "b": "BLANK",
+  ".": "BLANK",
+  "F": "FOOTER",
+  "f": "FOLLOW",
+  "n": "NOTES",
+  "esc": "CLEAR",
+  "p": "PAUSE",
+  "P": "PRESHOW",
+  "x": "EXECUTE",
+  "f5": "EXECUTE"
+};
+  </script>
+
+</head>
+
+<body>
+
+<i id="hamburger" class="fa fa-bars fa-2x"></i>
+<div id="sidebarWrapper">
+    <div id="feedbackSidebar" class="sideMenu">
+    <h3>Showoff Menu</h3>
+    <div id="navToggle" class="buttonWrapper"><i class=" fa fa-bookmark"></i> Table of Contents</div>
+    <div id="navigation" class="submenu"></div>
+    <hr>
+    <div id="fileDownloads" class="buttonWrapper"><i class="fa fa-download"></i> Downloads</div>
+    <hr>
+
+    
+        <p>The presenter should...</p>
+        <div id="paceSlower" class="buttonWrapper split">
+        <i class="fa fa-minus"></i>
+        <br>Slow Down
+        </div>
+        <div id="paceFaster" class="buttonWrapper split">
+        <i class="fa fa-plus"></i>
+        <br>Speed Up
+        </div>
+
+        <hr>
+        <div id="questionToggle" class="buttonWrapper"><i class="fa fa-hand-stop-o"></i> Ask a Question</div>
+        <div id="questionSubmenu" class="submenu">
+        <textarea id="question" placeholder="Ask a question..."></textarea>
+        <div id="askQuestion" class="buttonWrapper">Ask</div>
+        </div>
+        
+        <hr>
+        
+        <div id="feedbackToggle" class="buttonWrapper"><i class="fa fa-envelope"></i> Send Feedback</div>
+        <div id="feedbackSubmenu" class="submenu">
+        <p>This slide is...</p>
+        <small>
+            Terrible
+            <input type="radio" name="rating" value="1"></input>
+            <input type="radio" name="rating" value="2"></input>
+            <input type="radio" name="rating" value="3"></input>
+            <input type="radio" name="rating" value="4"></input>
+            <input type="radio" name="rating" value="5"></input>
+            Awesome
+        </small>
+        <textarea id="feedback" placeholder="Why...?"></textarea>
+        <div id="sendFeedback" class="buttonWrapper">Send</div>
+        </div>
+        
+        
+        <hr>
+    
+
+    <div id="closeMenu" class="buttonWrapper"><i class="fa fa-close"></i> Close</div>
+    <hr>
+
+    <small>
+        <p>Press <code>?</code> for help.</p>
+        <p>All features are anonymous</p>
+    </small>
+    </div>
+    <div id="sidebarExit"></div>
+</div>
+<div id="help">
+  <h1>Showoff Hotkeys</h1>
+  <div>
+    <span class="description">Move to the next slide.</span>
+    <span class="action">NEXT</span>
+    <span class="hotkeys"><span class="key">space</span><span class="key">down</span><span class="key">right</span><span class="key">pagedown</span></span>
+  </div>
+  <div>
+    <span class="description">Move to the previous slide.</span>
+    <span class="action">PREV</span>
+    <span class="hotkeys"><span class="key">up</span><span class="key">left</span><span class="key">pageup</span></span>
+  </div>
+  <div>
+    <span class="description">Show the table of contents menu.</span>
+    <span class="action">CONTENTS</span>
+    <span class="hotkeys"><span class="key">c</span><span class="key">t</span></span>
+  </div>
+  <div>
+    <span class="description">Toggle follow mode.</span>
+    <span class="action">FOLLOW</span>
+    <span class="hotkeys"><span class="key">f</span></span>
+  </div>
+  <div>
+    <span class="description">Show this help dialog.</span>
+    <span class="action">HELP</span>
+    <span class="hotkeys"><span class="key">h</span><span class="key">/</span><span class="key">?</span></span>
+  </div>
+
+  <hr />
+
+  <div>
+    <span class="description">Reload all slides.</span>
+    <span class="action">RELOAD</span>
+    <span class="hotkeys"><span class="key">r</span></span>
+  </div>
+  <div>
+    <span class="description">Blank the screen.</span>
+    <span class="action">BLANK</span>
+    <span class="hotkeys"><span class="key">b</span><span class="key">.</span></span>
+  </div>
+  <div>
+    <span class="description">Toggle the display footer.</span>
+    <span class="action">FOOTER</span>
+    <span class="hotkeys"><span class="key">F</span></span>
+  </div>
+  <div>
+    <span class="description">Toggle notes display.</span>
+    <span class="action">NOTES</span>
+    <span class="hotkeys"><span class="key">n</span></span>
+  </div>
+  <div>
+    <span class="description">Clear code execution results.</span>
+    <span class="action">CLEAR</span>
+    <span class="hotkeys"><span class="key">esc</span></span>
+  </div>
+  <div>
+    <span class="description">Pause the presentation.</span>
+    <span class="action">PAUSE</span>
+    <span class="hotkeys"><span class="key">p</span></span>
+  </div>
+  <div>
+    <span class="description">Display slideshow of <tt>preshow</tt> images on a timer.</span>
+    <span class="action">PRESHOW</span>
+    <span class="hotkeys"><span class="key">P</span></span>
+  </div>
+  <div>
+    <span class="description">Execute the first visible code block.</span>
+    <span class="action">EXECUTE</span>
+    <span class="hotkeys"><span class="key">x</span><span class="key">f5</span></span>
+  </div>
+
+  <hr />
+
+  <div>
+    <span class="description">Show debugging information.</span>
+    <span class="action">DEBUG</span>
+    <span class="hotkeys"><span class="key">d</span></span>
+  </div>
+</div>
+
+<div id="preso"><center>loading presentation...</center></div>
+
+<footer id="footer">
+  <span id="followMode"></span>
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+  <span id="slideFilename"></span>
+  <img id="disconnected" src=".//css/disconnected.png" />
+</footer>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div id="one_slides1" class="slide title-slide" data-transition="none">
+<div class="content title-slide" ref="one/slides/1">
+<h1>tomesh.101</h1>
+
+<p><img src="./file/one/nyantocat.gif" alt="nyantocat"></p>
+
+<p>Benedict Lau</p>
+
+<p>5 May 2016</p>
+</div>
+</div>
+<div id="one_slides2" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="one/slides/2">
+<h1>Today's agenda</h1>
+
+<ul>
+<li><p>Why a community mesh?</p></li>
+<li><p>Hardware platform based on our Raspberry Pi router</p></li>
+<li><p>Routing protocols and the cjdns software</p></li>
+<li><p>Get our hands dirty and hack something together :)</p></li>
+</ul>
+</div>
+</div>
+<div id="one_slides3" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="one/slides/3">
+<h1>Today's hidden agenda</h1>
+
+<ul>
+<li><p>That thing about technical literacy</p></li>
+<li><p>Start an intro deck we can iterate on</p></li>
+<li><p class="callout">Try out this super cool presentation tool <a href="https://github.com/puppetlabs/showoff" target="_blank">puppetlabs/showoff</a></p></li>
+</ul>
+
+<div class="notes">
+
+<ul>
+<li><p>A community-owned network sounds great, but without business incentives, who is going to maintain it?</p></li>
+<li><p>As a user, you are part of the "community of owners", which comes with responsibilities</p></li>
+<li><p>You need to decide for yourself whether a community network is desirable, or not, because I already have an internet where I can pay $80 a month and stream Netflix all day without the slightest idea of how these pictures show up on my screen (convenience)</p></li>
+<li><p>On the other hand, building a meshnet sounds super inconvenient, because we need to build it</p></li>
+<li><p>Why I feel the internet is actually kind of sucky, especially in the way we access it, and what a better one could look like</p></li>
+<li><p>How internet access works and how else can it work, what are the tradeoffs, so we can have the right discussions and make informed decisions</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="one_slides4" class="slide " data-transition="none">
+<div class="content " ref="one/slides/4">
+<h1>Showoff 🎉</h1>
+
+<p><em>"Jekyll for presentations"</em></p>
+
+<p>The previous slide is generated from:</p>
+
+<pre class="highlight"><code class="language-markdown">&lt;!SLIDE bullets&gt;
+# Today's hidden agenda #
+
+* That thing about technical literacy
+
+* Start an intro deck we can iterate on
+
+* .callout Try out this super cool presentation tool 
+[puppetlabs/showoff](https://github.com/puppetlabs/showoff)</code></pre>
+</div>
+</div>
+<div id="one_slides5" class="slide " data-transition="none">
+<div class="content " ref="one/slides/5">
+<h1>Showoff 🎉</h1>
+
+<p><strong>Browse to <a href="http://192.168.2.1:9090" target="_blank">http://192.168.2.1:9090</a></strong></p>
+
+<p>Navigate with your arrow buttons</p>
+
+<p>Press <strong>f</strong> to toggle follow and unfollow presenter view</p>
+
+<p>Press <strong>?</strong> to see all your options</p>
+
+<p>Menu button at the top left corner</p>
+
+<div class="notes">
+
+<p>Mention the feedback options:</p>
+
+<ul>
+<li><p>Pace</p></li>
+<li><p>Ask a question (such as networking jargon)</p></li>
+<li><p>Rate a specific slide</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="two_slides1" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="two/slides/1">
+<h1>Today's agenda</h1>
+
+<ul>
+<li><p class="callout">Why a community mesh?</p></li>
+<li><p>Hardware platform based on our Raspberry Pi router</p></li>
+<li><p>Routing protocols and the cjdns software</p></li>
+<li><p>Get our hands dirty and hack something together :)</p></li>
+</ul>
+</div>
+</div>
+<div id="two_slides2" class="slide " data-transition="none">
+<div class="content " ref="two/slides/2">
+<p><img src="./file/two/setuptocat.jpg" alt="setuptocat"></p>
+</div>
+</div>
+<div id="two_slides3" class="slide " data-transition="none">
+<div class="content " ref="two/slides/3">
+<h1>How we access the internet</h1>
+
+<p><img src="./file/two/computer.png" alt="computer"></p>
+</div>
+</div>
+<div id="two_slides4" class="slide " data-transition="none">
+<div class="content " ref="two/slides/4">
+<h1>How we access the internet</h1>
+
+<p><img src="./file/two/isp-router.jpg" alt="isp-router"></p>
+
+<p><strong>Computer</strong> --❓--&gt; <strong>ISP black box</strong> --&gt; ❓</p>
+</div>
+</div>
+<div id="two_slides5" class="slide " data-transition="none">
+<div class="content " ref="two/slides/5">
+<h1>How we access the internet</h1>
+
+<p><img src="./file/two/android.jpg" alt="android"></p>
+</div>
+</div>
+<div id="two_slides6" class="slide " data-transition="none">
+<div class="content " ref="two/slides/6">
+<h1>How we access the internet</h1>
+
+<p><img src="./file/two/sim.png" alt="sim"></p>
+
+<p><strong>Phone</strong> --❓--&gt; <strong>SIM card</strong> --&gt; ❓</p>
+
+<p>If something goes wrong... 📞 <strong>technical support!</strong></p>
+</div>
+</div>
+<div id="two_slides7" class="slide " data-transition="none">
+<div class="content " ref="two/slides/7">
+<h1>Data behind the scene</h1>
+
+<p><strong>Last-mile network</strong> and <strong><a href="http://submarinecablemap.com" target="_blank">long-range communication cables</a></strong></p>
+
+<p><img src="./file/two/submarine.png" alt="submarine"></p>
+
+<div class="notes">
+
+<ul>
+<li><p>Business incentive (and right) to maintain control over this huge infrastructural investment they have put in early on</p></li>
+<li><p>Black-box this whole thing, users having little visibility and influence over their monopolized platform</p></li>
+<li><p>Information access as basic human right, monopoly misaligned with user-interest</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="two_slides8" class="slide " data-transition="none">
+<div class="content " ref="two/slides/8">
+<h1>Network topology and ownership</h1>
+
+<p><img src="./file/two/topology.gif" alt="topology"></p>
+
+<div class="notes">
+
+<ul>
+<li><p>Number of edges to each node</p></li>
+<li><p>Ownership of a link is negotiated between the two nodes (peering)</p></li>
+<li><p>Why a mesh? Because the topology is especially well suited to distributed ownership model</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="two_slides9" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="two/slides/9">
+<h1>Your internet experience</h1>
+
+<p>Depends on:</p>
+
+<ul>
+<li>Economic conditions</li>
+<li>Geographical location</li>
+<li>Government policies</li>
+<li>Corporate interest</li>
+<li>Exclusive memberships</li>
+</ul>
+</div>
+</div>
+<div id="two_slides10" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="two/slides/10">
+<h1>Your internet experience</h1>
+
+<p>How about...?</p>
+
+<ul>
+<li>Economic conditions -&gt; <strong>Equal levels of access</strong>
+</li>
+<li>Geographical location -&gt; <strong>No geo-blocking</strong>
+</li>
+<li>Government policies -&gt; <strong>No self-serving censorship</strong>
+</li>
+<li>Corporate interest -&gt; <strong>Effect influence aligned with your interests</strong>
+</li>
+<li>Exclusive memberships -&gt; <strong>Open protocol and FOSS implementations</strong>
+</li>
+</ul>
+</div>
+</div>
+<div id="three_slides1" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="three/slides/1">
+<h1>Today's agenda</h1>
+
+<ul>
+<li><p>Why a community mesh?</p></li>
+<li><p class="callout">Hardware platform based on our Raspberry Pi router</p></li>
+<li><p>Routing protocols and the cjdns software</p></li>
+<li><p>Get our hands dirty and hack something together :)</p></li>
+</ul>
+</div>
+</div>
+<div id="three_slides2" class="slide " data-transition="none">
+<div class="content " ref="three/slides/2">
+<p><img src="./file/three/constructocat2.jpg" alt="constructocat2"></p>
+</div>
+</div>
+<div id="three_slides3" class="slide " data-transition="none">
+<div class="content " ref="three/slides/3">
+<h1>We need a router</h1>
+
+<p>Replace...</p>
+
+<p><img src="./file/three/isp-router.jpg" alt="isp-router"></p>
+
+<p>With...</p>
+
+<ul>
+<li>Router (Raspberry Pi)</li>
+<li>Radio</li>
+<li>Antenna</li>
+</ul>
+</div>
+</div>
+<div id="three_slides4" class="slide " data-transition="none">
+<div class="content " ref="three/slides/4">
+<h1>What is a Raspberry Pi?</h1>
+
+<p>Open up a computer...</p>
+
+<p><img src="./file/three/desktop.jpg" alt="desktop"></p>
+
+<p><em>Photo credit: <a href="http://cazphoto.co.uk/toybox2012/day-104/" target="_blank">http://cazphoto.co.uk/toybox2012/day-104/</a></em></p>
+</div>
+</div>
+<div id="three_slides5" class="slide " data-transition="none">
+<div class="content " ref="three/slides/5">
+<h1>What is a Raspberry Pi?</h1>
+
+<p>Low-cost single-board computer</p>
+
+<p><img src="./file/three/pi2.jpg" alt="pi2"></p>
+</div>
+</div>
+<div id="three_slides6" class="slide " data-transition="none">
+<div class="content " ref="three/slides/6">
+<h1>Radio &amp; antenna</h1>
+
+<p>TP-Link TL-WN722N</p>
+
+<p><img src="./file/three/usb-wireless.jpg" alt="usb-wireless"></p>
+</div>
+</div>
+<div id="three_slides7" class="slide " data-transition="none">
+<div class="content " ref="three/slides/7">
+<h1>What does that thing do?</h1>
+
+<p><img src="./file/three/em.png" alt="em"></p>
+
+<p><em>Photo credit: <a href="http://wirelesslanprofessionals.com/wp-content/uploads/2010/02/electromagnetic_spectrum.png" target="_blank">http://wirelesslanprofessionals.com/wp-content/uploads/2010/02/electromagnetic_spectrum.png</a></em></p>
+
+<div class="notes">
+
+<p>Spectral properties:</p>
+
+<ul>
+<li><p>Regulation</p></li>
+<li><p>Range due to absorption in different medium</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="three_slides8" class="slide " data-transition="none">
+<div class="content " ref="three/slides/8">
+<h1>FCC regulations on 2.4 GHz WiFi band</h1>
+
+<p><img src="./file/three/fcc.png" alt="fcc"></p>
+
+<p><em>Source: <a href="http://www.air802.com/fcc-rules-and-regulations.html" target="_blank">http://www.air802.com/fcc-rules-and-regulations.html</a></em></p>
+
+<div class="notes">
+
+<p>Spectral properties:</p>
+
+<ul>
+<li><p>Radio power in dBm</p></li>
+<li><p>Antenna gain (and therefore directionality) in dBi</p></li>
+<li><p>For a particular gain, your radio power has an allowed upper bound</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="three_slides9" class="slide " data-transition="none">
+<div class="content " ref="three/slides/9">
+<h1>Directional WiFi</h1>
+
+<p>Ubiquiti LiteBeam AC</p>
+
+<ul>
+<li>Radio power: 25 dBm</li>
+<li>Antenna gain: 23 dBi</li>
+<li>Range: 10s of kilometres</li>
+<li>Data speeds: gigabit (that's about 100 MB per second)</li>
+<li>Power consumption: 7 W</li>
+<li>Cost: CAD 80</li>
+</ul>
+
+<p><img src="./file/three/litebeam-ac.jpg" alt="litebeam-ac"></p>
+
+<div class="notes">
+
+<ul>
+<li>Proprietary protocol and AirOS router software</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="four_slides1" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="four/slides/1">
+<h1>Today's agenda</h1>
+
+<ul>
+<li><p>Why a community mesh?</p></li>
+<li><p>Hardware platform based on our Raspberry Pi router</p></li>
+<li><p class="callout">Routing protocols and the cjdns software</p></li>
+<li><p>Get our hands dirty and hack something together :)</p></li>
+</ul>
+</div>
+</div>
+<div id="four_slides2" class="slide " data-transition="none">
+<div class="content " ref="four/slides/2">
+<p><img src="./file/four/baracktocat.jpg" alt="baracktocat"></p>
+</div>
+</div>
+<div id="four_slides3" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="four/slides/3">
+<h1>Routing protocols and management software</h1>
+
+<ul>
+<li><p><a href="https://www.open-mesh.org/projects/batman-adv/wiki" target="_blank">B.A.T.M.A.N.</a></p></li>
+<li><p><a href="http://gluon.readthedocs.io/en/" target="_blank">Gluon</a></p></li>
+<li><p><a href="https://commotionwireless.net" target="_blank">Commotion</a></p></li>
+<li><p class="callout"><a href="https://github.com/cjdelisle/cjdns" target="_blank">cjdns</a></p></li>
+</ul>
+</div>
+</div>
+<div id="four_slides4" class="slide " data-transition="none">
+<div class="content " ref="four/slides/4">
+<h1>Hyperboria</h1>
+
+<p><img src="./file/four/hype.png" alt="hype"></p>
+
+<p>Runs on OS X, Windows, all flavours of GNU/Linux, OpenWrt, Raspbian (Raspberry Pi), Android... so each node on <a href="https://www.fc00.org" target="_blank">fc00.org</a> can be any of these and anywhere physically</p>
+</div>
+</div>
+<div id="four_slides5" class="slide " data-transition="none">
+<div class="content " ref="four/slides/5">
+<h1>Your Hyperboria identity</h1>
+
+<pre class="highlight"><code class="language-javascript">~/D/p/g/cjdns ❯❯❯ ./cjdroute --genconf
+...
+// Private key:
+// Your confidentiality and data integrity depend on this key, keep it secret!
+"privateKey": "ee2e557f33ab509ddc49fb2fff91e2588d03b053be06af6297ec0079bc8fed68",
+
+// This key corresponds to the public key and ipv6 address:
+"publicKey": "fyjq991yjkqyvwbf6m8xf5zt7dsb7b21y83jy1nx1prd9nly3wu0.k",
+"ipv6": "fc83:c18c:e964:a7b7:86f:8c:9a86:6974",
+...</code></pre>
+
+<ul>
+<li><p>Address derived from cryptographic keys enables end-to-end encryption by default</p></li>
+<li><p>IPv6 global uniqueness allows disjoint meshnets to merge</p></li>
+<li><p>Valid <strong>fc00::/8</strong> addresses mean compatibility with all applications that support IPv6</p></li>
+</ul>
+</div>
+</div>
+<div id="four_slides6" class="slide " data-transition="none">
+<div class="content " ref="four/slides/6">
+<h1>Routing across the network</h1>
+
+<ul>
+<li>
+<p>Each node makes up part of the infrastructure (i.e. route for your peers). Responsibilities:</p>
+
+<ul>
+<li>Check who is around me (in address space)</li>
+<li>Respond to other nodes</li>
+<li>Pass <em>packets</em> along (encrypted packets arriving from peers)</li>
+</ul>
+</li>
+<li><p><em>Source routing</em> via <a href="https://en.wikipedia.org/wiki/Kademlia" target="_blank">Kademlia DHT</a></p></li>
+<li><p>Agnostic to physical interface</p></li>
+<li><p><a href="http://n-o-d-e.net/post/139284891496/hyperboria-101-moving-through-the-mesh" target="_blank">HYPERBORIA 101</a></p></li>
+<li><p><a href="https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md" target="_blank">cjdns Whitepaper</a></p></li>
+</ul>
+</div>
+</div>
+<div id="four_slides7" class="slide " data-transition="none">
+<div class="content " ref="four/slides/7">
+<h1>Bring-up WiFi radio</h1>
+
+<pre class="highlight"><code class="language-bash"># Shut down the wlan0 interface
+sudo ifconfig wlan0 down
+
+# Create mesh0 802.11s Mesh Point interface
+sudo iw dev wlan0 interface add mesh0 type mp
+
+# Bring up the mesh0 interface
+sudo ifconfig mesh0 up
+
+# Optionally assign IPv4 address to the mesh0 interface
+# sudo ifconfig mesh0 192.168.X.Y
+
+# Join the mesh network with radio in HT40+ htmode to enable 802.11n rates
+sudo iw dev mesh0 mesh join tomesh freq 2412 HT40+
+
+# Disable forwarding since we rely on cjdns to do routing and only uses Mesh Point as a point-to-point link
+sudo iw dev mesh0 set mesh_param mesh_fwding=0</code></pre>
+
+<p><em>Source: <a href="https://github.com/tomeshnet/prototype-cjdns-pi2" target="_blank">https://github.com/tomeshnet/prototype-cjdns-pi2</a></em></p>
+</div>
+</div>
+<div id="four_slides8" class="slide " data-transition="none">
+<div class="content " ref="four/slides/8">
+<h1>Start cjdns</h1>
+
+<pre class="highlight"><code class="language-bash"># Get tools
+if ! [ "$(which git)" ] || ! [ "$(which nodejs)" ] || ! [ "$(which iperf3)" ]; then
+    sudo apt-get update
+    sudo apt-get install git nodejs iperf3
+fi
+
+# Get cjdns
+if ! [ -d "cjdns" ]; then
+    git clone https://github.com/hyperboria/cjdns.git
+fi
+cd cjdns
+
+# Build cjdns with optimizations
+if ! [ -x "cjdroute" ]; then
+    ./clean &amp;&amp; NO_TEST=1 Seccomp_NO=1 CFLAGS="-s -static -Wall -mfpu=neon -mcpu=cortex-a7 -mtune=cortex-a7 -fomit-frame-pointer -marm" ./do
+fi
+
+# Generate cjdns node configurations
+if ! [ -f "cjdroute.conf" ]; then
+    ./cjdroute --genconf &gt; cjdroute.conf
+fi
+
+# Run cjdns
+sudo ./cjdroute &lt; cjdroute.conf</code></pre>
+
+<p><em>Source: <a href="https://github.com/tomeshnet/prototype-cjdns-pi2" target="_blank">https://github.com/tomeshnet/prototype-cjdns-pi2</a></em></p>
+</div>
+</div>
+<div id="five_slides1" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="five/slides/1">
+<h1>Today's agenda</h1>
+
+<ul>
+<li><p>Why a community mesh?</p></li>
+<li><p>Hardware platform based on our Raspberry Pi router</p></li>
+<li><p>Routing protocols and the cjdns software</p></li>
+<li><p class="callout">Get our hands dirty and hack something together :)</p></li>
+</ul>
+</div>
+</div>
+<div id="five_slides2" class="slide " data-transition="none">
+<div class="content " ref="five/slides/2">
+<p><img src="./file/five/deckfailcat.png" alt="deckfailcat"></p>
+</div>
+</div>
+</div>
+<div id="pauseScreen">
+  <br /><br /><br /><br /><br /><br /><br /><br /><b>&#9744; Accept EULA to continue viewing</b><br /><br /><br /><br /><br /><br /><br /><br />just kidding ;)<br /><br />press <b>p</b> to unpause dear
+</div>
+
+</body>
+</html>

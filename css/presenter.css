@@ -1,0 +1,440 @@
+/* Sizes must be defined for child elements to use them in fluid calculations. */
+#main {
+  height: 100%;
+  height: 100vh;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+  min-width: 630px;
+}
+
+#timerSection,
+#statusbar,
+#questions,
+#notes {
+  font-size: .8em;
+}
+
+#topbar {
+  line-height: 24px;
+  background: #222222;
+  font-size: .55em;
+  color: #fff;
+  padding: 0 1em;
+}
+
+  #topbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: .35em;
+  }
+
+  #topbar a:hover{
+    background-color: #555;
+  }
+
+  #links {
+    float: right;
+  }
+
+  #links a {
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+  }
+
+  #links a.enabled {
+    background-color: #003d96;
+  }
+
+  #links .mobile {
+    display: none;
+  }
+
+  .desktop span {
+    margin: 0 1em;
+  }
+
+#presenterPopup {
+  font-size: 0.5em;
+}
+
+#center {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+  -webkit-flex: 5;
+          flex: 5;
+  background-color: #fff;
+  min-height: 0px;
+}
+  #sidebar {
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-flow: column;
+            flex-flow: column;
+    -webkit-flex: 1;
+            flex: 1;
+    -webkit-order: 0;
+            order: 0;
+    min-width: 210px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+  }
+    #timerSection {
+      margin-bottom: 0.25em;
+      padding-left: 0.5em;
+      height: 2.15em;
+      min-height: 2.15em;
+      line-height: 2.15em;
+      vertical-align: middle;
+    }
+
+    #timerInfo {
+      margin-left: 25px;
+    }
+
+    #timerSection input[type='button'] {
+      float: right;
+    }
+
+    .tBlue   { background: #79d; }
+    .tGreen  { background: #9d9; }
+    .tRed    { background: #d99; }
+    .tYellow { background: #dd9; }
+
+    #feedbackPace {
+      height: 40px;
+      min-height: 40px;
+      position: relative;
+      background: transparent url(pace.png) no-repeat center bottom;
+    }
+    #paceFast,
+    #paceSlow {
+      display: none;
+    }
+    #paceFast {
+      float: left;
+      margin-left: 1em;
+    }
+    #paceSlow {
+      float: right;
+      margin-right: 1em;
+    }
+    #paceMarker {
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+    	-ms-transform: translate(-50%, 0);
+    	-o-transform: translate(-50%, 0);
+
+    }
+
+    .submenu {
+      display: block;
+      overflow: auto;
+    }
+
+  #presenter {
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-flow: column;
+            flex-flow: column;
+    -webkit-flex: 4;
+            flex: 4;
+    -webkit-order: 1;
+            order: 1;
+    min-width: 0px;
+  }
+
+    #preview {
+      -webkit-flex: 1;
+              flex: 1;
+      overflow: auto;
+      background: #eee;
+      padding: 1em;
+    }
+
+      #preview input[type=button].display {
+        display: inline;
+      }
+      #preview .tools input[type=submit] {
+        display: none;
+      }
+
+      .correct {
+        font-weight: 900;
+      }
+
+      #disconnected {
+        margin: 0.5em 1em;
+      }
+
+      #preview .incremental.hidden {
+        visibility: visible;
+        color: #ccc;
+      }
+
+    #preso {
+      -webkit-box-shadow:0 0 25px rgba(0,0,0,0.35);
+      -moz-box-shadow:0 0 25px rgba(0,0,0,0.35);
+      box-shadow:0 0 25px rgba(0,0,0,0.35);
+    }
+
+    #statusbar {
+      height: 22px;
+      line-height: 22px;
+      text-transform: uppercase;
+      vertical-align: middle;
+      background: #fff;
+    }
+      #progress {
+        margin-left: 1em;
+        position: relative;
+      }
+      #debugInfo {
+        display: inline;
+      }
+      #enableFollower,
+      #enableRemote {
+        float: right;
+        margin: 1px;
+        padding: 0.1em;
+      }
+      #enableRemote.active {
+        background-color: #fff8bf;
+        -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+        -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+        box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+      }
+
+#bottom {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+  height: 150px;
+  background: #F5ED9B;
+  border-top: 1px solid #ccc;
+}
+
+  #questions {
+    -webkit-flex: 1;
+            flex: 1;
+    -webkit-order: 0;
+            order: 0;
+    min-width: 210px;
+    border-right: 1px solid #ccc;
+    overflow: auto;
+    height: 100%;
+  }
+
+  #questions ul {
+    margin-left: 1.5em;
+    margin-right: 0.25em;
+  }
+
+  #questions li:hover {
+    background: #dedede url(close.png) no-repeat top right;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    -khtml-border-radius: 0.25em;
+    border-radius: 0.25em;
+  }
+
+  #notes {
+    -webkit-flex: 4;
+            flex: 4;
+    -webkit-order: 1;
+            order: 1;
+    overflow: auto;
+    height: 100%;
+  }
+  #notes p,
+  #notes h1,
+  #notes h2,
+  #notes h3,
+  #notes h4,
+  #notes ol,
+  #notes ul {
+    margin-right: 0.75em;
+    padding-left: 0.25em;
+  }
+  #notes p {
+    padding: 0.25em;
+    margin-bottom: 0.5em;
+  }
+  #notes ol, #notes ul {
+    padding-left: 2em;
+    padding-top: 0.25em;
+    margin-bottom: 0.5em;
+  }
+  #notes ol {
+    list-style-type: decimal;
+  }
+  #notes ul {
+    list-style-type: disc;
+  }
+
+  #notes .element {
+    display: inline-block;
+    width: 90%;
+  }
+
+  #notes .count {
+    display: inline-block;
+    background-color: #27ae60;
+    color: #ffffff;
+    padding: 0 8px;
+    font-size: 2.5em;
+    vertical-align: top;
+    border-radius: .2em;
+  }
+
+  #notes .personal {
+    float: right;
+    border-left: 4px solid #999;
+    border-bottom: 4px solid #999;
+    border-radius: 0 0 0 0.5em;
+    padding: 0.1em 0 0.25em 0.25em;
+    margin: 0 0 1em 1em;
+    background: #eee;
+    max-width: 25%;
+  }
+
+  #notes .personal h1 {
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5em;
+  }
+
+a.controls {
+  text-decoration: none;
+  padding: 0 0.25em 0.1em 0.25em;
+  background-color: #fff2ce;
+  border: 1px solid #ccc;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -khtml-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* iPhone */
+/* Portrait */
+@media screen and (max-width: 480px)
+{
+  #main {
+    min-width: 0;
+  }
+
+  #center {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+    -webkit-flex: 1;
+            flex: 1;
+  }
+  #bottom {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+    -webkit-flex: 1;
+            flex: 1;
+  }
+    #questions {
+      border-bottom: 1px solid #ccc;
+      -webkit-flex: 1;
+              flex: 1;
+    }
+    #notes {
+      -webkit-flex: 2;
+              flex: 2;
+    }
+  #topbar,#main,#center,#preview,#bottom,#sidebar {
+    margin: 0;
+    padding: 0;
+  }
+  #slideSource {
+    max-width: 256px;
+    overflow: hidden;
+    height: 16px;
+    padding-left: 16px;
+  }
+  #slideFile {
+    display: inline-block;
+    width: 205px;
+    max-width: 205px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  #links .desktop,
+  #separator,
+  #stylepicker {
+    display: none !important;
+  }
+  #links {
+    top: 0.5em;
+    padding: 0 0.5em;
+  }
+  #links .mobile {
+    display: inline;
+  }
+
+  #topbar {
+    background-image: url(menu.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+  #sidebar {
+    display: block;
+    position: absolute;
+    top: 25px;
+    z-index: 99999;
+    height: 100%;
+    overflow: scroll;
+    display: none;
+  }
+    #timerSection,
+    #feedbackPace {
+      display: none;
+    }
+
+
+  #statusbar {
+    height: auto;
+    line-height: inherit;
+  }
+  #enableRemote,
+  #enableFollower {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  #remoteToggle,
+  #followerToggle {
+    line-height: 1em;
+    height: 1em;
+    margin: 0 0 0 0.25em;
+    padding: 0;
+  }
+  #bottom {
+    height: 245px;
+    overflow: auto;
+  }
+  #preso {
+    width: 976px;
+    margin: 0;
+    padding: 0;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #preso .slide {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
