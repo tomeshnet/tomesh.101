@@ -10,18 +10,18 @@ A static version of the deck is available here: https://tomeshnet.github.io/tome
 
 1. Install [showoff](https://github.com/puppetlabs/showoff/):
 
-```
-$ gem install showoff
-```
+    ```
+    $ gem install showoff
+    ```
 
 2. Run:
 
-```
-$ showoff serve
-```
+    ```
+    $ showoff serve
+    ```
 
 3. In your browser, navigate to:
 
-```
-http://0.0.0.0:9090
-```
+    ```
+    http://0.0.0.0:9090
+    ```
