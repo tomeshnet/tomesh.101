@@ -1,0 +1,23 @@
+{
+  "name": "tomesh.101",
+  "description": "This thing called mesh",
+  "author": "Benedict Lau",
+  "protected": [
+    "presenter"
+  ],
+  "user": "presenter",
+  "password": "youguessedit",
+  "pause_msg": "<br /><br /><br /><br /><br /><br /><br /><br /><b>&#9744; Accept EULA to continue viewing</b><br /><br /><br /><br /><br /><br /><br /><br />just kidding ;)<br /><br />press <b>p</b> to unpause dear",
+  "feedback": true,
+  "highlight": "agate",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "sections": [
+    {"section":"one"},
+    {"section":"two"},
+    {"section":"three"},
+    {"section":"four"},
+    {"section":"five"}
+  ]
+}
