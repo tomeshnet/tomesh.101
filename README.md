@@ -4,7 +4,7 @@ Introduction deck for Toronto Meshnet.
 
 ## Viewing the deck
 
-A static version of the deck is available here: https://tomeshnet.github.io/mesh.101/
+A static version of the deck is available here: https://tomeshnet.github.io/tomesh.101/
 
 ## Running the presentation
 
