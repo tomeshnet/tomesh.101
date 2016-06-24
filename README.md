@@ -7,9 +7,10 @@ tomesh.101 experience is where introductory outreach and educational materials f
 
 The repository is structured as follows:
 * `glossary/ ` _will_ contain key terminology and definitions relevant to mesh networking
-* `presentations/ ` contains presentation/workshop materials (including slides and facilitation guides)
+* `presentations/ ` contains presentation materials (including slides and facilitation guides)
 * `reference-spec/ ` _will_ contain formalized reference description including steps required, hardware, software and scripts, and mesh naming convention materials
 * `tutorial/ ` _will_ contain introductory materials for connecting to a mesh network using a pi3
+* `workshops/` contains workshops materials (including slides and facilitation guides)
 
 The organization of this is based on outreach materials conversations on [May 20](https://github.com/tomeshnet/documents/blob/master/meeting_notes/20160520_outreach-session-notes.md) and [June 02](https://github.com/tomeshnet/documents/blob/master/meeting_notes/20160602_outreach-session-notes.md).
 
