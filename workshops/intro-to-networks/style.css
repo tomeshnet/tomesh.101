@@ -1,0 +1,34 @@
+body
+{
+    font-family: "Work Sans",Helvetica,Arial,sans-serif;
+}
+
+#footer
+{
+    display: none;
+}
+
+.content {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.left *{
+    text-align: left !important;
+}
+
+.title .content p, .title .content h1 {
+    text-align: left !important;
+    margin-left: 0px;
+}
+
+.bullets .content ul {
+    text-align: left !important;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+.bullets .content li {
+    text-align: left !important;
+    padding: 15px
+}
