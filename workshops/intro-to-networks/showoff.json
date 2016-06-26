@@ -1,8 +1,9 @@
 {
-  "name": "My Preso",
+  "name": "Introduction to Networks: From the Internet to tomesh.net",
+  "description": "Workshop Presentation",
   "sections": [
     {
-      "section": "one"
+      "section": "slides"
     }
   ]
 }
