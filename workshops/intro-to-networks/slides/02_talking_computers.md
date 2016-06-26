@@ -2,55 +2,55 @@
 
 # Networks
 
-![network](images/m-network.png)
+![network](../_images/m-network.png)
 
 !SLIDE
 
 # Parts of a Network
 
-![node](images/m-network-node.png)
+![node](../_images/m-network-node.png)
 
 !SLIDE
 
 # Parts of a Network
 
-![node-link](images/m-network-node-link.png)
+![node-link](../_images/m-network-node-link.png)
 
 !SLIDE
 
 # Moving Through a Network
 
-![route](images/m-network-route.png)
+![route](../_images/m-network-route.png)
 
 !SLIDE
 
 # Moving Through a Network
 
-![hop](images/m-network-hop.png)
+![hop](../_images/m-network-hop.png)
 
 !SLIDE
 
 # Moving Through a Network
 
-![hop-1](images/m-network-hop1r.png)
+![hop-1](../_images/m-network-hop1r.png)
 
 !SLIDE
 
 # Moving Through a Network
 
-![hop-2](images/m-network-hop2r.png)
+![hop-2](../_images/m-network-hop2r.png)
 
 !SLIDE
 
 # Moving Through a Network
 
-![hop-3](images/m-network-hop3r.png)
+![hop-3](../_images/m-network-hop3r.png)
 
 !SLIDE
 
 # Network Types
 
-![baran-networks](images/baran_networktypes.jpg)
+![baran-networks](../_images/baran_networktypes.jpg)
 
 ~~~SECTION:notes~~~
 

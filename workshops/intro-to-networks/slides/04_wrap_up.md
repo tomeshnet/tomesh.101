@@ -1,7 +1,7 @@
 !SLIDE
 # Why a mesh for Toronto?
 
-Opportunitiy for community-owned infrastructure to give us:
+We see an opportunity for community-owned infrastructure to give us:
 
 * open, lower-cost **access** to the World Wide Web
 * a **resilient** and redundant network
@@ -11,9 +11,7 @@ Opportunitiy for community-owned infrastructure to give us:
 
 
 !SLIDE
-# Join us at Makerfestival!
-
-We are going to be at the [**Maker Festival Weekend Extravaganza on July 9-10**](http://makerfestival.ca/), come see us there!
+# Join us!
 
 We meet weekly(ish) on Tuesdays at 18:30 at [Civic Tech Toronto Hacknights](http://civictech.ca/).
 
@@ -26,12 +24,10 @@ This workshop modified the following activities:
 
 * Networks.Land's ["Seeing the Internet"](http://networks.land/activities/see-the-internet/)
 * Red Hook Wifi's ["Humans and Computers"](http://redhookwifi.org/the-digital-stewards/)
-* Commotion Wireless's ["Eery Network Tells A Story"](https://commotionwireless.net/docs/cck/planning/design-your-network-every-network-tells-story/)
+* Commotion Wireless's ["Every Network Tells A Story"](https://commotionwireless.net/docs/cck/planning/design-your-network-every-network-tells-story/)
 * [Performing Mesh Workshop](https://github.com/dcwalk/performingmesh)
 
 ~~~SECTION:notes~~~
-
-Discussion
 
 
 ~~~ENDSECTION~~~

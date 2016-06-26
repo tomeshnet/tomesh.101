@@ -2,7 +2,7 @@
 
 # Building a Network
 
-![role-slide](images/role-slide.png)
+![role-slide](../_images/role-slide.png)
 
 ~~~SECTION:notes~~~
 
@@ -14,7 +14,7 @@ Many different kinds of people are involved in creating community infrastructure
 
 # Building a Network
 
-![mesh-equipment](images/mesh-equipment.png)
+![mesh-equipment](../_images/mesh-equipment.png)
 
 ~~~SECTION:notes~~~
 
@@ -26,13 +26,13 @@ Technical bits required: routers to propagate the network by sending wi-fi waves
 
 # Building a Network
 
-![commotion-routers](images/commotion-routers.png)
+![commotion-routers](../_images/commotion-routers.png)
 
 !SLIDE
 
 # Building a Network
 
-![commotion-routers](images/commotion-routersII.png)
+![commotion-routers](../_images/commotion-routersII.png)
 
 ~~~SECTION:notes~~~
 
@@ -57,8 +57,6 @@ Activity:
  - High Power Omnidirectional (All Direction) Router
  - High Power Sector (Directional) Router
  - High Power Focused (Narrow Beam) Router
-
-
 
 
 ~~~ENDSECTION~~~
