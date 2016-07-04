@@ -27,7 +27,7 @@ Materials needed for the workshop include:
 
 The repository is structured as follows:
 * `slides/` containing the tomesh version of the presentation, this will have to be adjusted to your needs
-* `_files/` with examples of maps ([1](#), [2](#)) that will need to be created for the "Every Network Tells a Story" activity
+* `_files/` with examples of maps ([1](https://github.com/tomeshnet/tomesh.101/blob/master/workshops/intro-to-networks/_files/20160624-map-dtcore-toner_ARCHE.pdf), [2](https://github.com/tomeshnet/tomesh.101/blob/master/workshops/intro-to-networks/_files/20160624-map-kenginston-terrain_ARCHE.pdf)) that will need to be created for the "Every Network Tells a Story" activity
 * `_images/` containing images for presentation and this facilitation guide
 
 ## Schedule
