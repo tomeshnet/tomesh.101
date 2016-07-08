@@ -35,28 +35,23 @@ Technical bits required: routers to propagate the network by sending wi-fi waves
 ![commotion-routers](../_images/commotion-routersII.png)
 
 ~~~SECTION:notes~~~
-
 ## Workshop Schedule
 
+1:00 - Workshop Start
+1:10 - 1:40 (0:30) I: What we know about computers and the internet
+1:40 - 2:30 (0:50) II: How computers talk
 2:30 - 2:40 BREAK
-2:50 - 4:00 (0:50) Networks include people!
+2:50 - 4:00 (0:50) III: Networks include people!
 
-## Section II: Networks include people!
+## Section III: Networks include people!
 
 Goals:
 - Show how the human and technical components both are required/interact for a network
-- Connect to activities and interest of tomesh, upcoming game at makerfestival
+- Connect to activities and interest of tomesh
 
 Activity:
-- Play "Every Network Tells a Story"
 
- decide which location based on conversation with people
-
-
- - Low Power Omnidirectional (All Direction) Router
- - High Power Omnidirectional (All Direction) Router
- - High Power Sector (Directional) Router
- - High Power Focused (Narrow Beam) Router
-
+1. Every Network Tells a Story (35 mins)
+2. Wrap Up and Report Back (15 mins)
 
 ~~~ENDSECTION~~~
