@@ -1,0 +1,20 @@
+{
+  "name": "Build A Mesh Node",
+  "description": "Workshop to build a cjdns mesh node on Raspberry Pi",
+  "author": "Benedict Lau, Claudio Bizzotto",
+  "protected": [
+    "presenter"
+  ],
+  "user": "presenter",
+  "password": "youguessedit",
+  "pause_msg": "<br /><br /><br /><br /><br /><br /><br /><br /><b>&#9744; Accept EULA to continue viewing</b><br /><br /><br /><br /><br /><br /><br /><br />just kidding ;)<br /><br />press <b>p</b> to unpause dear",
+  "feedback": true,
+  "highlight": "agate",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "sections": [
+    {"section":"one"},
+    {"section":"two"}
+  ]
+}
