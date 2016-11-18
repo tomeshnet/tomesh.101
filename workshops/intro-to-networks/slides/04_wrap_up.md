@@ -13,9 +13,9 @@ We see an opportunity for community-owned infrastructure to give us:
 !SLIDE
 # Join us!
 
-We meet weekly(ish) on Tuesdays at 18:30 at [Civic Tech Toronto Hacknights](http://civictech.ca/).
+We meet monthly and have public events posted on [tomesh.net/events](https://tomesh.net/events/).
 
-Otherwise find us on slack at [#tomesh](https://civictechto-slack-invite.herokuapp.com/). We also work on [github.com/tomeshnet](https://github.com/tomeshnet) and on [wekan.tomesh.net](https://wekan.tomesh.net/sign-in)!
+Otherwise find us on our chat [#tomesh:tomesh.net](https://chat.tomesh.net/#/room/#tomesh:tomesh.net). We also work on [github.com/tomeshnet](https://github.com/tomeshnet) and on [wekan.tomesh.net](https://wekan.tomesh.net/sign-in)!
 
 !SLIDE
 # Thanks & Credits

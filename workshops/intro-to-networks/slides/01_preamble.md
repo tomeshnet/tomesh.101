@@ -14,7 +14,7 @@ Today's workshop is broken into three sections:
 We are group of individuals interested in building a mesh network in Toronto.
 Check out our website [tomesh.net](https://tomesh.net/) and follow us on twitter [@tomeshnet](https://twitter.com/tomeshnet).
 
-You can find us on Civic Tech Toronto's slack talking at [#tomesh](https://civictechto-slack-invite.herokuapp.com/)!
+You can find us on our chat [#tomesh:tomesh.net](https://chat.tomesh.net/#/room/#tomesh:tomesh.net)!
 
 ~~~SECTION:notes~~~
 ## Workshop Schedule
