@@ -5,7 +5,7 @@
 
 ![tomesh](tomesh.png)
 
-**ansuz** *//* **garrying** *//* **benhylau**
+**ansuz** *//* **benhylau** *//* **Ceit.e** *//* **dcwalk** *//* **garry***//* **Josh_O** *//* **udit**
 
 14 Jan 2017
 
@@ -131,17 +131,17 @@ All this is taken care of for you by the [tomesh install script](https://github.
 
 Grab a Pi 3 + [TL-WN722N](http://www.tp-link.com/en/products/details/TL-WN722N.html), then run [our installation script](https://github.com/tomeshnet/prototype-cjdns-pi2/blob/master/README.md#set-up), instructions reproduced here:
 
-1. Flash the SD card with [Raspbian Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/).
+1. Flash the SD card with [Raspbian Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/)
 
-1. Create an empty file named **ssh** to enable SSH when the Pi boots.
+1. Create an empty file named **ssh** to enable SSH when the Pi boots
 
-1. Plug the SD card and TL-WN722N into the Pi.
+1. Plug the SD card and TL-WN722N into the Pi
 
-1. Plug the Pi into your router, so it has connectivity to the Internet. SSH into the Pi with `ssh pi@raspberrypi.local` and password **raspberry**.
+1. Plug the Pi into your router, so it has connectivity to the Internet. SSH into the Pi with `ssh pi@raspberrypi.local` and password **raspberry**
 
     **Optional:** There are other ways to connect, such as connecting the Pi to your computer and sharing Internet to it. Or if you have multiple Pi's connected to your router, find its IP with `nmap -sn 192.168.X.0/24` (where 192.168.X is your subnet) and SSH to the local IP assigned to the Pi you want to address `ssh pi@192.168.X.Y`.
 
-1. In your SSH session, run `passwd` and change your login password. It is very important to choose a strong password so others cannot remotely access your Pi.
+1. In your SSH session, run `passwd` and change your login password. It is very important to choose a strong password so others cannot remotely access your Pi
 
 1. Run the following, then let the installation complete. After about 5 minutes the Pi will reboot:
 

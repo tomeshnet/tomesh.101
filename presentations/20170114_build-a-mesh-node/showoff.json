@@ -1,7 +1,7 @@
 {
   "name": "Build A Mesh Node",
   "description": "Meshing with cjdns and messing with secure-scuttlebutt",
-  "author": "ansuz, garrying, benhylau",
+  "author": "ansuz, benhylau",
   "protected": [
     "presenter"
   ],
