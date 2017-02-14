@@ -5,7 +5,7 @@ This glossary is used to house key terminology and definitions relevant to mesh 
 ## Parts of A Network
 
 * **Node** - A connection point on a network. A network is formed when two nodes are able to communicate with one another.
-* **Link** - A logical connection between two nodes (ignoring physical infrastructure in the way) or a physical link between two nodes (using ethernet, fiber, wireless equipment, etc.). Links allow nodes to communicate with one another
+* **Link** - A logical connection between two nodes (ignoring physical infrastructure in the way) or a physical link between two nodes (using ethernet, fiber, wireless equipment, etc.). Links allow nodes to communicate with one another.
 * **Supernode** -  A node on the network that actively routes traffic/data for other nodes.
 * **Peer** - A node on the network that both supplies and consumes network resources.
 * **Edge** - An entry point onto a network. Generally an edge acts as a router which sits between a smaller, more localized subnetwork and a network backbone. 
@@ -25,16 +25,16 @@ This glossary is used to house key terminology and definitions relevant to mesh 
 ## What Does A Network Look Like?
 
 
-* **Topology** - they way in which objects are arranged and how they relate to one another.
+* **Topology** - The way in which objects are arranged and how they relate to one another.
 * **Centralized** - A network topology where all users/clients need to connect to a central server for all communications.
-* **Decentralized** - A network topology where multiple servers are linked together, allowing clients to connect to any any server and still be within the same network.
+* **Decentralized** - A network topology where multiple servers are linked together, allowing clients to connect to any server and still be within the same network.
 * **Distributed** - A network topology where all actors connect and communicate with one another, forming a peer-to-peer network. Each actor is both a client and a server.
 * **Federated** - A network topology consisting of smaller, more centralized self-governed organizations (usually one server and many clients) that elect to share data with one another.
 
 ## Radio & Wireless
 
 * **Point-to-Point** - A communication connection between two nodes. 
-* **dBm** - Decibel-milliwatts, the power ratio in decibels per military used to measure absolute power.
+* **dBm** - Decibel-milliwatts, the power ratio in decibels per milliwatt used to measure absolute power.
 * **Gain** - A measure of an antenna’s ability to convert input power into radio waves concentrated in a particular connection.
 * **Radio** - A device within a piece of electronic equipment responsible for sending/receiving wireless signals.
 * **EIRP** - Equivalent Isotropically Radiated Power, an IEEE standard for directional radio frequency power. The EIRP is the product of transmitter power and antenna gain for an isotropic antenna, measured in dBi (decibel isotropic).
