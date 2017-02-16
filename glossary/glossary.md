@@ -55,5 +55,6 @@ This glossary is used to house key terminology and definitions relevant to mesh 
 * **CJDNS** - A layer 2/3 mesh networking protocol and application created by Caleb James DeLisle. CJDNS features encrypted connections, IPV6 addressing, and distributed routing.
 * **Routing Table** - A set of rules that determine where packets will be directed within a network.
 * **802.11s** - An amendment to the IEEE 802.11 wireless local area network specification defining how wireless devices can communicate in static or ad hoc networks.
+* **Mesh Point (MP)** - An operation mode defined within the 802.11s standard. Mesh Point allows nodes in a network to discover neighbor nodes and keep track of them.
 * **Auto-Peering** - The ability for two peers on a network to automatically link with one another using zero configuration.
 * **Tunneling/Overlaying** - Securely encapsulating communication/traffic from a private network within a larger, public network.
