@@ -24,7 +24,6 @@ This glossary is used to house key terminology and definitions relevant to mesh 
 
 ## What Does A Network Look Like?
 
-
 * **Topology** - The way in which objects are arranged and how they relate to one another.
 * **Centralized** - A network topology where all users/clients need to connect to a central server for all communications.
 * **Decentralized** - A network topology where multiple servers are linked together, allowing clients to connect to any server and still be within the same network.
