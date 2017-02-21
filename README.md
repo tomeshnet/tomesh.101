@@ -6,7 +6,7 @@ tomesh.101 experience is where introductory outreach and educational materials f
 ## Repository Structure
 
 The repository is structured as follows:
-* `glossary/ ` _will_ contain key terminology and definitions relevant to mesh networking
+* `glossary/ ` contains key terminology and definitions relevant to mesh networking
 * `presentations/ ` contains presentation materials (including slides and facilitation guides)
 * `reference-spec/ ` _will_ contain formalized reference description including steps required, hardware, software and scripts, and mesh naming convention materials
 * `tutorial/ ` _will_ contain introductory materials for connecting to a mesh network using a pi3
