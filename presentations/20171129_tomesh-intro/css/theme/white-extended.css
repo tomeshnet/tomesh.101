@@ -21,6 +21,32 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal .header-highlight {
   background: #ff0; }
 
+.icon {
+  display: inline-block; }
+
+.icon svg {
+  height: 1em;
+  width: 1em;
+  margin-bottom: -0.1em; }
+
+.footer-contact ul {
+  font-size: 0.65em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+
+.footer-contact li {
+  font-size: 0.65em;
+  display: inline;
+  margin-right: 2em;
+  margin-top: 0;
+  padding: 5px 0;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 /*********************************************
  * GLOBAL STYLES
