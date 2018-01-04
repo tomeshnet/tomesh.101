@@ -1,0 +1,1 @@
+This deck was presented at **34C3: TUWAT** and the slides can be rendered using [Cryptpad.fr](https://cryptpad.fr). You can paste the source into a Presentation pad or visit this [read-only link](https://cryptpad.fr/slide/#/1/view/vqH0DgBgkVhklpU0TN-yIg/wl2JzjikrtHpUVEWhqpNtttQUlY+cUiO2vDmAxok7uI/).
