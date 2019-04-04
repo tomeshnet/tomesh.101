@@ -1,0 +1,159 @@
+body {
+  font-family: 'Gill Sans', sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif */
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.remark-container {
+  background: #000
+}
+
+div.remark-slide-content {
+  background-color: rgb(27, 24, 24);
+  color: #ddd;
+}
+
+div.remark-slide-content>h1, h2, h3 {
+  letter-spacing: 2px;
+}
+
+div.remark-slide-scaler {
+  -moz-box-shadow: initial;
+  -webkit-box-shadow: intial;
+  box-shadow: initial;
+}
+
+.sticker {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #b22;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+
+.sticker-upper-region {
+  color: white;
+}
+
+.sticker-hello {
+  font-size: 5rem;
+}
+
+.sticker-name {
+  background-color: white;
+  color: black;
+  margin: 2%;
+  font-size: 4rem;
+  line-height: 8rem;
+}
+
+.sticker-lower-region {
+  color: white;
+  font-size: 1.6rem;
+  height: 2rem;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 1rem;
+}
+
+.tiny-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.img-dual {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-image {
+  height: auto;
+  width: auto;
+  max-height: 50vh;
+  margin-bottom: 0;
+}
+
+.medium-image {
+  height: auto;
+  width: auto;
+  max-height: 40vh;
+  margin-bottom: 0;
+}
+
+.small-image {
+  height: auto;
+  width: auto;
+  max-height: 25vh;
+  margin-bottom: 0;
+}
+
+.services-grid {
+  margin-top: 2rem;
+  font-size: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+}
+
+.services-grid > p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fab {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: block;
+}
+
+.huge-icon {
+  font-size: 15rem;
+  margin: 4rem;
+}
+
+.centralized {
+  margin-top: 10%;
+  font-size: 3rem;
+}
+
+.slide-label {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.animation-fade {
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out
+}
+
+.remark-visible .animation-fade {
+  animation-name: fadeIn
+}
+
+.bottom-url {
+  text-align: left;
+  position: absolute;
+  bottom: 0.6rem;
+  left: 1rem;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="1200"
+   viewBox="0 0 317.49999 317.50001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="tomesh-i.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="548.99799"
+     inkscape:cy="532.32524"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1-3"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Bottom"
+     transform="matrix(0.5773594,0,0,0.5773594,67.911168,136.42519)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,20.500017)">
+    <g
+       id="g1049"
+       transform="translate(-58.208333,6.047619)">
+      <circle
+         style="fill:#cceeee;stroke-width:0.79726762"
+         class="icon-bg"
+         cx="218.97888"
+         cy="225.31413"
+         r="39.86338"
+         id="circle992" />
+      <g
+         transform="matrix(0.5773594,0,0,0.5773594,329.94296,157.69237)"
+         id="g914">
+        <g
+           transform="translate(-453.8452,-72.341765)"
+           id="layer1-3"
+           inkscape:label="Layer 1">
+          <g
+             transform="matrix(0.23461659,0,0,0.23461659,166.94452,-78.209853)"
+             id="g854">
+            <g
+               id="Bands">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="Bottom"
+                 d="m 621.27,663.11 v 0 a 171.48,171.48 0 0 0 -242.54,0 v 0 L 500,784.38 Z"
+                 transform="translate(-97.83,-215.62)"
+                 style="fill:#3d58a7" />
+              <path
+                 inkscape:connector-curvature="0"
+                 id="Middle"
+                 d="m 500,594.87 a 188.94,188.94 0 0 1 134,55.51 L 755.27,529.11 v 0 a 360.7,360.7 0 0 0 -510.54,0 v 0 L 366,650.38 a 188.94,188.94 0 0 1 134,-55.51 z"
+                 transform="translate(-97.83,-215.62)"
+                 style="fill:#3d58a7" />
+              <path
+                 inkscape:connector-curvature="0"
+                 id="Top"
+                 d="m 500,405.38 a 377.81,377.81 0 0 1 268,111 L 902.17,382.21 v 0 C 680.06,160.1 319.94,160.1 97.83,382.21 v 0 L 232,516.38 a 377.81,377.81 0 0 1 268,-111 z"
+                 transform="translate(-97.83,-215.62)"
+                 style="fill:#3d58a7" />
+            </g>
+            <g
+               id="City_Hall"
+               data-name="City Hall">
+              <g
+                 id="Right_Arm"
+                 data-name="Right Arm">
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Glass"
+                   d="M 533.5,411.11 A 100.5,100.5 0 0 0 634,310.61 v 339.77 l -100.5,100.5 z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#cdd7ee" />
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Post"
+                   d="M 701,583.38 V 310.61 a 9.92,9.92 0 0 0 -5.55,-8.95 c -14.05,-6.82 -41.86,-6.82 -55.91,0 a 9.93,9.93 0 0 0 -5.54,8.95 v 339.77 z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#223f81" />
+              </g>
+              <g
+                 id="Left_Arm"
+                 data-name="Left Arm">
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Glass-2"
+                   data-name="Glass"
+                   d="M 466.5,458.49 A 100.5,100.5 0 0 1 366,358 v 292.38 l 100.5,100.5 z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#cdd7ee" />
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Post-2"
+                   data-name="Post"
+                   d="m 299,583.38 67,67 V 358 a 9.93,9.93 0 0 0 -5.54,-8.95 c -14,-6.82 -41.86,-6.82 -55.91,0 A 9.92,9.92 0 0 0 299,358 Z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#223f81" />
+              </g>
+              <g
+                 id="Dome">
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Bottom-2"
+                   data-name="Bottom"
+                   d="m 500,705.86 c -16.35,0 -58,1.8 -75.9,2.62 l -5.7,-5.7 v 0 l 81.6,81.6 75.9,-75.9 C 558,707.66 516.34,705.86 500,705.86 Z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#223f81" />
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Band"
+                   d="m 584.29,700.09 v 0 c 0,0 -63.21,-3 -84.29,-3 -21.08,0 -84.21,3 -84.29,3 l 8.39,8.39 c 17.9,-0.82 59.55,-2.62 75.9,-2.62 16.35,0 58,1.8 75.9,2.62 z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#cdd7ee" />
+                <path
+                   inkscape:connector-curvature="0"
+                   id="Top-2"
+                   data-name="Top"
+                   d="m 415.71,700.09 c 0.08,0 63.22,-3 84.29,-3 21.07,0 84.25,3 84.29,3 v 0 a 119.19,119.19 0 0 0 -168.58,0 z"
+                   transform="translate(-97.83,-215.62)"
+                   style="fill:#223f81" />
+              </g>
+            </g>
+          </g>
+          <path
+             sodipodi:nodetypes="cc"
+             inkscape:connector-curvature="0"
+             id="path907"
+             d="m 261.63135,65.589153 -0.0295,42.413207"
+             style="fill:none;stroke:#ffffff;stroke-width:5.66708994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <g
+             transform="matrix(1.3808862,0,0,1.3808862,192.60852,120.41989)"
+             id="g1016">
+            <circle
+               style="fill:#444444;stroke:none"
+               class="person"
+               cx="50"
+               cy="38"
+               r="8"
+               id="circle996" />
+            <path
+               style="fill:#444444"
+               inkscape:connector-curvature="0"
+               class="person"
+               d="M 65,61 A 15,15 0 0 0 35,61 Z"
+               id="path998" />
+            <circle
+               style="fill:#444444;stroke:none"
+               class="person"
+               cx="25"
+               cy="18"
+               r="8"
+               id="circle1000" />
+            <path
+               style="fill:#444444"
+               inkscape:connector-curvature="0"
+               class="person"
+               d="M 40,41 A 15,15 0 0 0 10,41 Z"
+               id="path1002" />
+            <circle
+               style="fill:#444444;stroke:none"
+               class="person"
+               cx="75"
+               cy="18"
+               r="8"
+               id="circle1004" />
+            <path
+               style="fill:#444444"
+               inkscape:connector-curvature="0"
+               class="person"
+               d="M 90,41 A 15,15 0 0 0 60,41 Z"
+               id="path1006" />
+            <circle
+               style="fill:#444444;stroke:none"
+               class="person"
+               cx="25"
+               cy="60"
+               r="8"
+               id="circle1008" />
+            <circle
+               style="fill:#444444;stroke:none"
+               class="person"
+               cx="75"
+               cy="60"
+               r="8"
+               id="circle1012" />
+          </g>
+          <path
+             inkscape:transform-center-y="-7.8465979"
+             inkscape:transform-center-x="6.9050084"
+             sodipodi:nodetypes="cc"
+             inkscape:connector-curvature="0"
+             id="path907-5"
+             d="m 381.61869,-97.29615 -35.14086,32.238279"
+             style="fill:none;stroke:#ffffff;stroke-width:5.12670088;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <g
+             transform="matrix(1.375664,0,0,1.375664,381.33049,-224.09773)"
+             id="g971">
+            <circle
+               style="fill:#cceeee"
+               class="icon-bg"
+               cx="50"
+               cy="50"
+               r="50"
+               id="circle934" />
+            <path
+               style="fill:#222222;stroke-width:0.91414118"
+               inkscape:connector-curvature="0"
+               d="M -0.23884748,45 H 45.722126 V 30 h 8.356541 V 45 H 100.03964 V 55 H 70.791748 V 70 H 62.435207 V 55 H 37.365585 v 15 h -8.35654 V 55 H -0.23884748 Z"
+               clip-path="url(#clip1)"
+               id="path938" />
+            <rect
+               style="fill:#222222"
+               class="outline"
+               width="28"
+               height="20"
+               x="36"
+               y="15"
+               rx="2"
+               ry="2"
+               id="rect940" />
+            <rect
+               style="fill:#dddddd"
+               class="monitor"
+               width="20"
+               height="12"
+               x="40"
+               y="19"
+               rx="2"
+               ry="2"
+               id="rect942" />
+            <rect
+               style="fill:#222222"
+               class="outline"
+               width="28"
+               height="20"
+               x="56"
+               y="64"
+               rx="2"
+               ry="2"
+               id="rect944" />
+            <rect
+               style="fill:#dddddd"
+               class="monitor"
+               width="20"
+               height="12"
+               x="60"
+               y="68"
+               rx="2"
+               ry="2"
+               id="rect946" />
+            <rect
+               style="fill:#222222"
+               class="outline"
+               width="28"
+               height="20"
+               x="16"
+               y="64"
+               rx="2"
+               ry="2"
+               id="rect948" />
+            <rect
+               style="fill:#dddddd"
+               class="monitor"
+               width="20"
+               height="12"
+               x="20"
+               y="68"
+               rx="2"
+               ry="2"
+               id="rect950" />
+          </g>
+        </g>
+      </g>
+      <path
+         style="fill:#444444;stroke-width:0.79726762"
+         inkscape:connector-curvature="0"
+         class="person"
+         d="m 211.00621,251.62394 a 11.959015,11.959015 0 0 0 -23.91803,0 z"
+         clip-path="url(#clip)"
+         id="path1010" />
+      <path
+         style="fill:#444444;stroke-width:0.79726762"
+         inkscape:connector-curvature="0"
+         class="person"
+         d="m 250.86959,251.62394 a 11.959015,11.959015 0 0 0 -23.91803,0 z"
+         clip-path="url(#clip)"
+         id="path1014" />
+      <circle
+         style="fill:none;stroke:#ffffff;stroke-width:1.59453523px"
+         class="icon-outline"
+         cx="218.97888"
+         cy="225.31413"
+         r="39.066116"
+         id="circle994" />
+      <circle
+         style="fill:none;stroke:#ffffff;stroke-width:1.58850515px"
+         class="icon-outline"
+         cx="327.78854"
+         cy="26.252872"
+         r="38.918377"
+         id="circle936" />
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style883">
+    circle.icon-outline {
+    stroke: #fff;
+    stroke-width: 2px;
+    fill: none;
+    }
+    
+    circle.icon-bg {
+    fill: #cee;
+    }
+
+    circle.person {
+    fill: #444;
+    stroke: none;
+    }
+
+    path.person {
+    fill: #444;
+    stoke: none;
+    }
+  </style>
+  <style
+     id="style952"
+     type="text/css">
+    circle.icon-outline {
+    stroke: #fff;
+    stroke-width: 2px;
+    fill: none;
+    }
+    
+    circle.icon-bg {
+    fill: #cee;
+    }
+
+    path {
+        fill: #222;
+    }
+    
+    rect.outline {
+        fill: #222;
+    }
+    
+    rect.monitor {
+        fill: #ddd;
+    }
+    
+    </style>
+</svg>
