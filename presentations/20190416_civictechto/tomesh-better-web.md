@@ -197,7 +197,7 @@ https://www.visualcapitalist.com/internet-censorship-map/
 </div>
 
 ???
-Censoring is blocking certain content- at the infrastructure level it is mostly dictated or undertaken by government agencies.
+Censorship at the infrastructure level is mostly dictated or undertaken by government agencies.
 
 This is a flowchart the Chinese government uses to assess online content.
 
@@ -429,13 +429,15 @@ The Web Tomorrow
 
 
 ???
-Before I get into some alternatives in the physical and digital space,
+Before we can begin doing any work on hardware or software,
 
-We need to talk about the key part to building a better web: Community!
+we must recognize that technology has no purpose without the people using it.
 
-Technology has no purpose without the people using it.
+The key part to building a better web is our Community!
 
-In the end, it's the users who must demand and bring about change.
+It's the users who must demand and bring about change.
+
+So, how do we prepare our community for tomorrow's web?
 
 ---
 
@@ -450,11 +452,10 @@ class: center, middle
 
 This is us, here and now!
 
-
 ???
-First off, we need people to become aware of these issues.
+First off, we need people to become aware of the issues we have seen.
 
-This may be as simple as finding out about data misuse by online services or governments.
+This may be as simple as finding out about how online services or governments routinely misuse our data.
 
 --
 
@@ -474,7 +475,7 @@ or research the business model of your favourite social network.
 ## 3. Engagement
 
 ???
-Finally, a group of people can get to work on making changes-
+Finally, a community can begin working on changes-
 
 they may opt for adopting less intrusive services,
 
@@ -535,7 +536,7 @@ Open source means the data for a given product or service is available for study
 
 This can apply to just about any area- software, hardware, or even governance.
 
-An example is the Toronto Mesh governance documents that we make public through Github. 
+One example is the Toronto Mesh governance documents that we make public through Github. 
 
 ---
 
@@ -561,7 +562,7 @@ https://en.wikipedia.org/wiki/BitTorrent
 ???
 The next term is **peer-to-peer**.
 
-In a peer-to-peer system, members of a group or a network can communicate with one another,
+In a peer-to-peer system, members of a group or network can communicate with one another,
 
 instead of relying on a centralized service.
 
@@ -588,7 +589,7 @@ Last is the concept of a Mesh Network.
 
 Members of a mesh network, also called nodes, connect to as many other nodes as possible,
 
-and cooperate with one another to efficiently route data back and forth.
+and cooperate with one another to efficiently transmit data back and forth.
 
 Let's take a look at a couple of internet access models to see how this idea can work in practice.
 
@@ -628,7 +629,7 @@ class: center
 ???
 This is just one option. Using a mesh network, only a few computers need to have internet access,
 
-all of its members can still access content.
+and all of its members can still access content.
 
 With these ideas in mind, let's talk about infrastructure in tomorrow's web.
 
@@ -717,6 +718,8 @@ The Web Tomorrow:
 Now, what about services? We will stop talking about services now, and instead
 
 focus on open source peer-to-peer protocols.
+
+A protocol is just a set of rules that computers in a network use to communicate with one another.
 
 ---
 
