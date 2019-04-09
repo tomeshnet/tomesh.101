@@ -54,28 +54,19 @@ Today, I will talk about some ways in which we can build a better Web together.
 
 ## 1. The Web Today: Issues 👎
 
-???
-First, I will talk about some of the challenges the Internet is facing today.
-
---
-
 ## 2. The Web Tomorrow: Fixes 👍
 
-???
-Then, I will discuss some of the solutions being explored to address them,
-
---
-
 ## 3. Toronto Mesh
-
-???
-and how our work relates to them.
-
---
 
 ## 4. Toronto Mesh and You
 
 ???
+First, I will talk about some of the challenges the Internet is facing today.
+
+Then, I will discuss some of the solutions being explored to address them,
+
+and how our work relates to them.
+
 Finally, I will go over some of the ways in which you can contribute.
 
 --
@@ -83,7 +74,7 @@ Finally, I will go over some of the ways in which you can contribute.
 - We will only scratch the surface
 
 ???
-Due to time constraints I will only cover topics from a very high level,
+I will only cover topics from a very high level,
 
 so I apologize if I gloss over some things.
 
@@ -576,9 +567,16 @@ The Web Tomorrow: Prerequisites
 
 # <img src="img/mesh-network.svg" style="height: 50px"> Mesh Network
 
-A mesh network (or simply meshnet) is a local network topology in which the infrastructure nodes (i.e. bridges, switches and other infrastructure devices) connect directly, dynamically and non-hierarchically to as many other nodes as possible and cooperate with one another to efficiently route data from/to clients. This lack of dependency on one node allows for every node to participate in the relay of information. Mesh networks dynamically self-organize and self-configure, which can reduce installation overhead. The ability to self-configure enables dynamic distribution of workloads, particularly in the event that a few nodes should fail. This in turn contributes to fault-tolerance and reduced maintenance costs. 
+### Nodes connect to as many other nodes as possible, and cooperate with one another to efficiently transmit data back and forth.
 
-## TL;DR: A peer-to-peer network
+#### Examples:
+
+## Guifi.net
+## Freifunk
+
+<div class="img-right">
+<img src="img/guifi-map.png" style="width: 320px;">
+</div>
 
 <div class="bottom-url">
 https://en.wikipedia.org/wiki/Mesh_networking
