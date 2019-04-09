@@ -19,14 +19,12 @@ class: center, middle, animation-fade
   <div class="sticker-upper-region">
     <div class="sticker-hello">Hello</div>my name is
   </div>
-  <div class="sticker-name">Dante</div>
+  <div class="sticker-name">[name goes here]</div>
   <div class="sticker-lower-region"></div>
 </div>
 
 ???
-Hello! My name is Dante.
-
-I joined Toronto Mesh two years ago, and I am currently the central organization lead.
+Hello! My name is [your name goes here].
 
 ---
 
@@ -161,7 +159,7 @@ and in many cases, regulated by a government authority.
 ## Filtering - Censorship - Surveillance
 
 ???
-Both of them may engage in filtering, censoring, and surveillance.
+Both of them may engage in filtering, censorship, and surveillance.
 
 ---
 
@@ -197,7 +195,9 @@ https://www.visualcapitalist.com/internet-censorship-map/
 </div>
 
 ???
-Censorship at the infrastructure level is mostly dictated or undertaken by government agencies.
+Censorship is another kind of filtering.
+
+Censorship at the infrastructure level is mostly dictated and carried out by government agencies.
 
 This is a flowchart the Chinese government uses to assess online content.
 
@@ -566,7 +566,7 @@ In a peer-to-peer system, members of a group or network can communicate with one
 
 instead of relying on a centralized service.
 
-One example is RideAustin, a ride-sharing service in Austin that links riders directly to vehicle operators.
+One example is RideAustin, a ride-sharing service that links riders directly to vehicle operators.
 
 ---
 
@@ -902,7 +902,7 @@ http://www.chriswatterston.com/blog/my-there-is-no-cloud-sticker
 </div>
 
 ???
-Can we apply the same concept to other applications?
+Can we apply the same concept to other online services?
 
 How about file sharing?
 
@@ -1018,6 +1018,10 @@ class: center
 <img class="large-image" src="img/radio-test.jpg">
 </div>
 
+<div class="bottom-url">
+https://github.com/tomeshnet/prototype-cjdns-pi
+</div>
+
 ???
 For infrastructure, 
 
@@ -1025,9 +1029,7 @@ we have developed a reference platform that people can use to build or join a me
 
 On the hardware side, a Toronto Mesh node consists of a single board computer 
 
-\- most people use a Raspberry Pi like the ones shown in the picture -
-
-and a mesh-enabled wifi dongle.
+and a mesh-enabled wifi dongle, like those shown in the picture.
 
 ---
 
@@ -1045,13 +1047,13 @@ class: center
 </div>
 
 <div class="bottom-url">
-https://github.com/tomeshnet/prototype-cjdns-pi/blob/master/docs/MODULES.md
+https://github.com/tomeshnet/prototype-cjdns-pi
 </div>
 
 ???
-On the software side, the platform has a number of modules to choose from-
+For protocols, the platform has a number of modules to choose from-
 
-you can pick one or two networking protocols to route traffic,
+you can pick one or two networking protocols to route and encrypt traffic,
 
 whether to install Scuttlebutt and IPFS,
 
@@ -1073,7 +1075,8 @@ The screenshot on the right shows the landing page for one of the nodes I have r
 </div>
 
 <div class="bottom-url">
-https://tomesh.net/events/
+https://tomesh.net/events/ </br>
+https://github.com/tomeshnet/p2p-internet-workshop
 </div>
 
 ???
@@ -1088,6 +1091,10 @@ Last year, we conducted a six-week course at Fort York Library,
 where group members taught participants about networking infrastructure,
 
 peer-to-peer applications, and how to organize community networks.
+
+We have worked very hard to make the workshop materials accessible for any person or group
+
+looking to use it in their community.
 
 ---
 
@@ -1122,7 +1129,7 @@ so our mesh is linked through the internet.
 
 The site on the right shows all the nodes connected to the Toronto Mesh at any given time.
 
-Which brings us to ur last section-
+Which brings us to our last section-
 
 ---
 
