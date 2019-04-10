@@ -260,7 +260,7 @@ class: center, middle
 <i class="fab fa-tumblr"></i>
 <i class="fab fa-linkedin-in"></i>
 <i class="fab fa-reddit"></i>
-<i class="fab fa-facebook-messenger"></i>
+<i class="fab fa-pinterest"></i>
 <i class="fab fa-whatsapp"></i>
 <i class="fab fa-slack"></i>
 <i class="fab fa-dropbox"></i>
@@ -354,11 +354,11 @@ class: center
 
 <div class="img-dual">
 <img class="large-image" src="img/tumblr-porn-ban.png">
-<img class="large-image" src="img/facebook-wn.png">
+<img class="large-image" src="img/facebook-ban.png">
 </div>
 
 <div class="bottom-url">
-https://www.bbc.com/news/world-us-canada-47728471 </br>
+https://www.cbc.ca/news/politics/facebook-faith-goldy-ban-alt-right-1.5088827 </br>
 https://www.pinknews.co.uk/2019/03/14/tumblr-suffers-150-million-drop-traffic-porn-ban/
 </div>
 
@@ -369,7 +369,7 @@ we _are_ relying on businesses to dictate social norms and police our communicat
 
 ---
 
-class: center, middle
+class: center
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
@@ -1086,11 +1086,11 @@ and help them better understand the technology of our node platform.
 
 Last year, we conducted a six-week course at Fort York Library, 
 
-where group members taught participants about networking infrastructure,
+where participants learned about networking infrastructure,
 
 peer-to-peer applications, and how to organize community networks.
 
-We have worked very hard to make the workshop materials accessible for any person or group
+We have made the workshop materials accessible for any person or group
 
 looking to use it in their community.
 
@@ -1115,12 +1115,6 @@ http://meshwithme.online
 </div>
 
 ???
-Still on the community space:
-
-The map on the left shows both our active nodes,
-
-and the location of people willing to host nodes at home or work.
-
 At this stage, we don't have a permanent wireless link between any two nodes,
 
 so our mesh is linked through the internet. 
@@ -1193,14 +1187,16 @@ discuss peer-to-peer systems or ask about contributing to Toronto Mesh, I will b
 
 class: center, middle
 
-### _The web is for everyone and collectively we hold the power to change it. It won’t be easy. But if we dream a little and work a lot, we can get the web we want._
+### _The web is for everyone, and collectively we hold the power to change it. It won’t be easy. But if we dream a little and work a lot, we can get the web we want._
 
 ## Sir Tim Berners-Lee
 
 ???
-I will leave you with the words of Sir Tim Berners Lee on the 30th aniversary of the Web last month.
+I will leave you with the words of Sir Tim Berners Lee,
 
-The web is for anyone and collectively we hold the power to change it.
+ on the 30th aniversary of the Web last month.
+
+The web is for everyone, and collectively we hold the power to change it.
 
 It won't be easy.
 
