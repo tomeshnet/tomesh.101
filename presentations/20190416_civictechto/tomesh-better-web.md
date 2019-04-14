@@ -19,18 +19,20 @@ class: center, middle, animation-fade
   <div class="sticker-upper-region">
     <div class="sticker-hello">Hello</div>my name is
   </div>
-  <div class="sticker-name">[name goes here]</div>
+  <div class="sticker-name">Dante</div>
   <div class="sticker-lower-region"></div>
 </div>
 
 ???
-Hello! My name is [your name goes here].
+Hello! My name is Dante.
+
+I joined Toronto Mesh two years ago, and I am currently the central organization lead.
 
 ---
 
 class: center, middle
 
-<img src="img/city-hall-wifi-simplified.svg" width=20%>
+<img src="img/city-hall-wifi-simplified.svg" width=40%>
 
 # Toronto Mesh
 
@@ -99,17 +101,16 @@ The Web Today
 
 # Infrastructure
 
-<img src="img/infrastructure.svg">
+<img src="img/infrastructure.svg" style="height: 200px">
 
 ???
 Let's start with infrastructure.
 
 When I say "infrastructure" I mean everything that lives on the physical layer:
 
-
 ---
 
-class: center, middle
+class: center
 
 ## Infrastructure
 
@@ -117,7 +118,6 @@ class: center, middle
 <img src="img/infrastructure.svg" style="height: 50px">
 </div>
 
-<!-- ### The Physical Layer -->
 <div class="img-dual">
 <img src="img/cisco.gif">
 <img src="img/home-tower.gif">
@@ -154,14 +154,12 @@ Both of them may engage in filtering, censorship, and surveillance.
 
 ---
 
-class: center
+class: center, i-filtering
 
 <div class="slide-label">
 <img src="img/infrastructure.svg" style="height: 40px">
 <div>Today's Infrastructure: Filtering</div>
 </div>
-
-<img class="large-image" src="img/netflix-comcast.png">
 
 <div class="bottom-url">
 https://consumerist.com/2014/02/23/netflix-agrees-to-pay-comcast-to-end-slowdown/
@@ -172,14 +170,12 @@ Filtering may mean targeting certain kinds of traffic and slowing it down.
 
 ---
 
-class: center
+class: center, i-censorship
 
 <div class="slide-label">
 <img src="img/infrastructure.svg" style="height: 40px">
 <div>Today's Infrastructure: Censorship</div>
 </div>
-
-<img class="large-image" src="img/china-censorship-flowchart.png">
 
 <div class="bottom-url">
 https://www.visualcapitalist.com/internet-censorship-map/
@@ -196,14 +192,12 @@ Certain governments have opted for shutting down internet access altogether in t
 
 ---
 
-class: center
+class: center, i-surveillance
 
 <div class="slide-label">
 <img src="img/infrastructure.svg" style="height: 40px">
 <div>Today's Infrastructure: Surveillance</div>
 </div>
-
-<img class="large-image" src="img/isp-sell-data.png">
 
 <div class="bottom-url">
 https://arstechnica.com/tech-policy/2017/03/senate-votes-to-let-isps-sell-your-web-browsing-history-to-advertisers/
@@ -220,7 +214,7 @@ The Web Today
 
 # Services
 
-<img src="img/services.svg">
+<img src="img/services.svg" style="height:200px">
 
 ???
 Let's move on to services.
@@ -233,7 +227,7 @@ class: center, middle
 
 ## Services
 
-<img src="img/services.svg">
+<img src="img/services.svg" style="height: 50px">
 
 <div class="img-dual">
 <img src="img/cartman-ripped.gif">
@@ -304,7 +298,7 @@ https://techcrunch.com/2017/07/28/aws-wont-be-ceding-its-massive-market-share-le
 </div>
 
 ???
-Regarding centralization-
+Why is centralization a bad thing?
 
 Google, Facebook, and Amazon have come to dominate the services that support the internet.
 
@@ -320,16 +314,11 @@ Amazon controls over one third of all cloud infrastructure services. -->
 
 ---
 
-class: center
+class: center, s-centralization
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Today's Services: Centralization</div>
-</div>
-
-<div class="img-dual">
-<img class="medium-image" src="img/hoc-fake-news.png">
-<img class="small-image" src="img/facebook-ca.png">
 </div>
 
 <div class="bottom-url">
@@ -345,16 +334,11 @@ but also manipulate it whenever possible.
 
 ---
 
-class: center
+class: center, s-censorship
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Today's Services: Censorship</div>
-</div>
-
-<div class="img-dual">
-<img class="large-image" src="img/tumblr-porn-ban.png">
-<img class="large-image" src="img/facebook-ban.png">
 </div>
 
 <div class="bottom-url">
@@ -363,9 +347,11 @@ https://www.pinknews.co.uk/2019/03/14/tumblr-suffers-150-million-drop-traffic-po
 </div>
 
 ???
-I'm not going to say hate speech should be given a platform, but
+Think about the power they yield when it comes to content moderation and censorship- 
 
-we _are_ relying on businesses to dictate social norms and police our communications.
+we are relying on businesses to dictate what content should
+
+and should not be blocked, and when.
 
 ---
 
@@ -386,7 +372,7 @@ https://www.telegraph.co.uk/technology/social-media/9780565/Facebook-terms-and-c
 ???
 The same businesses that not only claim ownership of our personal data, but 
 
-also share it with governments agencies, marketing firms, researchers, and analysts.
+also share it with governments agencies and marketing firms.
 
 ---
 
@@ -414,23 +400,41 @@ The Web Tomorrow
 </div>
 
 <div class="slide-label">
-<img src="img/community.svg" style="height: 5rem">
+<img src="img/community.svg" style="height: 8rem">
 <h1><strong>Community</strong></h1>
 </div>
 
 
 ???
-Before we can begin doing any work on hardware or software,
+Before we can begin any meaningful work,
 
 we must recognize that technology has no purpose without the people using it.
 
 The key part to building a better web is our Community!
 
-It's the users who must demand and bring about change.
+---
 
-So, how do we prepare our community for tomorrow's web?
+
+class: center, middle
+
+## Community
+
+<img src="img/community.svg" style="height: 50px">
+
+<div class="img-dual">
+<img src="img/small99.gif" style="width:50%">
+<img src="img/slow-walk.gif" style="width:50%">
+</div>
+
+???
+By community, I mean any group of people: our family, our sports league,
+
+our neighbourhood, or even our city!
+
+So, how do we prepare a community for tomorrow's web?
 
 ---
+
 
 class: center, middle
 
@@ -446,7 +450,9 @@ This is us, here and now!
 ???
 First off, we need people to become aware of the issues we have seen.
 
-This may be as simple as finding out about how online services or governments routinely misuse our data.
+This may be as simple as finding out how online services
+
+and governments treat our data.
 
 --
 
@@ -494,7 +500,7 @@ class: middle, center
 </div>
 
 ???
-In order to better understand some of the technologies around infrastructure and services,
+To better understand the ideas behind tomorrow's infrastructures and services,
 
 there are three terms I need to explain.
 
@@ -527,7 +533,7 @@ Open source means the data for a given product or service is available for study
 
 This can apply to just about any area- software, hardware, or even governance.
 
-One example is the Toronto Mesh governance documents that we make public through Github. 
+One example is the governance documents that Toronto Mesh makes public through Github. 
 
 ---
 
@@ -557,7 +563,7 @@ In a peer-to-peer system, members of a group or network can communicate with one
 
 instead of relying on a centralized service.
 
-One example is RideAustin, a ride-sharing service that links riders directly to vehicle operators.
+One example is RideAustin, a ride-sharing co-op that links riders directly to vehicle operators.
 
 ---
 
@@ -593,7 +599,7 @@ Let's take a look at a couple of internet access models to see how this idea can
 
 ---
 
-class: center
+class: center, isp-monopoly
 
 <div class="slide-label">
 <img src="img/mesh-network.svg" style="height: 40px">
@@ -602,18 +608,16 @@ class: center
 
 ### Access model: ISP <> Content
 
-<img class="medium-image" src="img/data-isp-monopoly.svg">
-
 ???
 This is an over-simplified version of how we access the internet today. 
 
-We connect to an ISP, and in turn they allow us to pull content from a service provider.
+We connect to an ISP, and in turn they connect us to an content provider.
 
 What would it look like with a mesh network?
 
 ---
 
-class: center
+class: center, isp-mesh
 
 <div class="slide-label">
 <img src="img/mesh-network.svg" style="height: 40px">
@@ -622,10 +626,10 @@ class: center
 
 ### Access model: Mesh <> ISP <> Content
 
-<img class="medium-image" src="img/data-centralized.svg">
-
 ???
-This is just one option. Using a mesh network, only a few computers need to have internet access,
+This is just one option:
+
+Using a mesh network, only a few computers require an internet connection,
 
 and all of its members can still access content.
 
@@ -682,9 +686,11 @@ Two examples of community networks are Freifunk and NYCMesh.
 
 Freifunk is a non-commercial grassroots initiative to support free computer networks in Germany.
 
-NYCMesh is a non-profit project of the New York chapter of the Internet Society (ISOC-NY).
+NYCMesh is a non-profit project of the Internet Society.
 
-Having control of a network at the community level lowers the incentive for discriminating against network traffic,
+Having control of a network at the community level lowers the incentive
+
+for discriminating against network traffic,
 
 and it makes censorship and surveillance harder to implement.
 
@@ -692,7 +698,7 @@ and it makes censorship and surveillance harder to implement.
 
 class: middle, center
 
-The Web Tomorrow:
+The Web Tomorrow
 
 <div class="slide-label">
 <img src="img/community.svg" style="height: 40px">
@@ -717,7 +723,9 @@ Now, what about services? We will stop talking about services now, and instead
 
 focus on open source peer-to-peer protocols.
 
-A protocol is just a set of rules that computers in a network use to communicate with one another.
+A protocol is just a set of rules that computers in a network use
+
+to communicate with one another.
 
 ---
 
@@ -742,14 +750,12 @@ but today I will talk about two.
 
 ---
 
-class: center
+class: center, fb-publishing
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Tomorrow's Protocols: Social Networks</div>
 </div>
-
-<img class="large-image" src="img/fb-publishing.png" width=60%>
 
 <div class="bottom-url">
 https://stratechery.com/2018/the-european-union-versus-the-internet/
@@ -766,7 +772,7 @@ Can we think of another way to share our data?
 
 ---
 
-class: center
+class: center, isp-mesh
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
@@ -775,13 +781,11 @@ class: center
 
 ### Access model: Mesh <> ISP <> Content
 
-<img class="medium-image" src="img/data-centralized.svg">
-
 ???
 Let's go back to our earlier model for content access
 ---
 
-class: center
+class: center, mesh-content
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
@@ -789,8 +793,6 @@ class: center
 </div>
 
 ### Access model: Mesh + P2P Content
-
-<img class="medium-image" src="img/data-distributed.svg">
 
 ???
 Using peer-to-peer protocols, we are able to do away with centralized services
@@ -819,9 +821,9 @@ https://www.scuttlebutt.nz/
 </div>
 
 ???
-Scuttlebutt is a protocol for secure communications, on top of which different kinds of
+Scuttlebutt is a protocol for secure communications,
 
-applications can be built.
+on top of which different kinds of applications can be built.
 
 ---
 
@@ -838,39 +840,33 @@ class: center
 
 ### Offline-friendly
 
+### No central server
+
+### No central database
+
 ???
 Applications that work well offline and that no one person can control
 
---
-
-### No central server
-
-???
 Scuttlebutt clients connect to their peers to exchange information- 
 
 this means I hold my friends' data and they hold mine.
 
 Because there are no central servers, 
 
---
+it is much harder to collect data on a massive scale
 
-### No central database
+There is no "company" for a tech giant to buy, and no single database
 
-???
-It is much harder to collect data on a massive scale
-
-There is no "company" for a tech giant to buy, and no single database for governments to data mine.
+for governments to data mine.
 
 ---
 
-class: center
+class: center, patchwork
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Tomorrow's Protocols: Social Networks</div>
 </div>
-
-<img class="large-image" src="img/patchwork.png" width="75%">
 
 <div class="bottom-url">
 https://github.com/ssbc/patchwork
@@ -883,16 +879,11 @@ and this is one of them, it's called "Patchwork".
 
 ---
 
-class: center
+class: center, content-sharing
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Tomorrow's Protocols: Content Sharing</div>
-</div>
-
-<div class="img-dual">
-<img class="medium-image" src="img/cloud-storage.jpg">
-<img class="medium-image" src="img/there-is-no-cloud.png">
 </div>
 
 <div class="bottom-url">
@@ -928,18 +919,18 @@ The Interplanetary File System (or IPFS for short) is a protocol we use
 
 to host and share files. 
 
-If I share a file with a friend through IPFS, a second friend can download it from both of us at the same time.
+If I share a file with a friend through IPFS, a second friend
+
+can download it from both of us at the same time.
 
 ---
 
-class: center
+class: center, our-networks
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Tomorrow's Protocols: Content Sharing</div>
 </div>
-
-<img class="large-image" src="img/ournetworks-talks.png">
 
 <div class="bottom-url">
 https://ournetworks.ca/recorded-talks/
@@ -950,14 +941,12 @@ IPFS is being used to share talks recorded during last year's Our Networks confe
 
 ---
 
-class: center
+class: center, ipfs-desktop
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
 <div>Tomorrow's Protocols: Content Sharing</div>
 </div>
-
-<img class="large-image" src="img/ipfs-explore.png">
 
 <div class="bottom-url">
 https://github.com/ipfs-shipyard/ipfs-desktop
@@ -970,16 +959,11 @@ Here is a screenshot of an IPFS Desktop app. It allows you to share and download
 
 ---
 
-class: center
+class: center, ipfs-content
 
 <div class="slide-label">
 <img src="img/services.svg" style="height: 40px">
-<div>Tomorrow's Services: Content Sharing</div>
-</div>
-
-<div class="img-dual">
-<img class="large-image" src="img/ipfs-apollo.png">
-<img src="img/ipfs-batman.png" width=40%>
+<div>Tomorrow's Protocols: Content Sharing</div>
 </div>
 
 ???
@@ -1003,7 +987,7 @@ So, where does Toronto Mesh fit in?
 
 ---
 
-class: center
+class: center, hardware
 
 <div class="slide-label">
 <img src="img/city-hall-wifi-simplified.svg" style="height: 40px">
@@ -1011,19 +995,16 @@ class: center
 <div>Toronto Mesh: Infrastructure</div>
 </div>
 
-<div class="img-dual">
-<img class="large-image" src="img/mesh-node-models.png">
-<img class="large-image" src="img/radio-test.jpg">
-</div>
-
 <div class="bottom-url">
 https://github.com/tomeshnet/prototype-cjdns-pi
 </div>
 
 ???
-For infrastructure, 
+I'll start with infrastructure- 
 
-we have developed a reference platform that people can use to build or join a mesh network.
+we have developed a platform using with open source software,
+
+that people can use as as a reference to build a mesh network.
 
 On the hardware side, a Toronto Mesh node consists of a single board computer 
 
@@ -1084,15 +1065,16 @@ We hold monthly meetups where we bring together people looking to join a network
 
 and help them better understand the technology of our node platform.
 
+Free Geek Toronto deserves a shout out-
+
+they have been hosting meetups for over a year now. 
+
 Last year, we conducted a six-week course at Fort York Library, 
 
 where participants learned about networking infrastructure,
 
 peer-to-peer applications, and how to organize community networks.
 
-We have made the workshop materials accessible for any person or group
-
-looking to use it in their community.
 
 ---
 
@@ -1150,7 +1132,7 @@ class: center, middle
 ???
 Maybe you can help us grow awareness around peer-to-peer networks
 
-and the alternatives to centralized systems that exist today.
+and alternatives to centralized systems.
 
 --
 
@@ -1178,10 +1160,6 @@ on both hardware and software.
 We also have a healthy backlog of design-related tasks, from branding and website design
 
 to stickers and educational materials.
-
-I have brought a couple of nodes with me today- if anyone wants to play with them,
-
-discuss peer-to-peer systems or ask about contributing to Toronto Mesh, I will be around.
 
 ---
 
@@ -1219,4 +1197,10 @@ class: center, middle
 ### <i class="fab fa-twitter"></i> @tomeshnet
 
 ???
+I have brought a couple of nodes with me today- if anyone wants to play with them,
+
+discuss peer-to-peer systems or ask about contributing to Toronto Mesh, I will be around.
+
+If you want to reach out afterwards, hop on our chat channel and say hi.
+
 Thank you!

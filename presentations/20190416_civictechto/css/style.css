@@ -102,7 +102,7 @@ div.remark-slide-scaler {
 
 .services-grid {
   margin-top: 2rem;
-  font-size: 4rem;
+  font-size: 5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 2rem;
@@ -161,4 +161,94 @@ div.remark-slide-scaler {
   bottom: 0.6rem;
   left: 1rem;
   font-size: 0.8rem;
+}
+
+div.remark-slide-content.i-filtering {
+  background-image: url("../img/netflix-comcast.png");
+  background-size: 80%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.i-censorship {
+  background-image: url("../img/china-censorship-flowchart.png");
+  background-size: 58%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.i-surveillance {
+  background-image: url("../img/isp-sell-data.png");
+  background-size: 80%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.s-centralization {
+  background-image: url("../img/hoc-fakenews.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.s-censorship {
+  background-image: url("../img/s-censorship.png");
+  background-size: 80%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.isp-monopoly {
+  background-image: url("../img/data-isp-monopoly.svg");
+  background-size: 80%;
+  background-position: 50% 80%;
+}
+
+div.remark-slide-content.isp-mesh {
+  background-image: url("../img/data-centralized.svg");
+  background-size: 80%;
+  background-position: 50% 80%;
+}
+
+div.remark-slide-content.mesh-content {
+  background-image: url("../img/data-distributed.svg");
+  background-size: 80%;
+  background-position: 50% 80%;
+}
+
+div.remark-slide-content.fb-publishing {
+  background-image: url("../img/fb-publishing.png");
+  background-size: 60%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.patchwork {
+  background-image: url("../img/patchwork.png");
+  background-size: 65%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.content-sharing {
+  background-image: url("../img/content-sharing.png");
+  background-size: 90%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.our-networks {
+  background-image: url("../img/ournetworks-talks.png");
+  background-size: 60%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.ipfs-desktop {
+  background-image: url("../img/ipfs-desktop.png");
+  background-size: 80%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.ipfs-content {
+  background-image: url("../img/ipfs-content.png");
+  background-size: 90%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.hardware {
+  background-image: url("../img/hardware.png");
+  background-size: 100%;
+  background-position: 50% 50%;
 }
