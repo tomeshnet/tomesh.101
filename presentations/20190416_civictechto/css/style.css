@@ -252,3 +252,15 @@ div.remark-slide-content.hardware {
   background-size: 100%;
   background-position: 50% 50%;
 }
+
+div.remark-slide-content.tomesh-events {
+  background-image: url("../img/tomesh-events.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.tomesh-networks {
+  background-image: url("../img/tomesh-networks.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}

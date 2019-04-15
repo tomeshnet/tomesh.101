@@ -5,7 +5,7 @@ layout: true
 
 ---
 
-class: center, middle, animation-fade
+class: center, middle
 
 # Toronto Mesh
 
@@ -13,7 +13,7 @@ class: center, middle, animation-fade
 
 ---
 
-class: center, middle, animation-fade
+class: center, middle
 
 <div class="sticker">
   <div class="sticker-upper-region">
@@ -1042,15 +1042,12 @@ The screenshot on the right shows the landing page for one of the nodes I have r
 
 ---
 
+class: tomesh-events
+
 <div class="slide-label">
 <img src="img/city-hall-wifi-simplified.svg" style="height: 40px">
 <img src="img/community.svg" style="height: 40px">
 <div>Toronto Mesh: Community</div>
-</div>
-
-<div class="img-dual">
-<img class="large-image" src="img/tomesh-meetup.png">
-<img class="large-image" src="img/tomesh-p2p-workshop.png">
 </div>
 
 <div class="bottom-url">
@@ -1078,17 +1075,12 @@ peer-to-peer applications, and how to organize community networks.
 
 ---
 
-class: center
+class: center, tomesh-networks
 
 <div class="slide-label">
 <img src="img/city-hall-wifi-simplified.svg" style="height: 40px">
 <img src="img/community.svg" style="height: 40px">
 <div>Toronto Mesh: Community</div>
-</div>
-
-<div class="img-dual">
-<img class="large-image" src="img/tomesh-map.png">
-<img class="large-image" src="img/node-map.png">
 </div>
 
 <div class="bottom-url">
