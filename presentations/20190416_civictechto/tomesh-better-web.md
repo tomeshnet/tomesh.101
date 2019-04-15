@@ -342,8 +342,8 @@ class: center, s-censorship
 </div>
 
 <div class="bottom-url">
-https://www.cbc.ca/news/politics/facebook-faith-goldy-ban-alt-right-1.5088827 </br>
-https://www.pinknews.co.uk/2019/03/14/tumblr-suffers-150-million-drop-traffic-porn-ban/
+https://www.pinknews.co.uk/2019/03/14/tumblr-suffers-150-million-drop-traffic-porn-ban/ </br>
+https://www.businessinsider.com/flemish-museums-mocked-facebook-for-censoring-peter-paul-rubens-nudes-2018-7
 </div>
 
 ???
