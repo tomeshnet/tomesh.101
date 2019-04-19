@@ -1,0 +1,266 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+.remark-container {
+  background: #000
+}
+
+div.remark-slide-content {
+  background-color: rgb(27, 24, 24);
+  color: #ddd;
+}
+
+div.remark-slide-content>h1, h2, h3 {
+  letter-spacing: 2px;
+}
+
+div.remark-slide-scaler {
+  -moz-box-shadow: initial;
+  -webkit-box-shadow: intial;
+  box-shadow: initial;
+}
+
+.sticker {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #b22;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+
+.sticker-upper-region {
+  color: white;
+}
+
+.sticker-hello {
+  font-size: 5rem;
+}
+
+.sticker-name {
+  background-color: white;
+  color: black;
+  margin: 2%;
+  font-size: 4rem;
+  line-height: 8rem;
+}
+
+.sticker-lower-region {
+  color: white;
+  font-size: 1.6rem;
+  height: 2rem;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 1rem;
+}
+
+.tiny-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.img-dual {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-right {
+  position: relative;
+  top: -30vh;
+  left: 40vh;
+}
+
+.large-image {
+  height: auto;
+  width: auto;
+  max-height: 50vh;
+  margin-bottom: 0;
+}
+
+.medium-image {
+  height: auto;
+  width: auto;
+  max-height: 40vh;
+  margin-bottom: 0;
+}
+
+.small-image {
+  height: auto;
+  width: auto;
+  max-height: 25vh;
+  margin-bottom: 0;
+}
+
+.services-grid {
+  margin-top: 2rem;
+  font-size: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+}
+
+.services-grid > p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fab {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: block;
+}
+
+.huge-icon {
+  font-size: 15rem;
+  margin: 4rem;
+}
+
+.centralized {
+  margin-top: 10%;
+  font-size: 3rem;
+}
+
+.slide-label {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.animation-fade {
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out
+}
+
+.remark-visible .animation-fade {
+  animation-name: fadeIn
+}
+
+.bottom-url {
+  text-align: left;
+  position: absolute;
+  bottom: 0.6rem;
+  left: 1rem;
+  font-size: 0.8rem;
+}
+
+div.remark-slide-content.i-filtering {
+  background-image: url("../img/netflix-comcast.png");
+  background-size: 80%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.i-censorship {
+  background-image: url("../img/china-censorship-flowchart.png");
+  background-size: 58%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.i-surveillance {
+  background-image: url("../img/isp-sell-data.png");
+  background-size: 80%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.s-centralization {
+  background-image: url("../img/hoc-fakenews.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.s-censorship {
+  background-image: url("../img/s-censorship.png");
+  background-size: 85%;
+  background-position: 50% 55%;
+}
+
+div.remark-slide-content.isp-monopoly {
+  background-image: url("../img/data-isp-monopoly.svg");
+  background-size: 80%;
+  background-position: 50% 80%;
+}
+
+div.remark-slide-content.isp-mesh {
+  background-image: url("../img/data-centralized.svg");
+  background-size: 80%;
+  background-position: 50% 80%;
+}
+
+div.remark-slide-content.mesh-content {
+  background-image: url("../img/data-distributed.svg");
+  background-size: 80%;
+  background-position: 50% 80%;
+}
+
+div.remark-slide-content.fb-publishing {
+  background-image: url("../img/fb-publishing.png");
+  background-size: 60%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.patchwork {
+  background-image: url("../img/patchwork.png");
+  background-size: 65%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.content-sharing {
+  background-image: url("../img/content-sharing.png");
+  background-size: 90%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.our-networks {
+  background-image: url("../img/ournetworks-talks.png");
+  background-size: 60%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.ipfs-desktop {
+  background-image: url("../img/ipfs-desktop.png");
+  background-size: 80%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.ipfs-content {
+  background-image: url("../img/ipfs-content.png");
+  background-size: 90%;
+  background-position: 50% 60%;
+}
+
+div.remark-slide-content.hardware {
+  background-image: url("../img/hardware.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.tomesh-events {
+  background-image: url("../img/tomesh-events.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+div.remark-slide-content.tomesh-networks {
+  background-image: url("../img/tomesh-networks.png");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
