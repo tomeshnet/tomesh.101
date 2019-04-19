@@ -19,14 +19,11 @@ class: center, middle
   <div class="sticker-upper-region">
     <div class="sticker-hello">Hello</div>my name is
   </div>
-  <div class="sticker-name">Dante</div>
+  <div class="sticker-name">Bob</div>
   <div class="sticker-lower-region"></div>
 </div>
 
 ???
-Hello! My name is Dante.
-
-I joined Toronto Mesh two years ago, and I am currently the central organization lead.
 
 ---
 
