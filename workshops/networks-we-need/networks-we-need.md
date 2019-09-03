@@ -111,8 +111,8 @@ class: center
 </div>
 
 <div class="img-dual">
-<img src="img/cisco.gif">
-<img src="img/home-tower.gif">
+<img src="https://github.com/tomeshnet/tomesh.101/raw/master/presentations/20190416_civictechto/img/cisco.gif">
+<img src="https://github.com/tomeshnet/tomesh.101/raw/master/presentations/20190416_civictechto/img/home-tower.gif">
 </div>
 
 ???
@@ -204,8 +204,8 @@ class: center, middle
 <img src="img/services.svg" style="height: 50px">
 
 <div class="img-dual">
-<img src="img/cartman-ripped.gif">
-<img src="img/butters-decline.gif">
+<img src="https://github.com/tomeshnet/tomesh.101/raw/master/presentations/20190416_civictechto/img/cartman-ripped.gif">
+<img src="https://github.com/tomeshnet/tomesh.101/raw/master/presentations/20190416_civictechto/img/butters-decline.gif">
 </div>
 
 ???
@@ -367,8 +367,8 @@ class: center
 <img src="img/community.svg" style="height: 50px">
 
 <div class="img-dual">
-<img src="img/small99.gif" style="width:50%">
-<img src="img/slow-walk.gif" style="width:50%">
+<img src="https://github.com/tomeshnet/tomesh.101/raw/master/presentations/20190416_civictechto/img/small99.gif" style="width:50%">
+<img src="https://github.com/tomeshnet/tomesh.101/raw/master/presentations/20190416_civictechto/img/slow-walk.gif" style="width:50%">
 </div>
 
 ???
