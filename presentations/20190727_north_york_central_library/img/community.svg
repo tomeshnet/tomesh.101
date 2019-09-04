@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="community" width="100px" height="100px">
+  <clipPath id="clip">
+    <circle cx="50" cy="50" r="48"/>
+  </clipPath>
+  <circle class="icon-bg" cx="50" cy="50" r="50"/>
+  
+  <circle class="icon-outline" cx="50" cy="50" r="49"/>
+  
+<circle class="person" cx="50" cy="38" r="8"/>
+  <path class="person" d="M 65 61 A 5 5 0 0 0 35 61 Z"/>
+  
+    <circle class="person" cx="25" cy="18" r="8"/>
+  <path class="person" d="M 40 41 A 5 5 0 0 0 10 41 Z"/>
+  
+  <circle class="person" cx="75" cy="18" r="8"/>
+  <path class="person" d="M 90 41 A 3 3 0 0 0 60 41 Z"/>
+  
+    <circle class="person" cx="25" cy="60" r="8"/>
+  <path class="person" d="M 40 83 A 5 5 0 0 0 10 83 Z" clip-path="url(#clip)"/>
+  
+  <circle class="person" cx="75" cy="60" r="8"/>
+  <path class="person" d="M 90 83 A 3 3 0 0 0 60 83 Z" clip-path="url(#clip)"/>
+
+
+  <style type="text/css">
+    circle.icon-outline {
+    stroke: #fff;
+    stroke-width: 2px;
+    fill: none;
+    }
+    
+    circle.icon-bg {
+    fill: #cee;
+    }
+
+    circle.person {
+    fill: #444;
+    stroke: none;
+    }
+
+    path.person {
+    fill: #444;
+    stoke: none;
+    }
+  </style>
+
+  </svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="infra" width="100px" height="100px">
+    <!-- <view id="tightcrop" viewBox="4.5 1.5 51 49" /> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"> -->
+    <clipPath id="clip1">
+        <circle cx="50" cy="50" r="48"/>
+    </clipPath>
+    <circle class="icon-bg" cx="50" cy="50" r="50"/>
+    <circle class="icon-outline" cx="50" cy="50" r="49"/>
+    <path d="M -10, 45 L 45, 45 L 45, 30 L 55, 30 L 55, 45 L 110 45 L 110 55
+                                 L 75 55 L 75 70 L 65 70 L 65 55 L 35 55 L 35 70 L 25 70 L 25 55
+                                 L -10 55 Z" clip-path="url(#clip1)"/>
+    <rect class="outline" width="28" height="20" x="36" y="15" rx="2" ry="2"/>
+    <rect class="monitor" width="20" height="12" x="40" y="19" rx="2" ry="2"/>
+    <rect class="outline" width="28" height="20" x="56" y="64" rx="2" ry="2"/>
+    <rect class="monitor" width="20" height="12" x="60" y="68" rx="2" ry="2"/>
+    <rect class="outline" width="28" height="20" x="16" y="64" rx="2" ry="2"/>
+    <rect class="monitor" width="20" height="12" x="20" y="68" rx="2" ry="2"/>
+
+    <style type="text/css">
+    circle.icon-outline {
+    stroke: #fff;
+    stroke-width: 2px;
+    fill: none;
+    }
+    
+    circle.icon-bg {
+    fill: #cee;
+    }
+
+    path {
+        fill: #222;
+    }
+    
+    rect.outline {
+        fill: #222;
+    }
+    
+    rect.monitor {
+        fill: #ddd;
+    }
+    
+    </style>
+</svg>

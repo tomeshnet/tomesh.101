@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ones-zeros" width="100px" height="100px">
+  <clipPath id="clip">
+    <circle cx="50" cy="50" r="48"/>
+  </clipPath>
+  <circle class="icon-bg" cx="50" cy="50" r="50"/> 
+  <circle class="icon-outline" cx="50" cy="50" r="49"/>
+  <text x="-10" y="10" class="heavy" clip-path="url(#clip)">1010010111</text>
+  <text x="-10" y="30" class="heavy" clip-path="url(#clip)">1010110100</text>
+  <text x="-10" y="50" class="heavy" clip-path="url(#clip)">11110101110</text>
+  <text x="-10" y="70" class="heavy" clip-path="url(#clip)">10101010101</text>
+  <text x="-10" y="90" class="heavy" clip-path="url(#clip)">1011000011</text>
+  <text x="-10" y="110" class="heavy" clip-path="url(#clip)">101001011</text>
+
+    <style type="text/css">
+    circle.icon-outline {
+    stroke: #fff;
+    stroke-width: 2px;
+    fill: none;
+    }
+    
+    circle.icon-bg {
+    fill: #cee;
+    }
+
+    text {
+      font: bold 1.2rem sans-serif;
+      fill: #222;
+    }
+    
+    </style>
+</svg>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="527.14288" height="510" id="svg2">
+  <defs id="defs4">
+    <linearGradient id="linearGradient4105">
+      <stop style="stop-color:#205c32;stop-opacity:1" offset="0" id="stop4107"/>
+      <stop style="stop-color:#3fb662;stop-opacity:1" offset="1" id="stop4109"/>
+    </linearGradient>
+    <linearGradient x1="287.75537" y1="383.62106" x2="228.63454" y2="448.85025" id="linearGradient5194" xlink:href="#linearGradient4105" gradientUnits="userSpaceOnUse" gradientTransform="translate(88.428567,-33.92352)"/>
+  </defs>
+  <g transform="translate(-86.428574,-97.362183)" id="layer1">
+    <g transform="translate(-0.7142792,-10.714294)" id="g5116">
+      <path d="M 398.42786 383.07648 A 47.713566 47.713566 0 1 1  303.00073,383.07648 A 47.713566 47.713566 0 1 1  398.42786 383.07648 z" transform="translate(-1.2857143,142)" style="opacity:1;fill:url(#linearGradient5194);fill-opacity:1;fill-rule:evenodd;stroke:#fff;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path3134"/>
+      <use transform="translate(0,-320)" id="use4123" x="0" y="0" width="744.09448" height="1052.3622" xlink:href="#path3134"/>
+      <g id="g7178">
+        <use transform="translate(-315.85713,0)" id="use4127" x="0" y="0" width="744.09448" height="1052.3622" xlink:href="#use4125"/>
+        <use transform="translate(-1.5039466e-8,176)" id="use4131" x="0" y="0" width="744.09448" height="1052.3622" xlink:href="#use4127"/>
+        <path d="M 192.00001,327.21935 L 192.00001,404.3622" style="fill:none;fill-rule:evenodd;stroke:#fff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path6170"/>
+      </g>
+      <g transform="translate(-3.4285714,0)" id="g7173">
+        <use transform="translate(159.28571,73.428571)" id="use4125" x="0" y="0" width="744.09448" height="1052.3622" xlink:href="#use4123"/>
+        <use transform="translate(0,176)" id="use4129" x="0" y="0" width="744.09448" height="1052.3622" xlink:href="#use4125"/>
+        <use transform="translate(315.85713,0.5714286)" id="use7143" x="0" y="0" width="527.14288" height="510" xlink:href="#path6170"/>
+      </g>
+      <use transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,207.57303,849.7684)" id="use7165" x="0" y="0" width="527.14288" height="510" xlink:href="#path6170"/>
+      <use transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,213.00672,849.3945)" id="use7169" x="0" y="0" width="527.14288" height="510" xlink:href="#use7165"/>
+    </g>
+    <path d="M 239.46667,267.99153 L 456.64947,267.99153" style="fill:none;fill-rule:evenodd;stroke:#fff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path8174"/>
+    <path d="M 215.40413,308.8621 L 313.09865,478.07397" style="fill:none;fill-rule:evenodd;stroke:#fff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="use10122"/>
+  </g>
+</svg>
