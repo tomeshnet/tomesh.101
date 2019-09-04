@@ -2,11 +2,8 @@
 
 ## Summary
 
+- Toronto Mesh was invited to present at North York Central Library for one of their Monthly Tech Meet-Ups hosted by the Digital Innovation Hub.
 - The presentation introduced attendees to peer-to-peer networks and Toronto Mesh, and ended with a guided tour of Patchwork and IPFS Desktop.
-
-## Location
-
-- This talk took place at North York Central Library, and was hosted by their Digital Innovation Hub.
 
 ## Setup
 
@@ -41,5 +38,3 @@
 ### Follow-up
 
 - The library would like to have us over again, and they would be open to hosting a course as well (we could aim for fall/winter of 2020 to prepare a curriculum together).
-
-\- Dante
