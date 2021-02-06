@@ -24,4 +24,4 @@
 
 ## Follow-up
 
-- I requested that the 25 attendee limit be adjusted to unlimited after the event so anyone who logs into Crowdcast can watch a replay.
+- The 25 attendee limit was adjusted to unlimited after the event so anyone who logs into Crowdcast can watch a replay.
