@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+
+   <defs>
+      <linearGradient id="green-red">
+        <stop offset="0%" stop-color="#030"/>
+        <stop offset="100%" stop-color="#300"/>
+      </linearGradient>
+    </defs>
+
+    <style>
+        .node {
+            fill: rgb(27, 24, 24);
+            stroke: #888;
+            stroke-width: 2px;
+        }
+
+        .node-highlight {
+            fill: #ddd;
+            stroke: #ddd;
+            stroke-width: 2px;
+            rx: 10px;
+        }
+
+        .node-text {
+            fill: #ddd;
+            font-family: Arial;
+        }
+
+        .node-highlight-text {
+            fill: #000;
+            font-family: Arial;
+        }
+
+        .not-owned {
+            fill: #300;
+            stroke: #822;
+            stroke-width: 2px;
+        }
+        .owned {
+            fill: #030;
+            stroke: #282;
+            stroke-width: 2px;
+        }
+        .half-owned {
+            fill: url(#green-red);
+            stroke: url(#green-red);
+            stroke-width: 2px;
+        }
+    </style>
+
+    <circle r="10" cx="30" cy="410" class="owned"/>
+    <text x="50" y="415" class="node-text">User-owned</text>
+
+    <circle r="10" cx="220" cy="410" class="not-owned"/>
+    <text x="240" y="415" class="node-text">Not user-owned</text>
+
+    <g id="wires">
+        <rect class="node" x="10" y="210" width="780" height="180" style="fill: black;"/>
+        <text class="node-text" x="15" y="380" >Wires</text>
+
+        <g id="home-network">
+            <rect class="node" width="370" height="120" x="20" y="230" />
+            <text class="node-text" x="30" y="340">Home network</text>
+
+            <g id="personal-computer">
+                <rect class="node owned" width="50" height="50" x="30" y="250" />
+                <text class="node-text" x="45" y="280">PC</text>
+            </g>
+
+            <g id="access-point">
+                <rect class="half-owned" width="50" height="50" x="90" y="250"/>
+                <text class="node-text" x="105" y="280">AP</text>
+            </g>
+
+            <g id="switch">
+                <rect class="half-owned" width="65" height="50" x="150" y="250"/>/>
+                <text class="node-text" x="160" y="280">Switch</text>
+            </g>
+
+            <g id="router">
+                <rect class="half-owned" width="65" height="50" x="225" y="250" />
+                <text class="node-text" x="235" y="280">Router</text>
+            </g>
+
+            <g id="modem">
+                <rect class="half-owned" width="70" height="50" x="300" y="250" />
+                <text class="node-text" x="310" y="280">Modem</text>
+            </g>
+        </g>
+
+        <g id="isp-networks">
+            <rect class="node not-owned" width="200" height="120" x="390" y="230" />
+            <text class="node-text" x="445" y="280">ISP networks</text>
+        </g>
+
+        <g id="facebook-network">
+            <rect class="node not-owned" width="190" height="120" x="590" y="230" />
+            <text class="node-text" x="625" y="280">Facebook network</text>
+        </g>
+    </g>
+
+    <g id="apps">
+        <rect class="node" x="10" y="10" width="780" height="200" style="fill: black;"/>
+        <text class="node-text" x="18" y="200">Apps</text>
+
+        <g id="comm-protocols">
+            <rect class="node" width="460" height="50" x="180" y="150" />
+            <text class="node-text" x="330" y="180">Communication protocols</text>
+        </g>
+        <g id="data">
+            <rect class="node" width="460" height="70" x="180" y="30" />
+            <text class="node-text" x="390" y="70">Data</text>
+        </g>
+        <g id="client">
+            <rect class="not-owned" width="230" height="50" x="180" y="100" />
+            <text class="node-text" x="275" y="133">Client</text>
+        </g>
+        <g id="server">
+            <rect class="not-owned" width="230" height="50" x="410" y="100" />
+            <text class="node-text" x="500" y="133">Server</text>
+        </g>
+
+    </g>
+
+</svg>
