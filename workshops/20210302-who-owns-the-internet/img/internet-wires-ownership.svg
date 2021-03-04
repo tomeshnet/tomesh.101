@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
 
    <defs>
-      <linearGradient id="green-red">
-        <stop offset="0%" stop-color="#030"/>
-        <stop offset="100%" stop-color="#300"/>
+      <linearGradient id="blue-orange">
+        <stop offset="0%" stop-color="#22a"/>
+        <stop offset="40%" stop-color="#22a"/>
+        <stop offset="100%" stop-color="#d60"/>
       </linearGradient>
     </defs>
 
@@ -22,7 +23,7 @@
         }
 
         .node-text {
-            fill: #ddd;
+            fill: #fff;
             font-family: Arial;
         }
 
@@ -32,18 +33,18 @@
         }
 
         .not-owned {
-            fill: #300;
-            stroke: #822;
+            fill: #d60;
+            stroke: #b55;
             stroke-width: 2px;
         }
         .owned {
-            fill: #030;
-            stroke: #282;
+            fill: #22a;
+            stroke: #66b;
             stroke-width: 2px;
         }
         .half-owned {
-            fill: url(#green-red);
-            stroke: url(#green-red);
+            fill: url(#blue-orange);
+            stroke: url(#blue-orange);
             stroke-width: 2px;
         }
     </style>

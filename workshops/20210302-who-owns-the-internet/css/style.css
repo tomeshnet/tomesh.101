@@ -63,10 +63,20 @@ div.remark-slide-content.contact a {
   left: 0;
 }
 
+.breadcrumbs-crowdcast {
+  position: absolute;
+  bottom: 12vh;
+  left: 0;
+}
+
 .v-breadcrumbs {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 20vw;
   margin-bottom: 1rem;
+}
+
+.facebook-tracking h3 {
+  line-height: 1.6rem;
 }

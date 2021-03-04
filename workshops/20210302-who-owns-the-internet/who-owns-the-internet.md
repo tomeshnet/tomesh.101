@@ -120,6 +120,8 @@ class: center, middle
 
 # The physical: the "wires"
 
+<captioned-image img-file="img/antenna.jpg" img-width="16" float="right" caption="Antennas on Towers by julianq, licensed under CC BY-SA 3.0"></captioned-image>
+
 ## - Desktop computer
 ## - Submarine cables
 ## - Cell phone tower
@@ -127,6 +129,8 @@ class: center, middle
 ---
 
 # The digital: the "apps"
+
+<captioned-image img-file="img/software.jpg" img-width="24" float="right" caption="Day 15 - Software by dnwallace is licensed under CC BY 2.0"></captioned-image>
 
 ## - Mobile app
 ## - Operating system
@@ -143,7 +147,8 @@ We'll start our journey with the wires.
 
 # My home network
 
-![Home network map](img/home-network.png)
+<captioned-image img-file="img/home-network.png" img-width="40"></captioned-image>
+<!-- ![Home network map](img/home-network.png) -->
 
 ???
 Our first stop is inside our home network.
@@ -152,36 +157,44 @@ class: crumb-parent
 
 ## My Computer
 
-<captioned-image img-file="img/laptop.jpg" caption="By Kristoferb at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=37189521" img-width="24" float="right"></captioned-image>
+<captioned-image img-file="img/laptop.jpg" caption="By Kristoferb at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=37189521" img-width="18" float="right"></captioned-image>
 
 ### Sends and receives data to and from the switch or access point
 
-<img class="breadcrumbs" src="img/wires-crumbs-pc.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-pc.svg">
 
 ???
 This computer may be a desktop, laptop, or a smartphone.
+
 It is responsible for sending and receiving data to and from a network.
 
 Your personal computer is the point of entry to the Internet.
-When you click the "Like" button under a post, the computer assembles a packet of data and send it out through its network card.
 
-This packet of data will contain the recipient (facebook) and the payload (such as "user so-and-so has clicked this post").
+When you click the "Like" button under a post, the computer assembles a packet
+
+of data and send it out through its network card.
+
+This packet of data will contain the recipient (facebook) and the payload
+
+(such as "user so-and-so has clicked this post").
 
 ---
 ## Access Point (AP)
 
-<captioned-image img-file="img/access-point.jpg" caption="Macic7 at English Wikipedia, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" img-width="24" float="right"></captioned-image>
+<captioned-image img-file="img/access-point.jpg" caption="Macic7 at English Wikipedia, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" img-width="18" float="right"></captioned-image>
 <!-- https://commons.wikimedia.org/wiki/File:Linksys_WAP54G.JPG -->
 
 ### Allows WiFi devices to join a Local Area Network (LAN)
 
-<img class="breadcrumbs" src="img/wires-crumbs-ap.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-ap.svg">
 
 ???
 A combination of a radio and antenna
 
 If your home network contains WiFi, this is the device that makes it possible.
+
 You can have multiple access points in a network.
+
 This devices receives the data packet from your computer and sends it to the switch.
 
 ---
@@ -192,7 +205,7 @@ This devices receives the data packet from your computer and sends it to the swi
 
 ### Allows devices inside a network to connect to each other
 
-<img class="breadcrumbs" src="img/wires-crumbs-switch.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-switch.svg">
 
 ???
 A device with many network ports
@@ -200,11 +213,11 @@ A device with many network ports
 ---
 ## Router
 
-<captioned-image img-file="img/router.png" caption="https://eu.dlink.com/uk/en/products/di-604-4-port-broadband-router" img-width="24" float="right"></captioned-image>
+<captioned-image img-file="img/router.png" caption="https://eu.dlink.com/uk/en/products/di-604-4-port-broadband-router" img-width="18" float="right"></captioned-image>
 
 ### Moves data between networks
 
-<img class="breadcrumbs" src="img/wires-crumbs-router.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-router.svg">
 
 ???
 It connects your LAN to the rest of the Internet
@@ -212,18 +225,20 @@ It connects your LAN to the rest of the Internet
 ---
 ## Modem
 
-<captioned-image img-file="img/modem.jpg" caption="By Heidas - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=63436" img-width="20" float="right"></captioned-image>
+<captioned-image img-file="img/modem.jpg" caption="By Heidas - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=63436" img-width="14" float="right"></captioned-image>
 
 ### Converts digital data into an analog signal
 
 ### _DSL: Digital Subscriber Line_
 
-<img class="breadcrumbs" src="img/wires-crumbs-modem.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-modem.svg">
 
 ???
 Found in cable- or DSL-based connections
-A device for different kinds of cables 
-Converts the digital data from a computer (or router) into an analog signal suitable for a transmission medium (like telephone lines)
+
+Converts the digital data from a computer (or router) into an analog signal
+
+suitable for a transmission medium (like telephone lines)
 
 ---
 class: router-modem
@@ -255,7 +270,7 @@ Do you know if you own them?
 ---
 # The ISP network
 
-<captioned-image img-file="img/isp-network.png" caption="" img-width="55"></captioned-image>
+<captioned-image img-file="img/isp-network.png" caption="" img-width="50"></captioned-image>
 
 ???
 The next stop is the ISP network
@@ -266,7 +281,7 @@ The next stop is the ISP network
 
 ### Connects you to the rest of the Internet
 
-<img class="breadcrumbs" src="img/wires-crumbs-isp.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-isp.svg">
 
 ???
 The company you subscribe to (Rogers/Bell/Teksavvy)
@@ -278,12 +293,12 @@ These are sometimes called "last mile" providers
 ---
 ## ISP Tiers
 
-<captioned-image img-file="img/isps.png" caption="Ludovic.ferre, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" img-width="32" white-bg="true" float="right"></captioned-image>
+<captioned-image img-file="img/isps.png" caption="Ludovic.ferre, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" img-width="24" white-bg="true" float="right"></captioned-image>
 <!-- https://commons.wikimedia.org/wiki/File:Internet_Connectivity_Distribution_%26_Core.svg -->
 
 ### Move data between large networks
 
-<img class="breadcrumbs" src="img/wires-crumbs-isp-tiers.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-isp-tiers.svg">
 
 ???
 Traffic beyond a home ISP travels through a tiered structure.
@@ -301,7 +316,7 @@ This is a map of submarine cables around the world.
 ---
 class: middle
 
-<captioned-image img-file="img/big-tech-cables.png" img-width="50"></captioned-image>
+<captioned-image img-file="img/big-tech-cables.png" img-width="40"></captioned-image>
 
 ???
 And this one actually says which big tech companies own such cables
@@ -309,11 +324,11 @@ And this one actually says which big tech companies own such cables
 ---
 ## Server computer
 
-<captioned-image img-file="img/datacentre.jpg" caption="IMarcoHerrera, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" img-width="30" float="right"></captioned-image>
+<captioned-image img-file="img/datacentre.jpg" caption="IMarcoHerrera, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" img-width="18" float="right"></captioned-image>
 
 ### Receives and processes data from users
 
-<img class="breadcrumbs" src="img/wires-crumbs-server.svg">
+<img class="breadcrumbs-crowdcast" src="img/wires-crumbs-server.svg">
 
 ???
 After going through the ISP network, the packet finally arrives
@@ -339,7 +354,7 @@ Let's take a look at the apps now.
 
 <captioned-image img-file="img/apps-crumbs-protocols.svg" float="right" img-width="16"></captioned-image>
 
-<captioned-image img-file="img/protocols.jpg" caption="http://gumuskaya.com/images/tcp-ip.jpg" img-width="14"></captioned-image>
+<captioned-image img-file="img/protocols.jpg" caption="http://gumuskaya.com/images/tcp-ip.jpg" img-width="12"></captioned-image>
 
 <!-- <img class="v-breadcrumbs" src="img/apps-crumbs-protocols.svg"> -->
 
@@ -404,7 +419,7 @@ Next time someone loads that post, they will be able to see you liked it.
 ---
 ## The Internet: All together now
 
-<captioned-image img-file="img/internet-all-together.svg" img-width="50"></captioned-image>
+<captioned-image img-file="img/internet-all-together.svg" img-width="40"></captioned-image>
 
 ???
 
@@ -416,7 +431,7 @@ class: center, middle
 ---
 ## Who owns the wires?
 
-<captioned-image img-file="img/internet-wires-ownership.svg" img-width="50"></captioned-image>
+<captioned-image img-file="img/internet-wires-ownership.svg" img-width="40"></captioned-image>
 
 ???
 
@@ -445,6 +460,10 @@ Tell a story where the infrastructure extracts from the quality of life of futur
 ---
 ## Government
 
+<captioned-image img-file="img/parliament.jpg" caption="Coolcaesar, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" img-width="20" float="right"></captioned-image>
+<!-- https://commons.wikimedia.org/wiki/File:Parliamenthill.jpg -->
+
+
 ### Foster competition
 
 ### Operate or manage ISPs
@@ -453,10 +472,11 @@ Tell a story where the infrastructure extracts from the quality of life of futur
 
 ### Block Internet access
 
+
 ---
 ## Who owns the apps?
 
-<captioned-image img-file="img/internet-apps-ownership.svg" img-width="50"></captioned-image>
+<captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
 ???
 ---
@@ -488,13 +508,15 @@ class: center, middle
 ---
 ## Data tracked by Facebook
 
-### Profile information and email addresses
-### Clicked ads, installed apps
-### Events you joined and were invited to
-### Facebook Chat conversation history
-### IP address, dates and times, and location of access
-### Online behaviour (e.g. time spent looking at content)
-### Browsing activity **off** Facebook
+<div class="facebook-tracking">
+<h3>Profile information and email addresses</h3>
+<h3> Clicked ads, installed apps</h3>
+<h3> Events you joined and were invited to</h3>
+<h3> Facebook Chat conversation history</h3>
+<h3> IP address, dates and times, and location of access</h3>
+<h3> Online behaviour (e.g. time spent looking at content)</h3>
+<h3> Browsing activity <strong>off</strong> Facebook</h3>
+</div>
 
 ???
 They collect of data- is it theirs to keep in the first place? 
@@ -546,14 +568,14 @@ Define attention mining
 ---
 class: center, middle
 
-<captioned-image img-file="img/fb-user-worth.png" img-width="36"></captioned-image>
+<captioned-image img-file="img/fb-user-worth.png" img-width="28"></captioned-image>
 
 ???
 
 ---
 ## Real-time bidding
 
-<captioned-image img-file="img/real-time-bidding.jpg" img-width="30" float="off"></captioned-image>
+<captioned-image img-file="img/real-time-bidding.jpg" img-width="24" float="off"></captioned-image>
 
 ???
 Real-time bidding is a means by which advertising inventory is bought
@@ -581,7 +603,7 @@ as a referral source for news. This means that more people are reaching content 
 ---
 ## Referral source of traffic to top web publishers
 
-<captioned-image img-file="img/content-gates.png" caption="https://blog.parse.ly/post/2855/facebook-continues-to-beat-google-in-sending-traffic-to-top-publishers/" img-width="40" float="off"></captioned-image>
+<captioned-image img-file="img/content-gates.png" caption="https://blog.parse.ly/post/2855/facebook-continues-to-beat-google-in-sending-traffic-to-top-publishers/" img-width="32" float="off"></captioned-image>
 
 ???
 Traditionally, search has led us to different websites.
@@ -595,7 +617,7 @@ These companies engage in real-time bidding for advertisers to bid on impression
 ---
 ## Entrenched monopolies
 
-<captioned-image img-file="img/web-monopolies.jpg" caption="https://www.visualcapitalist.com/internet-giants-owns-web/" img-width="25" float="off"></captioned-image>
+<captioned-image img-file="img/web-monopolies.jpg" caption="https://www.visualcapitalist.com/internet-giants-owns-web/" img-width="24" float="off"></captioned-image>
 
 ???
 Entrenched monopolies:
@@ -648,7 +670,7 @@ class: center, middle
 ---
 ## ...so what _can_ we change?
 
-<captioned-image img-file="img/internet-apps-ownership.svg" img-width="50"></captioned-image>
+<captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
 ???
 Going back to the original question of who owns the internet.
@@ -660,11 +682,10 @@ it's mostly these internet giants that control the data and content availability
 So, is there a way we opt out of this system and still be able to participate in the Internet?
 
 ---
-class: middle
 
 ## Easy: We build a new Internet
 
-<captioned-image img-file="img/build-a-new-internet.png" img-width="36"></captioned-image>
+<captioned-image img-file="img/build-a-new-internet.png" img-width="30"></captioned-image>
 
 ???
 Easy. We build a new Internet.
