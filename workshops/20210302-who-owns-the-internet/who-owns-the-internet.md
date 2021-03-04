@@ -148,7 +148,6 @@ We'll start our journey with the wires.
 # My home network
 
 <captioned-image img-file="img/home-network.png" img-width="40"></captioned-image>
-<!-- ![Home network map](img/home-network.png) -->
 
 ???
 Our first stop is inside our home network.
@@ -355,8 +354,6 @@ Let's take a look at the apps now.
 <captioned-image img-file="img/apps-crumbs-protocols.svg" float="right" img-width="16"></captioned-image>
 
 <captioned-image img-file="img/protocols.jpg" caption="http://gumuskaya.com/images/tcp-ip.jpg" img-width="12"></captioned-image>
-
-<!-- <img class="v-breadcrumbs" src="img/apps-crumbs-protocols.svg"> -->
 
 ???
 The communication protocol is the basic building block for any network to come together on the digital side.
