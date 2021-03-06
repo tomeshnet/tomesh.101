@@ -84,7 +84,7 @@ Both own our data.
 
 ---
 
-<captioned-image img-file="img/i-was-told.png" img-width="32"></captioned-image>
+<captioned-image img-file="img/i-was-told.png" img-width="35"></captioned-image>
 
 ---
 
@@ -227,8 +227,23 @@ firsthand is very powerful
  
 
 ---
+class: middle
 
-# Global community networks
+<captioned-image img-file="img/diy-telecoms.png" img-width="45"></captioned-image>
+
+---
+class: middle
+
+<captioned-image img-file="img/zenzeleni.png" img-width="50"></captioned-image>
+
+---
+class: middle
+
+<captioned-image img-file="img/wsj-nycmesh.png" img-width="50"></captioned-image>
+
+---
+
+# Community networks
 
 ### Some consequences:
 
@@ -273,14 +288,11 @@ Explain "prosumer"
 Promote avenues to develop local content and services for better data residency and community resilience
 
 Engage a variety of stakeholders toward collective ownership of communication infrastructure
-
----
-
-# DIY Telecoms collage
-
 ---
 
 ## Our tech needs more humane relationships
+
+<captioned-image img-file="img/good-server.jpg" float="right" img-width="25"></captioned-image>
 
 ### Bring "care" to our digital life
 
@@ -290,17 +302,17 @@ Engage a variety of stakeholders toward collective ownership of communication in
 
 ### Build strong human relationships through tech
 
-[ADD IMAGE]
-
 ---
 
 ## Experiment with software that respects users
 
+<captioned-image img-file="img/scuttlebutt.png" float="right" img-width="32"></captioned-image>
+
 ### Scuttlebutt is a peer-to-peer social network that cannot track user behaviour
 
-### There are many other free software that prioritize their users
+### Free software that prioritizes users does exist!
 
-[ADD IMAGE]
+![Scuttlebutt crab](img/ssb-crab.gif)
 
 ---
 
@@ -328,7 +340,9 @@ class: center, middle
 
 ---
 
-## Toronto Mesh background
+<captioned-image img-file="img/tomesh-events.png" float="right" img-width="24"></captioned-image>
+
+## Toronto Mesh
 
 ### Started at Civic Tech Toronto in 2016
 
@@ -336,13 +350,29 @@ class: center, middle
 
 ### Ran local meetups, workshops and events
 
+???
+Here is some background on Toronto Mesh
+
+---
+
+<captioned-image img-file="img/tomesh-events.png" float="right" img-width="24"></captioned-image>
+
+## Toronto Mesh
+
 ### Presented at international conferences
 
 ### Built alliances and supported networks globally
 
 ---
 
-# Toronto Mesh collage
+<captioned-image img-file="img/tomesh-node.jpg" float="right" img-width="25"></captioned-image>
+
+## Toronto Mesh
+
+<captioned-image img-file="img/makerfest.jpg" float="left" img-width="34"></captioned-image>
+
+<captioned-image img-file="img/tomesh-group.jpg" float="right" img-width="25"></captioned-image>
+
 
 ---
 
@@ -366,27 +396,33 @@ class: center, middle
 
 ---
 
-## Supernode 1 Coverage
+## Supernode 1: 200 Woolner
 
-### Close to 360° exposure!
+<captioned-image img-file="img/supernode.png" float="right" img-width="26"></captioned-image>
 
-### Clear line of sight to many properties, if you can see 200 Woolner from your roof and are within the area you can connect ?right now?!
+### Speeds of 50Mbps, with close to 360° exposure!
 
-### Speeds of 50Mbps
+### Clear line of sight to many properties, within reach of >40,000 addresses
 
-### Within reach of >40,000 addresses
+### If you can see 200 Woolner from your roof and are within the area, you can connect to it _**today**_!
 
 ---
 
-# Supernode 1 panorama
+## Supernode 1: 200 Woolner
+
+<img src="img/panorama.jpg" style="position: absolute; left: 0; top: 20vh; width: 100%;" />
 
 ---
 
 ## Who owns the wires?
 
+<captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
+
 ---
 
 ## With the Toronto Community Network:
+
+<captioned-image img-file="img/internet-community-ownership.svg" img-width="40"></captioned-image>
 
 ---
 

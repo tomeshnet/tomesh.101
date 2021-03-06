@@ -25,10 +25,10 @@ class CaptionedImage extends HTMLElement {
 
         let imgFloat = "float: none; margin: 0 auto;";
         if (this.getAttribute("float") == "right") {
-            imgFloat = "float: right; margin-left: 1rem;";
+            imgFloat = "float: right; margin-left: 1rem; margin-right: -4rem;";
         }
         else if (this.getAttribute("float") == "left") {
-            imgFloat = "float: left; margin-right: 1rem;";
+            imgFloat = "float: left; margin-right: 1rem; margin-left: -4rem;";
         }
         
         // Create some CSS to apply to the shadow dom
