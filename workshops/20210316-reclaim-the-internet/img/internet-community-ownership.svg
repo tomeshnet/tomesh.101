@@ -91,7 +91,9 @@
 
         <g id="isp-networks">
             <rect class="node half-owned" width="200" height="120" x="390" y="230" />
-            <text class="node-text" x="445" y="280">ISP networks</text>
+            <text class="node-text" x="450" y="260">Community</text>
+            <text class="node-text" x="485" y="280">+</text>
+            <text class="node-text" x="445" y="300">ISP networks</text>
         </g>
 
         <g id="facebook-network">

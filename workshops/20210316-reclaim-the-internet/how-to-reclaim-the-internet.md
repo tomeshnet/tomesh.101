@@ -102,6 +102,10 @@ class: center, middle
 
 ### also...
 
+???
+
+The land, water bodies, and the atmosphere we depend on for survival can be considered as "commons".
+
 ---
 
 ## What is the commons?
@@ -124,22 +128,40 @@ class: center, middle
 ???
 Prompt the audience
 
+
 ---
 
-## The commons in practice
+## Little Free Library
 
-### Condo boards
+<captioned-image img-file="img/little-library.jpg" img-width="30"></captioned-image>
 
-### Community fridges / pantries / gardens
+---
 
-### Tiny little library
+## Community gardens
 
-### Farmer's market
+<captioned-image img-file="img/circular-bed.jpg" img-width="30" caption='"Circular Bed, Barracks Lane Community Garden" by karenblakeman is marked under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/'></captioned-image>
 
-### Potlucks
+---
 
+## Community pantries
+
+<captioned-image img-file="img/toronto-pantry.webp" img-width="40" caption="https://www.torontolittlefreepantriesproject.com/"></captioned-image>
 
 ???
+Community fridges too
+
+---
+
+## Farmers markets
+
+<captioned-image img-file="img/farmers-market.jpg" img-width="30" caption="Michael Barera, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"></captioned-image>
+<!-- https://commons.wikimedia.org/wiki/File:Grand_Prairie_May_2019_29_(Grand_Prairie_Farmers_Market).jpg -->
+
+---
+
+## Potlucks
+
+<captioned-image img-file="img/potluck.jpg" img-width="28" caption='"Slow Food Vancouver Potluck May 10, 2005 - 16" by roland is licensed under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/'></captioned-image>
 
 ---
 
@@ -152,6 +174,14 @@ The digital commons are a form of commons involving the distribution
 
 and communal ownership of informational resources and technology.
 
+---
+
+# Digital commons
+
+## The digital commons involve the distribution and communal ownership of informational resources and technology.
+
+
+???
 Resources are typically designed to be used by the community by which they are created.
 
 Examples of the digital commons include wikis, open-source software, and open-source licensing.
@@ -190,19 +220,20 @@ of private vendors was eclipsed by the more versatile, socially accessible commo
 
 ecosystem of the Internet.
 
+---
+## Digital commons: Wikipedia
+
+<captioned-image img-file="img/wikipedia.svg" img-width="25"></captioned-image>
 
 ---
+## Digital commons: Linux
 
-## Digital commons
+<captioned-image img-file="img/tux.svg" img-width="20"></captioned-image>
 
+---
+## Digital commons: Creative Commons
 
-<img src="img/wikipedia.svg" style="height: 40vh; "/>
-<img src="img/tux.svg" style="height: 40vh;"/>
-
-???
-Hint at DWeb/P2P future session (aka. Dante’s) as an alternative to address “Web” problems
-https://en.wikipedia.org/wiki/Commons#Digital_commons
-
+<captioned-image img-file="img/cc-logo.svg" img-width="50" white-bg="true"></captioned-image>
 
 ---
 
@@ -314,6 +345,11 @@ Engage a variety of stakeholders toward collective ownership of communication in
 
 ![Scuttlebutt crab](img/ssb-crab.gif)
 
+???
+Hint at DWeb/P2P future session (aka. Dante’s) as an alternative to address “Web” problems
+https://en.wikipedia.org/wiki/Commons#Digital_commons
+
+
 ---
 
 class: center, middle
@@ -323,6 +359,7 @@ class: center, middle
 ### Is there a CN in Toronto?
 
 ---
+class: center, middle
 
 # A community network needs:
 
@@ -400,7 +437,7 @@ Here is some background on Toronto Mesh
 
 <captioned-image img-file="img/supernode.png" float="right" img-width="26"></captioned-image>
 
-### Speeds of 50Mbps, with close to 360° exposure!
+### Speeds of 50Mbps, with close to 360° exposure
 
 ### Clear line of sight to many properties, within reach of >40,000 addresses
 
