@@ -225,15 +225,40 @@ ecosystem of the Internet.
 
 <captioned-image img-file="img/wikipedia.svg" img-width="25"></captioned-image>
 
+???
+Wikipedia is a free, multilingual open-collaborative online encyclopedia
+
+created and maintained by a community of volunteer editors using
+
+a wiki-based editing system.
+
+It is one of the 15 most popular websites as ranked by Alexa, as of January 2021.
+
 ---
 ## Digital commons: Linux
 
 <captioned-image img-file="img/tux.svg" img-width="20"></captioned-image>
 
+???
+The Linux kernel is a free and open-source operating system kernel.
+
+Linux is deployed on a wide variety of computing systems, such as embedded devices,
+
+mobile devices (including its use in the Android operating system),
+
+personal computers, servers, mainframes, and supercomputers.
+
 ---
 ## Digital commons: Creative Commons
 
 <captioned-image img-file="img/cc-logo.svg" img-width="50" white-bg="true"></captioned-image>
+
+???
+Creative Commons (CC) is an American non-profit organization and international network
+
+devoted to educational access and expanding the range of creative works
+
+available for others to build upon legally and to share.[
 
 ---
 
