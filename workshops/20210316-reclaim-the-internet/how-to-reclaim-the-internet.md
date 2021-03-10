@@ -63,7 +63,7 @@ First, a recap of part one of the series.
 
 ---
 
-## Who owns the Internet?
+# Who owns the Internet?
 
 <captioned-image img-file="img/internet-all-together.svg" img-width="40"></captioned-image>
 
@@ -73,7 +73,7 @@ We covered how the internet works, using the wires and apps divide.
 
 ---
 
-## Who owns the Internet?
+# Who owns the Internet?
 
 <captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
@@ -83,6 +83,8 @@ The ISPs own the wires, tech giants own the apps.
 Both own our data.
 
 ---
+
+class: center, middle
 
 <captioned-image img-file="img/i-was-told.png" img-width="35"></captioned-image>
 
@@ -94,11 +96,11 @@ class: center, middle
 
 ---
 
-## What is the "commons"?
+# What is the "commons"?
 
-### The resources and practices jointly held and shared by all members of a community.
+## The resources and practices jointly held and shared by all members of a community.
 
-### They are neither privately owned by individuals, or publicly owned by the state.
+## They are neither privately owned by individuals, or publicly owned by the state.
 
 ### also...
 
@@ -108,9 +110,9 @@ The land, water bodies, and the atmosphere we depend on for survival can be cons
 
 ---
 
-## What is the "commons"?
+# What is the "commons"?
 
-### The _social practice_ of governing a resource not by market or state, but by a **community of users** that self-governs the resource through institutions that it creates.
+## The _social practice_ of governing a resource not by market or state, but by a **community of users** that self-governs the resource through institutions that it creates.
 
 ???
 Define what we mean by the commons, and then go into a few examples
@@ -130,7 +132,7 @@ Prompt the audience
 
 ---
 
-## Community gardens
+# Community gardens
 
 <captioned-image img-file="img/circular-bed.jpg" img-width="30" caption='"Circular Bed, Barracks Lane Community Garden" by karenblakeman is marked under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/'></captioned-image>
 
@@ -145,37 +147,44 @@ Community fridges too
 
 ---
 
-## Little Free Library
+# Little Free Library
 
 <captioned-image img-file="img/little-library.jpg" img-width="30"></captioned-image>
 
 ---
 
-## Farmers markets
+# Farmers markets
 
 <captioned-image img-file="img/farmers-market.jpg" img-width="30" caption="Michael Barera, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"></captioned-image>
 <!-- https://commons.wikimedia.org/wiki/File:Grand_Prairie_May_2019_29_(Grand_Prairie_Farmers_Market).jpg -->
 
 ---
 
-## Potlucks
+# Potlucks
 
 <captioned-image img-file="img/potluck.jpg" img-width="28" caption='"Slow Food Vancouver Potluck May 10, 2005 - 16" by roland is licensed under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/'></captioned-image>
 
 ---
 
-## Sustainable commons
+# Sustainable commons
 
-### Elinor Ostrom's 8 Design Principles
+## Elinor Ostrom's 8 Design Principles
 
-#### Clear boundaries of common resources and membership
-#### Match rules governing use to local needs
-#### Those affected by the rules participate in decisions
-#### Effective system to monitor member behaviour
-#### Graduated sanctions when rules are violated
-#### Mechanisms of conflict resolution
-#### Self-determination respected by external authorities
-#### Nested tiers of governing enterprises
+### 1. Clear boundaries of common resources and membership
+### 2. Match rules governing use to local needs
+### 3. Those affected by the rules participate in decisions
+### 4. Effective system to monitor member behaviour
+
+---
+
+# Sustainable commons
+
+## Elinor Ostrom's 8 Design Principles
+
+### 5. Graduated sanctions when rules are violated
+### 6. Mechanisms of conflict resolution
+### 7. Self-determination respected by external authorities
+### 8. Nested tiers of governing enterprises
 
 ---
 
@@ -205,11 +214,11 @@ It is one of the 15 most popular websites as ranked by Alexa, as of January 2021
 
 ---
 
-## What is the "digital commons"?
+# What is the "digital commons"?
 
 ## The distribution and communal ownership of technology infrastructure and informational resources.
 
-<captioned-image img-file="img/wikipedia.svg" img-width="25"></captioned-image>
+<captioned-image img-file="img/wikipedia.svg" float="right" img-width="20"></captioned-image>
 
 ???
 Resources are typically designed to be used by the community by which they are created.
@@ -220,7 +229,7 @@ The digital commons provides the community with free and easy access to informat
 
 ---
 
-### Open vs. closed protocols
+# Open vs. closed protocols
 
 ![Prodigy Sign-in](img/prodigy-signin-1991.webp)
 <img src="img/aol-logo.svg" style="width: 25%; background-color: white;"/>
@@ -250,7 +259,7 @@ ecosystem of the Internet.
 
 ---
 
-## Software: Linux
+# Software: Linux
 
 <captioned-image img-file="img/tux.svg" img-width="20"></captioned-image>
 
@@ -264,9 +273,9 @@ mobile devices (including its use in the Android operating system),
 personal computers, servers, mainframes, and supercomputers.
 
 ---
-## Content: Creative Commons
+# Content: Creative Commons
 
-<captioned-image img-file="img/cc-logo.svg" img-width="50" white-bg="true"></captioned-image>
+<img src="img/cc-logo.png" style="width: 80%;"/>
 
 ???
 Creative Commons (CC) is an American non-profit organization and international network
@@ -314,58 +323,89 @@ class: middle
 
 ---
 
-# Community networks
+# Community networks support
 
-### Some consequences:
+--
+
+## Local regenerative economies
+
+--
+
+## Local capacity to operate infrastructure
+
+---
+
+<captioned-image img-file="img/working-0.jpg"></captioned-image>
+
+---
+
+<captioned-image img-file="img/working-3.jpg"></captioned-image>
+
+---
+
+# Community networks support
 
 ## Local regenerative economies
 
 ## Local capacity to operate infrastructure
 
+--
+
 ## Practice over consumption of technology
+
+--
 
 ## Neighbours over faceless multinational corporations
 
-???
-Lead to a big prompt for the audience to share
+---
 
-(draw parallel with “buying local” vs. Amazon)
-
-We can draw on analogies in local agriculture, etc. that are
-
-more mainstream and well understood
-
-Pros: Agency for digital privacy, political censorship, capacity to
-
-support marginalized and underserved peers of our community
-
-- Promote the practice rather than consumption of digital technology
+<captioned-image img-file="img/tomesh-group.jpg"></captioned-image>
 
 ---
 
-# Community networks
+<captioned-image img-file="img/dwebcamp-topology.jpg" img-width="50" ></captioned-image>
 
-### Some (more) consequences:
+---
+
+# Enable a different digital future
+
+--
 
 ## More inclusive and affordable Internet access
 
+--
+
 ## A truly "smart" city of tech-informed residents
+
+--
 
 ## Local peer-learning and professional development
 
+--
+
 ## Prosumers supporting resilient local networks
 
-???
-Explain "prosumer"
+---
 
-Promote avenues to develop local content and services for better data residency and community resilience
+<captioned-image img-file="img/working-1.jpg"></captioned-image>
 
-Engage a variety of stakeholders toward collective ownership of communication infrastructure
+---
+
+<captioned-image img-file="img/working-2.jpg"></captioned-image>
+
+---
+
+<captioned-image img-file="img/working-5.jpg"></captioned-image>
+
+---
+
+<captioned-image img-file="img/working-4.jpg"></captioned-image>
+
 ---
 
 ## Our tech needs more humane relationships
 
-<captioned-image img-file="img/good-server.jpg" float="right" img-width="25"></captioned-image>
+<captioned-image img-file="img/good-server.jpg" float="right" img-width="30"></captioned-image>
 
 ### Bring "care" to our digital life
 
@@ -383,7 +423,7 @@ Engage a variety of stakeholders toward collective ownership of communication in
 
 ### Scuttlebutt is a peer-to-peer social network that cannot track user behaviour
 
-### Free software that prioritizes users does exist!
+### _Free software that prioritizes users does exist!_
 
 ![Scuttlebutt crab](img/ssb-crab.gif)
 
@@ -396,20 +436,25 @@ https://en.wikipedia.org/wiki/Commons#Digital_commons
 
 class: center, middle
 
-# The Toronto Community Network
-
-### Is there a CN in Toronto?
+## _Is there a community network in Toronto?_
 
 ---
+
 class: center, middle
 
-# A community network needs:
+# The Toronto Community Network
 
-## Awareness
+---
 
-## Organizing
+class: center, middle
 
-## Know-how
+## _A community network needs_
+
+# Awareness
+
+# Organizing
+
+# Know-how
 
 ---
 
@@ -421,96 +466,90 @@ class: center, middle
 
 <captioned-image img-file="img/tomesh-events.png" float="right" img-width="24"></captioned-image>
 
-## Toronto Mesh
+# Toronto Mesh
 
-### Started at Civic Tech Toronto in 2016
+## Started at Civic Tech Toronto in 2016
 
-### Built open resources and free software used by thousands
+## Built open resources and free software used by thousands
 
-### Ran local meetups, workshops and events
-
-???
-Here is some background on Toronto Mesh
+## Facilitated local meetups, workshops and events
 
 ---
 
-<captioned-image img-file="img/tomesh-events.png" float="right" img-width="24"></captioned-image>
+class: middle
 
-## Toronto Mesh
+<captioned-image img-file="img/makerfest-1.jpg" float="left" img-width="34"></captioned-image>
 
-### Presented at international conferences
-
-### Built alliances and supported networks globally
+<captioned-image img-file="img/makerfest.jpg" float="right" img-width="34"></captioned-image>
 
 ---
 
-<captioned-image img-file="img/tomesh-node.jpg" float="right" img-width="25"></captioned-image>
-
-## Toronto Mesh
-
-<captioned-image img-file="img/makerfest.jpg" float="left" img-width="34"></captioned-image>
-
-<captioned-image img-file="img/tomesh-group.jpg" float="right" img-width="25"></captioned-image>
-
-
----
-
-# Toronto Community Network
-
-## Develop multi-stakeholder governance of digital public space and participatory management of city digital infrastructure.
-
-### In alignment with _Cities for Digital Rights declaration_.
-
----
-
-# Toronto Community Network
-
-## Project outcomes:
-
-### Local infrastructure in commons
-
-### Digital inclusion and literacy
-
-### Citizen participation in public space
-
----
-
-## Supernode 1: 200 Woolner
-
-<captioned-image img-file="img/supernode.png" float="right" img-width="26"></captioned-image>
-
-### Speeds of 50Mbps, with close to 360° exposure
-
-### Clear line of sight to many properties, within reach of >40,000 addresses
-
-### If you can see 200 Woolner from your roof and are within the area, you can connect to it _**today**_!
-
----
-
-## Supernode 1: 200 Woolner
-
-<img src="img/panorama.jpg" style="position: absolute; left: 0; top: 20vh; width: 100%;" />
-
----
-
-## Who owns the wires?
-
-<captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
-
----
-
-## ... with the Toronto Community Network
-
-<captioned-image img-file="img/internet-community-ownership.svg" img-width="40"></captioned-image>
-
----
-
-## Join and contribute
-
-<img>
+<captioned-image img-file="img/tomesh-node.jpg"></captioned-image>
 
 ---
 
 class: center, middle
 
+# Toronto Community Network
+
+---
+
+## Deploy and operate commonly-owned network infrastructure in Toronto
+
+--
+
+## Develop sustainable multi-stakeholder governance of digital infrastructure
+
+--
+
+## Enable broad participation through network literacy programs
+
+--
+
+### _Supportive of our city's commitment to the Cities for Digital Rights declaration_
+
+---
+
+<captioned-image img-file="img/tomesh-map.png"></captioned-image>
+
+---
+
+# Supernode 1: 200 Woolner
+
+<captioned-image img-file="img/supernode.png" float="right" img-width="26"></captioned-image>
+
+### Speeds of 50Mbps, with close to 360° exposure
+
+### Clear line of sight to many properties, within reach of > 40,000 addresses
+
+### _If you can see 200 Woolner from your roof and are within the area, you can connect to it **today**!_
+
+---
+
+# Supernode 1: 200 Woolner
+
+<img src="img/panorama.jpg" style="position: absolute; left: 0; top: 20vh; width: 100%;" />
+
+---
+
+# Who owns the wires?
+
+<captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
+
+---
+
+# ... with the Toronto Community Network
+
+<captioned-image img-file="img/internet-community-ownership.svg" img-width="40"></captioned-image>
+
+---
+
+# Join and contribute
+
+<captioned-image img-file="img/contact.png" img-width="60"></captioned-image>
+
+---
+
 # Network planning exercise
+
+<captioned-image img-file="img/supernode.png" img-width="50"></captioned-image>
