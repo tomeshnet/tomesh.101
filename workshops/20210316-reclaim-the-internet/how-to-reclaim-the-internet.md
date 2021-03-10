@@ -94,11 +94,11 @@ class: center, middle
 
 ---
 
-## What is the commons?
+## What is the "commons"?
 
-### The cultural and natural resources accessible to all members of a society, including natural materials such as air, water, and a habitable earth.
+### The resources and practices jointly held and shared by all members of a community.
 
-### These resources are held in common, not owned privately.
+### They are neither privately owned by individuals, or publicly owned by the state.
 
 ### also...
 
@@ -108,9 +108,9 @@ The land, water bodies, and the atmosphere we depend on for survival can be cons
 
 ---
 
-## What is the commons?
+## What is the "commons"?
 
-### The _social practice_ of governing a resource not by state or market but by a **community** of users that self-governs the resource through institutions that it creates.
+### The _social practice_ of governing a resource not by market or state, but by a **community of users** that self-governs the resource through institutions that it creates.
 
 ???
 Define what we mean by the commons, and then go into a few examples
@@ -127,13 +127,6 @@ class: center, middle
 
 ???
 Prompt the audience
-
-
----
-
-## Little Free Library
-
-<captioned-image img-file="img/little-library.jpg" img-width="30"></captioned-image>
 
 ---
 
@@ -152,6 +145,12 @@ Community fridges too
 
 ---
 
+## Little Free Library
+
+<captioned-image img-file="img/little-library.jpg" img-width="30"></captioned-image>
+
+---
+
 ## Farmers markets
 
 <captioned-image img-file="img/farmers-market.jpg" img-width="30" caption="Michael Barera, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"></captioned-image>
@@ -165,9 +164,24 @@ Community fridges too
 
 ---
 
+## Sustainable commons
+
+### Elinor Ostrom's 8 Design Principles
+
+#### Clear boundaries of common resources and membership
+#### Match rules governing use to local needs
+#### Those affected by the rules participate in decisions
+#### Effective system to monitor member behaviour
+#### Graduated sanctions when rules are violated
+#### Mechanisms of conflict resolution
+#### Self-determination respected by external authorities
+#### Nested tiers of governing enterprises
+
+---
+
 class: center, middle
 
-# Digital commons
+# Digital Commons
 
 ???
 The digital commons are a form of commons involving the distribution 
@@ -176,10 +190,26 @@ and communal ownership of informational resources and technology.
 
 ---
 
-# Digital commons
+class: center, middle
 
-## The digital commons involve the distribution and communal ownership of informational resources and technology.
+<captioned-image img-file="img/wikipedia.svg" img-width="25"></captioned-image>
 
+???
+Wikipedia is a free, multilingual open-collaborative online encyclopedia
+
+created and maintained by a community of volunteer editors using
+
+a wiki-based editing system.
+
+It is one of the 15 most popular websites as ranked by Alexa, as of January 2021.
+
+---
+
+## What is the "digital commons"?
+
+## The distribution and communal ownership of technology infrastructure and informational resources.
+
+<captioned-image img-file="img/wikipedia.svg" img-width="25"></captioned-image>
 
 ???
 Resources are typically designed to be used by the community by which they are created.
@@ -189,17 +219,15 @@ Examples of the digital commons include wikis, open-source software, and open-so
 The digital commons provides the community with free and easy access to information.
 
 ---
-class: contact
 
-## Digital commons
-
-### Open vs closed protocols
+### Open vs. closed protocols
 
 ![Prodigy Sign-in](img/prodigy-signin-1991.webp)
 <img src="img/aol-logo.svg" style="width: 25%; background-color: white;"/>
 <img src="img/cern-www.png" style="width: 45%;"/>
 
-## http://info.cern.ch: home of the first website
+## `http://info.cern.ch`
+#### — home of the first website
 
 ???
 In the 1980s, there were a number of private services such as Prodigy and America Online
@@ -221,21 +249,8 @@ of private vendors was eclipsed by the more versatile, socially accessible commo
 ecosystem of the Internet.
 
 ---
-## Digital commons: Wikipedia
 
-<captioned-image img-file="img/wikipedia.svg" img-width="25"></captioned-image>
-
-???
-Wikipedia is a free, multilingual open-collaborative online encyclopedia
-
-created and maintained by a community of volunteer editors using
-
-a wiki-based editing system.
-
-It is one of the 15 most popular websites as ranked by Alexa, as of January 2021.
-
----
-## Digital commons: Linux
+## Software: Linux
 
 <captioned-image img-file="img/tux.svg" img-width="20"></captioned-image>
 
@@ -249,7 +264,7 @@ mobile devices (including its use in the Android operating system),
 personal computers, servers, mainframes, and supercomputers.
 
 ---
-## Digital commons: Creative Commons
+## Content: Creative Commons
 
 <captioned-image img-file="img/cc-logo.svg" img-width="50" white-bg="true"></captioned-image>
 
@@ -264,7 +279,7 @@ available for others to build upon legally and to share.[
 
 class: center, middle
 
-# Network infrastructure as commons
+# Network Infrastructure as Commons
 
 ???
 Play some videos for examples of community networks:
@@ -275,11 +290,11 @@ firsthand is very powerful
 
 ---
 
-# What is a community network?
+# What is a "community network"?
 
-## **Community networks** consist of communication infrastructure collectively owned and managed by the community, operating under the principles of democratic participation of their members
+## A **community network** consists of communication infrastructure collectively owned and managed by the community, operating under the principles of democratic participation of their members.
 
-#### - Adapted from Cumbre Latinoamericana de Redes Comunitarias, Argentina 2018
+#### — adapted from _Cumbre Latinoamericana de Redes Comunitarias, Argentina 2018_
  
 
 ---
@@ -307,7 +322,9 @@ class: middle
 
 ## Local capacity to operate infrastructure
 
-## Neighbours over big tech consumerism
+## Practice over consumption of technology
+
+## Neighbours over faceless multinational corporations
 
 ???
 Lead to a big prompt for the audience to share
@@ -332,11 +349,11 @@ support marginalized and underserved peers of our community
 
 ## More inclusive and affordable Internet access
 
-## Prosumer class that can elevates tech literacy
-
-## More resilient local networks
+## A truly "smart" city of tech-informed residents
 
 ## Local peer-learning and professional development
+
+## Prosumers supporting resilient local networks
 
 ???
 Explain "prosumer"
@@ -352,9 +369,9 @@ Engage a variety of stakeholders toward collective ownership of communication in
 
 ### Bring "care" to our digital life
 
-### There is no “market demand” for taking care of our most marginalized communities
+### There is no "market demand" for taking care of our most marginalized communities
 
-### Community networks enable civil society to build equitable access for our neighbours
+### Community networks enable civil society to build equitable access with and for our neighbours
 
 ### Build strong human relationships through tech
 
@@ -440,9 +457,9 @@ Here is some background on Toronto Mesh
 
 # Toronto Community Network
 
-## Develop multi-stakeholder governance of digital public space and participatory management of city digital infrastructure
+## Develop multi-stakeholder governance of digital public space and participatory management of city digital infrastructure.
 
-## Alignment with Cities for Digital Rights declaration
+### In alignment with _Cities for Digital Rights declaration_.
 
 ---
 
@@ -482,15 +499,15 @@ Here is some background on Toronto Mesh
 
 ---
 
-## With the Toronto Community Network:
+## ... with the Toronto Community Network
 
 <captioned-image img-file="img/internet-community-ownership.svg" img-width="40"></captioned-image>
 
 ---
 
-## Toronto Community Network
+## Join and contribute
 
-### How you can join and contribute
+<img>
 
 ---
 
