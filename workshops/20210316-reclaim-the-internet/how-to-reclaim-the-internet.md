@@ -175,6 +175,17 @@ Community fridges too
 ### 3. Those affected by the rules participate in decisions
 ### 4. Effective system to monitor member behaviour
 
+???
+So, what happens if somebody eats all the food, or takes all the plants home?
+
+In order to be sustainable, political economist Elinor Ostrom
+
+identified eight "design principles" of stable commons management.
+
+- Clear definition of the contents of the resource and who is included 
+
+and excluded from participating
+
 ---
 
 # Sustainable commons
@@ -185,6 +196,16 @@ Community fridges too
 ### 6. Mechanisms of conflict resolution
 ### 7. Self-determination respected by external authorities
 ### 8. Nested tiers of governing enterprises
+
+???
+
+A scale of graduated sanctions for members who violate the rules
+
+Mechanisms of conflict resolution that are cheap and of easy access
+
+Multiple layers of nested enterprises, with small local 
+
+institutions at the base level.
 
 ---
 
@@ -216,9 +237,10 @@ It is one of the 15 most popular websites as ranked by Alexa, as of January 2021
 
 # What is the "digital commons"?
 
-## The distribution and communal ownership of technology infrastructure and informational resources.
 
 <captioned-image img-file="img/wikipedia.svg" float="right" img-width="20"></captioned-image>
+
+## The distribution and communal ownership of technology infrastructure and informational resources.
 
 ???
 Resources are typically designed to be used by the community by which they are created.
@@ -405,11 +427,17 @@ class: middle
 
 ## Our tech needs more humane relationships
 
-<captioned-image img-file="img/good-server.jpg" float="right" img-width="30"></captioned-image>
+<captioned-image img-file="img/good-server.jpg" float="right" img-width="25"></captioned-image>
 
 ### Bring "care" to our digital life
 
 ### There is no "market demand" for taking care of our most marginalized communities
+
+---
+
+## Our tech needs more humane relationships
+
+<captioned-image img-file="img/good-server.jpg" float="right" img-width="25"></captioned-image>
 
 ### Community networks enable civil society to build equitable access with and for our neighbours
 
@@ -419,7 +447,7 @@ class: middle
 
 ## Experiment with software that respects users
 
-<captioned-image img-file="img/scuttlebutt.png" float="right" img-width="32"></captioned-image>
+<captioned-image img-file="img/scuttlebutt.png" float="right" img-width="30"></captioned-image>
 
 ### Scuttlebutt is a peer-to-peer social network that cannot track user behaviour
 
@@ -436,7 +464,7 @@ https://en.wikipedia.org/wiki/Commons#Digital_commons
 
 class: center, middle
 
-## _Is there a community network in Toronto?_
+# _Is there a community network in Toronto?_
 
 ---
 
@@ -478,9 +506,8 @@ class: center, middle
 
 class: middle
 
-<captioned-image img-file="img/makerfest-1.jpg" float="left" img-width="34"></captioned-image>
-
-<captioned-image img-file="img/makerfest.jpg" float="right" img-width="34"></captioned-image>
+<img src="img/makerfest-1.jpg" style="width: 75%;" />
+<img src="img/makerfest.jpg" style="width: 50%; position: absolute; top: 25vh; right: 0;" />
 
 ---
 
@@ -532,7 +559,7 @@ class: center, middle
 
 ---
 
-# Who owns the wires?
+# Who owns the Internet?
 
 <captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
@@ -544,12 +571,24 @@ class: center, middle
 
 ---
 
+# ...and peer-to-peer software
+
+<captioned-image img-file="img/internet-p2p-ownership.svg" img-width="40"></captioned-image>
+
+
+---
+
 # Join and contribute
 
-<captioned-image img-file="img/contact.png" img-width="60"></captioned-image>
+### Come say hi!
+
+## <i class="fas fa-comments"></i> \#tomesh:tomesh.net on chat.tomesh.net
+## <i class="fas fa-envelope"></i> hello@tomesh.net by email
+## <i class="fab fa-github"></i> @tomeshnet on github
+## <i class="fab fa-twitter"></i> @tomeshnet on twitter
 
 ---
 
 # Network planning exercise
 
-<captioned-image img-file="img/supernode.png" img-width="50"></captioned-image>
+<captioned-image img-file="img/supernode.png" img-width="36"></captioned-image>
