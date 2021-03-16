@@ -182,9 +182,25 @@ In order to be sustainable, political economist Elinor Ostrom
 
 identified eight "design principles" of stable commons management.
 
-- Clear definition of the contents of the resource and who is included 
+1> Commons need to have clearly defined boundaries.
 
-and excluded from participating
+In particular, who is entitled to access to what? Unless there’s a specified
+
+community of benefit, it becomes a free for all, and that’s not how commons work.
+
+2> Rules should fit local circumstances. There is no one-size-fits-all approach to
+
+common resource management. Rules should be dictated by local people and local ecological needs.
+
+3> Participatory decision-making is vital. There are all kinds of ways to make it happen,
+
+but people will be more likely to follow the rules if they had a hand in writing them.
+
+Involve as many people as possible in decision-making.
+
+4> Commons must be monitored. Once rules have been set, communities need a way of checking
+
+that people are keeping them. Commons don’t run on good will, but on accountability.
 
 ---
 
@@ -199,13 +215,31 @@ and excluded from participating
 
 ???
 
-A scale of graduated sanctions for members who violate the rules
+5> Sanctions for those who abuse the commons should be graduated. Ostrom observed that
 
-Mechanisms of conflict resolution that are cheap and of easy access
+the commons that worked best didn’t just ban people who broke the rules. That tended to
 
-Multiple layers of nested enterprises, with small local 
+create resentment. Instead, they had systems of warnings and fines, as well as informal
 
-institutions at the base level.
+reputational consequences in the community.
+
+6> Conflict resolution should be easily accessible. When issues come up, resolving them
+
+should be informal, cheap and straightforward. That means that anyone can take their problems
+
+for mediation, and nobody is shut out. Problems are solved rather than ignoring them
+
+because nobody wants to pay legal fees.
+
+7> Commons need the right to organise. Your commons rules won’t count for anything if
+
+a higher local authority doesn’t recognise them as legitimate. 
+
+8> Commons work best when nested within larger networks. Some things can be managed locally,
+
+but some might need wider regional cooperation – for example an irrigation network might
+
+depend on a river that others also draw on upstream.
 
 ---
 
@@ -304,7 +338,7 @@ Creative Commons (CC) is an American non-profit organization and international n
 
 devoted to educational access and expanding the range of creative works
 
-available for others to build upon legally and to share.[
+available for others to build upon legally and to share.
 
 ---
 
@@ -318,6 +352,10 @@ Play some videos for examples of community networks:
 hearing the experience from someone who has experienced it
 
 firsthand is very powerful
+
+Zenzeleni: https://www.youtube.com/watch?v=R9u-hfxAeBo
+
+Detroit: https://www.youtube.com/watch?v=1B0u6nvcTsI
 
 ---
 
