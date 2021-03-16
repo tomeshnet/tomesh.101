@@ -138,7 +138,7 @@ Prompt the audience
 
 ---
 
-## Community pantries
+# Community pantries
 
 <captioned-image img-file="img/toronto-pantry.webp" img-width="40" caption="https://www.torontolittlefreepantriesproject.com/"></captioned-image>
 
