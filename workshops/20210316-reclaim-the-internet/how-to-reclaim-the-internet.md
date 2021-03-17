@@ -138,7 +138,7 @@ Prompt the audience
 
 ---
 
-## Community pantries
+# Community pantries
 
 <captioned-image img-file="img/toronto-pantry.webp" img-width="40" caption="https://www.torontolittlefreepantriesproject.com/"></captioned-image>
 
@@ -175,6 +175,33 @@ Community fridges too
 ### 3. Those affected by the rules participate in decisions
 ### 4. Effective system to monitor member behaviour
 
+???
+So, what happens if somebody eats all the food, or takes all the plants home?
+
+In order to be sustainable, political economist Elinor Ostrom
+
+identified eight "design principles" of stable commons management.
+
+1> Commons need to have clearly defined boundaries.
+
+In particular, who is entitled to access to what? Unless there’s a specified
+
+community of benefit, it becomes a free for all, and that’s not how commons work.
+
+2> Rules should fit local circumstances. There is no one-size-fits-all approach to
+
+common resource management. Rules should be dictated by local people and local ecological needs.
+
+3> Participatory decision-making is vital. There are all kinds of ways to make it happen,
+
+but people will be more likely to follow the rules if they had a hand in writing them.
+
+Involve as many people as possible in decision-making.
+
+4> Commons must be monitored. Once rules have been set, communities need a way of checking
+
+that people are keeping them. Commons don’t run on good will, but on accountability.
+
 ---
 
 # Sustainable commons
@@ -185,6 +212,34 @@ Community fridges too
 ### 6. Mechanisms of conflict resolution
 ### 7. Self-determination respected by external authorities
 ### 8. Nested tiers of governing enterprises
+
+???
+
+5> Sanctions for those who abuse the commons should be graduated. Ostrom observed that
+
+the commons that worked best didn’t just ban people who broke the rules. That tended to
+
+create resentment. Instead, they had systems of warnings and fines, as well as informal
+
+reputational consequences in the community.
+
+6> Conflict resolution should be easily accessible. When issues come up, resolving them
+
+should be informal, cheap and straightforward. That means that anyone can take their problems
+
+for mediation, and nobody is shut out. Problems are solved rather than ignoring them
+
+because nobody wants to pay legal fees.
+
+7> Commons need the right to organise. Your commons rules won’t count for anything if
+
+a higher local authority doesn’t recognise them as legitimate. 
+
+8> Commons work best when nested within larger networks. Some things can be managed locally,
+
+but some might need wider regional cooperation – for example an irrigation network might
+
+depend on a river that others also draw on upstream.
 
 ---
 
@@ -216,9 +271,10 @@ It is one of the 15 most popular websites as ranked by Alexa, as of January 2021
 
 # What is the "digital commons"?
 
-## The distribution and communal ownership of technology infrastructure and informational resources.
 
 <captioned-image img-file="img/wikipedia.svg" float="right" img-width="20"></captioned-image>
+
+## The distribution and communal ownership of technology infrastructure and informational resources.
 
 ???
 Resources are typically designed to be used by the community by which they are created.
@@ -282,7 +338,7 @@ Creative Commons (CC) is an American non-profit organization and international n
 
 devoted to educational access and expanding the range of creative works
 
-available for others to build upon legally and to share.[
+available for others to build upon legally and to share.
 
 ---
 
@@ -296,6 +352,10 @@ Play some videos for examples of community networks:
 hearing the experience from someone who has experienced it
 
 firsthand is very powerful
+
+Zenzeleni: https://www.youtube.com/watch?v=R9u-hfxAeBo
+
+Detroit: https://www.youtube.com/watch?v=1B0u6nvcTsI
 
 ---
 
@@ -405,11 +465,17 @@ class: middle
 
 ## Our tech needs more humane relationships
 
-<captioned-image img-file="img/good-server.jpg" float="right" img-width="30"></captioned-image>
+<captioned-image img-file="img/good-server.jpg" float="right" img-width="25"></captioned-image>
 
 ### Bring "care" to our digital life
 
 ### There is no "market demand" for taking care of our most marginalized communities
+
+---
+
+## Our tech needs more humane relationships
+
+<captioned-image img-file="img/good-server.jpg" float="right" img-width="25"></captioned-image>
 
 ### Community networks enable civil society to build equitable access with and for our neighbours
 
@@ -419,7 +485,7 @@ class: middle
 
 ## Experiment with software that respects users
 
-<captioned-image img-file="img/scuttlebutt.png" float="right" img-width="32"></captioned-image>
+<captioned-image img-file="img/scuttlebutt.png" float="right" img-width="30"></captioned-image>
 
 ### Scuttlebutt is a peer-to-peer social network that cannot track user behaviour
 
@@ -436,7 +502,7 @@ https://en.wikipedia.org/wiki/Commons#Digital_commons
 
 class: center, middle
 
-## _Is there a community network in Toronto?_
+# _Is there a community network in Toronto?_
 
 ---
 
@@ -478,9 +544,8 @@ class: center, middle
 
 class: middle
 
-<captioned-image img-file="img/makerfest-1.jpg" float="left" img-width="34"></captioned-image>
-
-<captioned-image img-file="img/makerfest.jpg" float="right" img-width="34"></captioned-image>
+<img src="img/makerfest-1.jpg" style="width: 75%;" />
+<img src="img/makerfest.jpg" style="width: 50%; position: absolute; top: 25vh; right: 0;" />
 
 ---
 
@@ -532,7 +597,7 @@ class: center, middle
 
 ---
 
-# Who owns the wires?
+# Who owns the Internet?
 
 <captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
@@ -544,12 +609,24 @@ class: center, middle
 
 ---
 
+# ...and peer-to-peer software
+
+<captioned-image img-file="img/internet-p2p-ownership.svg" img-width="40"></captioned-image>
+
+
+---
+
 # Join and contribute
 
-<captioned-image img-file="img/contact.png" img-width="60"></captioned-image>
+### Come say hi!
+
+## <i class="fas fa-comments"></i> \#tomesh:tomesh.net on chat.tomesh.net
+## <i class="fas fa-envelope"></i> hello@tomesh.net by email
+## <i class="fab fa-github"></i> @tomeshnet on github
+## <i class="fab fa-twitter"></i> @tomeshnet on twitter
 
 ---
 
 # Network planning exercise
 
-<captioned-image img-file="img/supernode.png" img-width="50"></captioned-image>
+<captioned-image img-file="img/supernode.png" img-width="36"></captioned-image>
