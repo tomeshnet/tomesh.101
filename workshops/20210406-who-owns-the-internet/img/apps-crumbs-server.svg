@@ -1,0 +1,57 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 300 300"
+>
+
+<style>
+.node {
+    fill: rgb(27,24,24);
+    stroke: #666;
+    stroke-width: 2px;
+    }
+.node-highlight {
+    fill: #ddd;
+    stroke: #ddd;
+    stroke-width: 2px;
+}
+.node-text {
+    fill: #ddd;
+    font-family: Arial;
+    }
+
+.node-highlight-text {
+    fill: #000;
+    font-family: Arial;
+}
+</style>
+
+<rect x="10" y="10" width="280" height="290" fill="rgb(27, 24,24)"/>
+
+<g id="wires">
+    <rect class="node" width="260" height="40" x="20" y="250"/>
+    <text class="node-text" x="125" y="275">Wires</text>
+</g>
+
+<g id="apps">
+    <rect class="node" width="260" height="230" x="20" y="20"/>
+    <text class="node-text" x="130" y="60">Apps</text>
+
+    <g id="protocols">
+        <rect class="node" width="240" height="40" x="30" y="180"/>
+        <text class="node-text" x="60" y="205">Communication protocols</text>
+    </g>
+    <g id="client">
+        <rect class="node" width="120" height="38" x="30" y="142"/>
+        <text class="node-text" x="70" y="168">Client</text>
+    </g>
+    <g id="data">
+        <rect class="node" width="240" height="60" x="30" y="82"/>
+        <text class="node-text" x="130" y="120">Data</text>
+    </g>
+    <g id="server">
+        <rect class="node-highlight" width="120" height="38" x="150" y="142"/>
+        <text class="node-highlight-text" x="190" y="168">Server</text>
+    </g>
+</g>
+
+</svg>
