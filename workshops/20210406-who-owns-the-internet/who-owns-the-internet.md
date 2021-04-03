@@ -13,12 +13,12 @@ Hello, and welcome to our program titled Who Owns the Internet.
 ---
 class: center, middle
 
-<hello-sticker name="Ben" sticker-color="#b22"></hello-sticker>
+<hello-sticker name="Ushnish" sticker-color="#b22"></hello-sticker>
 
 ---
 class: center, middle
 
-<hello-sticker name="Dante" sticker-color="#82d"></hello-sticker>
+<hello-sticker name="Yurko" sticker-color="#82d"></hello-sticker>
 
 ---
 # Who owns the Internet?
