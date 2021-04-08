@@ -356,6 +356,10 @@ Let's take a look at the apps now.
 <captioned-image img-file="img/protocols.jpg" caption="http://gumuskaya.com/images/tcp-ip.jpg" img-width="12"></captioned-image>
 
 ???
+Two types of applications, apps that reside on the desktop e.g. MS Word , and apps that utlize the internet e.g. Firefox browser
+
+Since we are discussing the ownership of the internet, appsthat use the internet are discussed
+
 The communication protocol is the basic building block for any network to come together on the digital side.
 
 It is the language that the computers use to send data back and forth to each other.
@@ -401,13 +405,15 @@ It provides a user interface to interact with an online service
 <captioned-image img-file="img/server-sw.png" caption="By ZxxZxxZ - Own work, GPL, https://commons.wikimedia.org/w/index.php?curid=16485488" img-width="24" float="right"></captioned-image>
 
 ???
+e.g. Facebook servers process and put together the page  you see as a home page.
+
 Server software processes website requests, user sessions, database queries, etc.
 
 This is the software that would run on a Facebook datacenter computer.
 
 The payload is extracted from the data packet at this point, and the databases
 
-in facebook are updated with a record of you liking the post.
+in Facebook are updated with a record of you liking the post.
 
 Facebook then sends a message back to your computer to say, yes, you have now liked this post.
 
@@ -431,7 +437,9 @@ class: center, middle
 <captioned-image img-file="img/internet-wires-ownership.svg" img-width="40"></captioned-image>
 
 ???
+I own my PC and laptop, and the wires inside my home
 
+The switches, router, modems are rented from my ISP 
 
 ---
 class: center, middle
@@ -451,6 +459,10 @@ class: center, middle
 ### Track user data
 
 ???
+Internet Service providers are often large and monopolistic, and therefore can dictate terms to consumers 
+
+The City of Tronto had many independent ISPs. many ISPs choices in the 1990s, now they have been consolidated
+
 Tell a story where the infrastructure extracts from the quality of life of future generations.
 
 
