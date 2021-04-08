@@ -469,6 +469,10 @@ Tell a story where the infrastructure extracts from the quality of life of futur
 
 ### Block Internet access
 
+???
+A government owned ISP does not necessarily solve the issues of ownerhsip
+
+In some countries governments are able to shut down internet services, or monitor and control the apps and content available to citizens
 
 ---
 ## Who owns the apps?
@@ -476,6 +480,7 @@ Tell a story where the infrastructure extracts from the quality of life of futur
 <captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
 ???
+Part of answering the question who owns the internet, is understanding who owns the apps
 ---
 class: center, middle
 
@@ -501,6 +506,12 @@ class: center, middle
  <video height="640" controls muted>
   <source src="img/facebook-data-tracking.mp4" type="video/mp4">
  </video> 
+
+???
+Put in chat links to checking you own Facebook data
+
+https://www.facebook.com/help/1701730696756992/?helpref=hc_fnav
+
 
 ---
 ## Data tracked by Facebook
@@ -560,7 +571,11 @@ The business model of most online companies is based on ad revenue
 
 Define surveillance capitalism
 
-Define attention mining
+https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism
+
+Define Attention Mining
+
+Facebook and othee social media giants display stories which encourage you to click on them and maximize their ad revenues
 
 ---
 class: center, middle
@@ -587,6 +602,8 @@ if the bid is  won, the buyer's ad is instantly displayed
 
 on the publisher's site.
 
+Who is the product? YOU
+
 ---
 ## The Facebook content funnel
 
@@ -596,6 +613,10 @@ on the publisher's site.
 This chart shows how the past decade saw the rise of facebook
 
 as a referral source for news. This means that more people are reaching content through it.
+
+A near duopoly between Facebook and Google for Online Advertising.
+
+Online advertising is driving down other forms of advertising and ad revenues for independent publishing such as smalll local news publishers
 
 ---
 ## Referral source of traffic to top web publishers
