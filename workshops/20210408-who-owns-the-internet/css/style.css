@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+.remark-container {
+  background: #000
+}
+
+div.remark-slide-content {
+  background-color: rgb(27, 24, 24);
+  color: #ddd;
+}
+
+div.remark-slide-content>h1, h2, h3 {
+  letter-spacing: 2px;
+}
+
+div.remark-slide-scaler {
+  -moz-box-shadow: initial;
+  -webkit-box-shadow: intial;
+  box-shadow: initial;
+}
+
+div.remark-slide-content.router-modem img {
+  height: 20vh;
+  float: right;
+  margin: 1rem;
+}
+
+div.remark-slide-content.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumbs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.breadcrumbs-crowdcast {
+  position: absolute;
+  bottom: 12vh;
+  left: 0;
+}
+
+.v-breadcrumbs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20vw;
+  margin-bottom: 1rem;
+}
+
+.facebook-tracking h3 {
+  line-height: 1.6rem;
+}
