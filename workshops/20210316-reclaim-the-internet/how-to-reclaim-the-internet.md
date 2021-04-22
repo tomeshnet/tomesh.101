@@ -15,12 +15,12 @@ How to Reclaim the Internet.
 ---
 class: center, middle
 
-<hello-sticker name="Ben" sticker-color="#b22"></hello-sticker>
+<hello-sticker name="Ushnish" sticker-color="#b22"></hello-sticker>
 
 ---
 class: center, middle
 
-<hello-sticker name="Dante" sticker-color="#82d"></hello-sticker>
+<hello-sticker name="Yurko" sticker-color="#82d"></hello-sticker>
 
 ---
 # How to Reclaim the Internet
@@ -42,7 +42,7 @@ Let us take a look at the agenda for today's program.
 ## 3. Digital commons
 
 ???
-on our data and the ways in which online services try to collect and use it.
+In the last session we talked about who owns our data and the ways in which online services try to collect and use it.
 
 --
 ## 4. Network infrastructure as commons
@@ -69,7 +69,8 @@ First, a recap of part one of the series.
 
 
 ???
-We covered how the internet works, using the wires and apps divide.
+We covered how the internet works, talking about the differences between the wires and apps.
+The wire app divide
 
 ---
 
@@ -78,9 +79,11 @@ We covered how the internet works, using the wires and apps divide.
 <captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
 
 ???
-The ISPs own the wires, tech giants own the apps.
+The ISPs own the wires, tech giants such as Google and facebook own the apps.
 
 Both own our data.
+
+We own a small part of the system, mainly the equipment in our homes.
 
 ---
 
@@ -88,12 +91,16 @@ class: center, middle
 
 <captioned-image img-file="img/i-was-told.png" img-width="35"></captioned-image>
 
+I was told we waer building anew Internet.
+We cant reclaim the internet by replicating the current setup.
 ---
 
 class: center, middle
 
 # The Commons
 
+???
+Lets first talk about the commons, before we get in Digital Commons
 ---
 
 # What is the "commons"?
@@ -108,6 +115,10 @@ class: center, middle
 
 The land, water bodies, and the atmosphere we depend on for survival can be considered as "commons".
 
+Note that it is not ownership about the government or the state.
+
+In understanding the Digital Commons, remember that its not about private or state
+
 ---
 
 # What is the "commons"?
@@ -119,7 +130,7 @@ Define what we mean by the commons, and then go into a few examples
 
 How does it address our pressing issues? (from last session)
 
-Prompt: Can anyone think of collectively/community owned and maintained spaces?
+
 
 ---
 
@@ -128,7 +139,7 @@ class: center, middle
 # 👥 **Can you think of examples of community-owned and maintained spaces?**
 
 ???
-Prompt the audience
+Prompt: Can anyone think of collectively/community owned and maintained spaces?
 
 ---
 
