@@ -531,10 +531,6 @@ Take something technical and intiminading and turn it into something easly to un
 
 # Enable a different digital future
 
-??? 
-
-Not just about cheap internet
-
 --
 
 ## More inclusive and affordable Internet access
@@ -542,6 +538,8 @@ Not just about cheap internet
 ???
 
 Allow peopel to participate in the building process
+
+Not just about cheap internet
 
 --
 
