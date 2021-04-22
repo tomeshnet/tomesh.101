@@ -351,6 +351,8 @@ devoted to educational access and expanding the range of creative works
 
 available for others to build upon legally and to share.
 
+This coveres where we want to frame our discsussion about community networks 
+
 ---
 
 class: center, middle
@@ -368,6 +370,8 @@ Zenzeleni: https://www.youtube.com/watch?v=R9u-hfxAeBo
 
 Detroit: https://www.youtube.com/watch?v=1B0u6nvcTsI
 
+Do we think of network infrastructure, the physical things as a commons? Lets look at what that looks like
+
 ---
 
 # What is a "community network"?
@@ -376,41 +380,109 @@ Detroit: https://www.youtube.com/watch?v=1B0u6nvcTsI
 
 #### — adapted from _Cumbre Latinoamericana de Redes Comunitarias, Argentina 2018_
  
+???
+A community network is a network infrastructure as a commons.
+
+
+communications infra (towers, antennas, fiber, cableing, support system)
+
+community and members are two important words
+Who is in the community? Members are often defined as anyone who uses uses and relies on the services, 
+sets up node for others to use, they should all have a say in teh democratic process
+
 
 ---
 class: middle
 
 <captioned-image img-file="img/diy-telecoms.png" img-width="45"></captioned-image>
 
+???
+
+DIY telecoms - ISP where communities that are not well served by the big telco create their own connectity
+
+Mexico, South america, Europe, Cuba (Snet - gaming, example)
+
 ---
 class: middle
 
 <captioned-image img-file="img/zenzeleni.png" img-width="50"></captioned-image>
 
+???
+Zenzeleni - Co-operative ISP from South Africa
+
+Local people are the service provider
+
+Not just about calling Rogers or Bell and consuming this thing you buy
+
+You have a say where you want this network to go in the future
+
+I want to volunteer to be a support member, I can help thes houses
 ---
 class: middle
 
 <captioned-image img-file="img/wsj-nycmesh.png" img-width="50"></captioned-image>
 
+???
+Closer to home, Young networks maybe 8 years old
+
+Couple of big nodes connecting hundreds of people
+
+Install groups that goto peoples home ot install
+
+Many of these groups participate in policy making 
+Push back upstream and represent at places like CRTC
+
+
 ---
 
 # Community networks support
+
+???
+
+Why do we care? Cheaper internet? No! its more then this
 
 --
 
 ## Local regenerative economies
 
+???
+
+Community networks support local re-generative connectivity
+
+Its about making sure that the money generated in the process of delivering connectivity
+goes back into the people that are operating the network.
+
+Not none-profit or free, but not extracted by a mutli national entity or investor that has very little steak in the city and users
+
 --
 
 ## Local capacity to operate infrastructure
+
+???
+
+Build local capacity
+
+If you dont know how it works, you cant have a say about how it should work
+
+Big part in participaing with the community network
+
+IE this sessions and have a way to talk about these thigns
 
 ---
 
 <captioned-image img-file="img/working-0.jpg"></captioned-image>
 
+???
+
+Crimping network wires
+
 ---
 
 <captioned-image img-file="img/working-3.jpg"></captioned-image>
+
+??? 
+
+Tomesh super node installation
 
 ---
 
@@ -424,29 +496,63 @@ class: middle
 
 ## Practice over consumption of technology
 
+???
+
+CN is a way of thinking about tech that is not just consumption base but practicing it
+
 --
 
 ## Neighbours over faceless multinational corporations
+
+???
+
+You deal with your neighbours in the process, not just support line that you will never meet, just want to get rid of you sometimes
 
 ---
 
 <captioned-image img-file="img/tomesh-group.jpg"></captioned-image>
 
+???
+
+Peope talking about technologyu and plan the next network itteration
+
 ---
 
 <captioned-image img-file="img/dwebcamp-topology.jpg" img-width="50" ></captioned-image>
+
+???
+
+Board at a confrence where peopel are drawing the network
+
+Take something technical and intiminading and turn it into something easly to understand
+
 
 ---
 
 # Enable a different digital future
 
+??? 
+
+Not just about cheap internet
+
 --
 
 ## More inclusive and affordable Internet access
 
+???
+
+Allow peopel to participate in the building process
+
 --
 
 ## A truly "smart" city of tech-informed residents
+
+???
+
+Not a smart city where everyting is connected by a black box
+
+Its a city where the people that are participating in the city are actaully smart, 
+We understand the tradeoffs the make when we do certain digital actions
 
 --
 
@@ -456,21 +562,43 @@ class: middle
 
 ## Prosumers supporting resilient local networks
 
+???
+
+People start supporting the network.
+
+What do you do when the main consumer cant help you? 
+
 ---
 
 <captioned-image img-file="img/working-1.jpg"></captioned-image>
+
+???
+
+Photos we are installing
 
 ---
 
 <captioned-image img-file="img/working-2.jpg"></captioned-image>
 
+???
+
+Building mounts
+
 ---
 
 <captioned-image img-file="img/working-5.jpg"></captioned-image>
 
+???
+
+Antenna we put up
+
 ---
 
 <captioned-image img-file="img/working-4.jpg"></captioned-image>
+
+???
+
+Houses undeneat and across can connect to this antenna
 
 ---
 
@@ -482,6 +610,10 @@ class: middle
 
 ### There is no "market demand" for taking care of our most marginalized communities
 
+???
+
+We care for phopel in our physical life What does it look like int he digital life
+
 ---
 
 ## Our tech needs more humane relationships
@@ -492,6 +624,9 @@ class: middle
 
 ### Build strong human relationships through tech
 
+???
+
+Building human relationships, Hang out, have barbeques (when its not covid)
 ---
 
 ## Experiment with software that respects users
@@ -505,9 +640,15 @@ class: middle
 ![Scuttlebutt crab](img/ssb-crab.gif)
 
 ???
+
+Owning infra does not solve your data problem but allows you to have conversations
+
+Host each others date, instead of some company hosting everyones
+
+One example of p2p 
+
 Hint at DWeb/P2P future session (aka. Dante’s) as an alternative to address “Web” problems
 https://en.wikipedia.org/wiki/Commons#Digital_commons
-
 
 ---
 
@@ -532,6 +673,12 @@ class: center, middle
 # Organizing
 
 # Know-how
+
+???
+
+Do people thing network building is all thats needed?
+
+Top two are the hardest
 
 ---
 
@@ -558,9 +705,21 @@ class: middle
 <img src="img/makerfest-1.jpg" style="width: 75%;" />
 <img src="img/makerfest.jpg" style="width: 50%; position: absolute; top: 25vh; right: 0;" />
 
+???
+
+At Maker Festival at TRL
+
+Kid friendly games
+
 ---
 
 <captioned-image img-file="img/tomesh-node.jpg"></captioned-image>
+
+???
+
+Prototypes in public spaces.
+
+Lisgar park showcase of tech at Our Networks.
 
 ---
 
@@ -580,13 +739,28 @@ class: center, middle
 
 ## Enable broad participation through network literacy programs
 
+???
+
+Whow ones it?
+How do we make sure the people that build it today, are not the forever owners?
+
 --
 
 ### _Supportive of our city's commitment to the Cities for Digital Rights declaration_
 
+???
+
+Toronto join spearheaded by Amsterdam Barcelona
+
 ---
 
 <captioned-image img-file="img/tomesh-map.png"></captioned-image>
+
+???
+
+What we have planned
+
+Alining ourselves on some of the cities initiatives
 
 ---
 
@@ -600,17 +774,33 @@ class: center, middle
 
 ### _If you can see 200 Woolner from your roof and are within the area, you can connect to it **today**!_
 
+???
+
+In or close to blue signal you can connect
+
+Costs about $100 for hardware
+
 ---
 
 # Supernode 1: 200 Woolner
 
 <img src="img/panorama.jpg" style="position: absolute; left: 0; top: 20vh; width: 100%;" />
 
+???
+
+This is what it looks like now
+
 ---
 
 # Who owns the Internet?
 
 <captioned-image img-file="img/internet-apps-ownership.svg" img-width="40"></captioned-image>
+
+???
+
+This is what it looks like with a community leve
+
+You start having some level of control over the region beyond your home
 
 ---
 
@@ -624,6 +814,15 @@ class: center, middle
 
 <captioned-image img-file="img/internet-p2p-ownership.svg" img-width="40"></captioned-image>
 
+???
+
+Once we have a network we can use p2p software
+
+Platform is not plaform
+
+Scuttle Bot HyperCore IPFS other protocols that operate more like bit-torrent
+
+Were we use our own computer instead of relying on some one else
 
 ---
 
