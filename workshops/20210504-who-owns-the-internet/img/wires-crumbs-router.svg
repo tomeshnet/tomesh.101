@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0  1000 100">
+
+    <style>
+        .node {
+            fill: rgb(27, 24, 24);
+            ;
+            stroke: #666;
+            stroke-width: 2px;
+            rx: 10px;
+        }
+
+        .node-highlight {
+            fill: #ddd;
+            stroke: #ddd;
+            stroke-width: 2px;
+            rx: 10px;
+        }
+
+        .node-text {
+            fill: #ddd;
+            font-family: Arial;
+        }
+
+        .node-highlight-text {
+            fill: #000;
+            font-family: Arial;
+        }
+    </style>
+
+    <g id="home-network">
+        <rect class="node" width="330" height="85" x="5" y="10"/>
+        <text class="node-text" x="120" y="35">Home network</text>
+    
+
+    <g id="personal-computer">
+        <rect class="node" width="40" height="40" x="10" y="50" />
+        <text class="node-text" x="20" y="75">PC</text>
+    </g>
+
+    <g id="access-point">
+        <rect class="node" width="40" height="40" x="60" y="50" />
+        <text class="node-text" x="70" y="75">AP</text>
+    </g>
+
+    <g id="switch">
+        <rect class="node" width="65" height="40" x="110" y="50" />
+        <text class="node-text" x="120" y="75">Switch</text>
+    </g>
+
+    <g id="router">
+        <rect class="node-highlight" width="65" height="40" x="185" y="50" />
+        <text class="node-highlight-text" x="195" y="75">Router</text>
+    </g>
+<!-- 
+    <g id="modem">
+        <rect class="node-highlight" width="70" height="40" x="260" y="50" />
+        <text class="node-highlight-text" x="270" y="75">Modem</text>
+    </g> -->
+
+    </g>
+
+</svg>
