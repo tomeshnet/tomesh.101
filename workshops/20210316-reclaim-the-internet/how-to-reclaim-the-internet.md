@@ -15,12 +15,12 @@ How to Reclaim the Internet.
 ---
 class: center, middle
 
-<hello-sticker name="Ben" sticker-color="#b22"></hello-sticker>
+<hello-sticker name="Marzie" sticker-color="#b22"></hello-sticker>
 
 ---
 class: center, middle
 
-<hello-sticker name="Dante" sticker-color="#82d"></hello-sticker>
+<hello-sticker name="Yurko" sticker-color="#82d"></hello-sticker>
 
 ---
 # How to Reclaim the Internet
