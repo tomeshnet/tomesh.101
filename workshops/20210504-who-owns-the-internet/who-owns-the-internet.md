@@ -18,7 +18,7 @@ class: center, middle
 ---
 class: center, middle
 
-<hello-sticker name="Marzie" sticker-color="#82d"></hello-sticker>
+<hello-sticker name="Ben" sticker-color="#82d"></hello-sticker>
 
 ---
 # Who owns the Internet?
